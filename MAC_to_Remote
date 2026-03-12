@@ -4,6 +4,8 @@ set -euo pipefail
 REMOTE="${1:-origin}"
 BRANCH="${2:-main}"
 MESSAGE="${3:-sync: update from MAC}"
+JSON_DIR="Json"
+JSON_BACKUP=""
 
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   echo "Errore: esegui questo script dentro una repository Git."
@@ -12,9 +14,20 @@ fi
 
 echo "[MAC_to_Remote] Pubblicazione verso ${REMOTE}/${BRANCH}"
 
+if [[ -d "${JSON_DIR}" ]]; then
+  JSON_BACKUP="$(mktemp -d)"
+  cp -a "${JSON_DIR}" "${JSON_BACKUP}/"
+  echo "[MAC_to_Remote] Cartella ${JSON_DIR}/ preservata in backup temporaneo."
+fi
+
 if [[ -n "$(git status --porcelain)" ]]; then
   git add -A
-  git commit -m "${MESSAGE}"
+  git restore --staged "${JSON_DIR}" >/dev/null 2>&1 || true
+  if git diff --cached --quiet; then
+    echo "[MAC_to_Remote] Solo modifiche in ${JSON_DIR}/: nessun commit da creare."
+  else
+    git commit -m "${MESSAGE}"
+  fi
 else
   echo "[MAC_to_Remote] Nessuna modifica locale da committare."
 fi
@@ -27,5 +40,12 @@ else
 fi
 
 git push -u "${REMOTE}" "${BRANCH}"
+
+if [[ -n "${JSON_BACKUP}" && -d "${JSON_BACKUP}/${JSON_DIR}" ]]; then
+  rm -rf "${JSON_DIR}"
+  cp -a "${JSON_BACKUP}/${JSON_DIR}" "./${JSON_DIR}"
+  rm -rf "${JSON_BACKUP}"
+  echo "[MAC_to_Remote] Ripristinata ${JSON_DIR}/ locale (remota ignorata)."
+fi
 
 echo "[MAC_to_Remote] Completato."

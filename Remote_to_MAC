@@ -3,6 +3,8 @@ set -euo pipefail
 
 REMOTE="${1:-origin}"
 BRANCH="${2:-main}"
+JSON_DIR="Json"
+JSON_BACKUP=""
 
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   echo "Errore: esegui questo script dentro una repository Git."
@@ -10,6 +12,12 @@ if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 fi
 
 echo "[Remote_to_MAC] Sincronizzazione da ${REMOTE}/${BRANCH}"
+
+if [[ -d "${JSON_DIR}" ]]; then
+  JSON_BACKUP="$(mktemp -d)"
+  cp -a "${JSON_DIR}" "${JSON_BACKUP}/"
+  echo "[Remote_to_MAC] Cartella ${JSON_DIR}/ preservata in backup temporaneo."
+fi
 
 STASH_NAME=""
 if [[ -n "$(git status --porcelain)" ]]; then
@@ -29,6 +37,13 @@ if [[ -n "${STASH_NAME}" ]]; then
       exit 1
     fi
   fi
+fi
+
+if [[ -n "${JSON_BACKUP}" && -d "${JSON_BACKUP}/${JSON_DIR}" ]]; then
+  rm -rf "${JSON_DIR}"
+  cp -a "${JSON_BACKUP}/${JSON_DIR}" "./${JSON_DIR}"
+  rm -rf "${JSON_BACKUP}"
+  echo "[Remote_to_MAC] Ripristinata ${JSON_DIR}/ locale (remota ignorata)."
 fi
 
 echo "[Remote_to_MAC] Completato."
