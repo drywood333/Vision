@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-03-12T00:13:14.054Z",
+    "title": "Von der Leyen ammette l’errore del passato e si converte al nucleare civile. La prima mossa",
+    "url": "https://www.ilfoglio.it/esteri/2026/03/11/news/von-der-leyen-ammette-l-errore-del-passato-e-si-converte-al-nucleare-civile-la-prima-mossa-8769655/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "Error: connect ETIMEDOUT 3.173.21.63:443"
+  }
+]

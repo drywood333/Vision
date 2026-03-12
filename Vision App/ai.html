@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vision App Chat</title>
+  <link rel="icon" type="image/png" href="./V1.png" />
+  <base href="./" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <img src="V1.png" alt="" class="topbar-logo" width="32" height="32" />
+      <h1>Vision App</h1>
+      <div id="chat-status" class="chat-status"></div>
+    </header>
+    <section class="chat-panel">
+      <div id="messages" class="messages"></div>
+      <form id="chat-form" class="composer">
+        <input id="voice-enabled" type="checkbox" class="sr-only" aria-hidden="true" />
+        <textarea id="chat-input" placeholder="Scrivi una domanda..." required></textarea>
+        <div class="composer-actions">
+          <button id="voice-input-btn" type="button" class="composer-icon-btn voice-input-btn" title="Inserisci a voce" aria-label="Inserisci a voce">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          </button>
+          <button id="send-btn" type="submit">Invia</button>
+          <label id="speaker-btn" for="voice-enabled" class="composer-icon-btn speaker-btn" title="Voce risposta" aria-label="Attiva/disattiva voce risposta">
+            <span class="speaker-icon-off" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            </span>
+            <span class="speaker-icon-on" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+            </span>
+          </label>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script>
+    window.VISION_APP_DEFAULT_API_BASE_URL = '';
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

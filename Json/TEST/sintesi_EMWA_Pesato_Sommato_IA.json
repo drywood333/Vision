@@ -1,0 +1,39 @@
+[
+  {
+    "nazione": "Cina",
+    "GG": 180,
+    "GR": 365
+  },
+  {
+    "nazione": "Francia",
+    "GG": 730,
+    "GR": 1095
+  },
+  {
+    "nazione": "Iran",
+    "GG": 30
+  },
+  {
+    "nazione": "Israele",
+    "GG": 45,
+    "GR": 90
+  },
+  {
+    "nazione": "Russia",
+    "GG": 60,
+    "GR": 120
+  },
+  {
+    "nazione": "Stati Uniti",
+    "GG": 90,
+    "GR": 180
+  },
+  {
+    "nazione": "Ucraina",
+    "GG": 15
+  },
+  {
+    "nazione": "Ungheria",
+    "GG": 1825
+  }
+]

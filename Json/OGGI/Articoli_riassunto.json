@@ -1,0 +1,674 @@
+[
+  {
+    "notizia": "L'US Army ha annunciato il primo test di un sistema 'Air-Launched Effect' (ALE) lanciato da un elicottero d'attacco AH-64E Apache. Il test, condotto a Yuma Proving Ground, mira a validare una nuova capacità per creare effetti letali e non letali in profondità nel campo di battaglia, integrando droni e sistemi autonomi nello scontro armato.",
+    "peso notizia": 35,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo descrive la struttura e le funzioni del Cyber Command (CYBERCOM) e della National Security Agency (NSA) degli USA, sottolineando come, sotto il comando del generale Timothy R. Haugh, queste entità integrino capacità offensive e difensive nel cyberspazio, rappresentando un pilastro fondamentale del potere nazionale sia in ambito militare che civile.",
+    "peso notizia": 30,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Analisi dell'impatto dell'uso dei droni da parte dell'Ucraina sulla dottrina militare statunitense, con il Pentagono che studia le lezioni apprese per adattare le proprie strategie e tecnologie alla guerra del futuro.",
+    "peso notizia": 70,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo analizza una possibile trasformazione dell'alleanza transatlantica verso un modello 'post-americano', dove l'Europa assume un ruolo di difesa più autonomo, ridefinendo gli equilibri di potere all'interno della NATO e le sfere di influenza in un contesto di rivalità con Russia e Cina.",
+    "peso notizia": 40,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La NATO sta intensificando la sua presenza e le sue strategie nell'Artico in risposta all'espansione militare russa nella regione, ridefinendo la mappa del potere globale e le sfere di influenza in un'area ricca di risorse e di importanza strategica.",
+    "peso notizia": 70,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Aggiornamenti in diretta sulla guerra in Ucraina: scontri a Kharkiv, forniture di armi occidentali, sanzioni contro la Russia e dichiarazioni dei leader internazionali sulla gestione del conflitto.",
+    "peso notizia": 70,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Analisi della proposta del Presidente del Consiglio Mario Draghi per una difesa federale europea, che prevede la creazione di un esercito comune, un bilancio unico per la difesa e una politica estera integrata, segnando un passaggio da un'Unione difensiva a un attore di potenza globale.",
+    "peso notizia": 45,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'Iran ha lanciato un attacco missilistico diretto contro la base aerea di Al-Tanf in Siria, dove sono presenti truppe statunitensi, causando vittime e danni. L'azione è una risposta all'uccisione di un generale iraniano in Iraq ed è stata condannata dagli USA, che minacciano una risposta.",
+    "peso notizia": 85,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un raid iraniano ha colpito una petroliera nel Golfo Persico, con video che mostrano il momento dell'esplosione e le fiamme successive. L'attacco avviene in una delle rotte marittime più strategiche al mondo.",
+    "peso notizia": 75,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un attacco ha danneggiato petroliere al largo di Bassora, Iraq, nel Golfo Persico, con immagini che mostrano il rogo delle navi.",
+    "peso notizia": 75,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La base militare italiana 'M.O. La Marmora' a Erbil, nel Kurdistan iracheno, è stata colpita da un attacco con droni. L'attacco è stato rivendicato dalle Forze di Resistenza Islamica in Iraq, un gruppo vicino all'Iran. La base ospita anche personale militare statunitense ed è parte della missione NATO per la formazione delle forze irachene.",
+    "peso notizia": 60,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Nuovi raid aerei iraniani hanno colpito depositi di carburante in Bahrain, causando incendi. L'attacco avviene in un paese chiave del Golfo Persico, sede della Quinta Flotta USA, in un contesto di tensioni regionali già elevate.",
+    "peso notizia": 85,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Una milizia filoiraniana ha diffuso un video che mostra un attacco con droni contro la città di Erbil, nel Kurdistan iracheno, area dove sono presenti interessi e basi statunitensi.",
+    "peso notizia": 65,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un missile ha colpito la base militare italiana 'Little Cengio' vicino a Erbil, nel Kurdistan iracheno, causando danni materiali ma nessuna vittima. Il governo italiano, attraverso i ministri Crosetto e Tajani, ha denunciato l'attacco come 'atto di guerra' e ha annunciato il rafforzamento della presenza militare in loco e l'attivazione di canali diplomatici, anche con l'Iran, ritenuto il mandante.",
+    "peso notizia": 65,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'ex presidente degli Stati Uniti Donald Trump dichiara pubblicamente che l'Iran è 'sull'orlo della sconfitta' e 'al capolinea', in un intervento che aumenta la tensione verbale nella già critica regione del Medio Oriente.",
+    "peso notizia": 75,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le forze armate statunitensi hanno condotto attacchi aerei contro obiettivi iraniani, distruggendo capacità aeree, e hanno diffuso un video delle operazioni. Fonti militari USA dichiarano di stare 'distruggendo le loro capacità aeree'.",
+    "peso notizia": 85,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Mojtaba Khamenei, figlio della Guida Suprema iraniana, è rimasto ferito in un attacco con un drone nella sua residenza di Teheran. Fonti statunitensi attribuiscono l'attacco a Israele. L'evento rischia di far saltare i fragili negoziati per una tregua regionale e di provocare una risposta militare diretta dell'Iran.",
+    "peso notizia": 85,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo fonti iraniane, nelle ultime 24 ore l'Iran ha attaccato sei navi commerciali nel Golfo Persico, accusandole di violare le sue acque territoriali e di essere collegate a interessi israeliani.",
+    "peso notizia": 75,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un attacco con droni ha colpito il terminale di carburante nel porto di Salalah, in Oman. L'articolo analizza le dinamiche dell'attacco, escludendo l'Iran come origine diretta e suggerendo possibili attori proxy o tattiche di guerra ibrida, in un'area cruciale per le rotte energetiche globali.",
+    "peso notizia": 55,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Analisi secondo cui l'Europa è pronta a continuare a finanziare la guerra in Ucraina per altri 1,5-2 anni, sostenendo lo sforzo bellico di Kiev nonostante le difficoltà economiche interne, in un contesto di confronto strategico con la Russia.",
+    "peso notizia": 55,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'ex presidente e candidato statunitense Donald Trump ha minacciato, in caso di vittoria elettorale, di distruggere l'infrastruttura energetica dell'Iran \"in un'ora\" in risposta a eventuali attacchi, intensificando la tensione verbale in una regione già instabile.",
+    "peso notizia": 70,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Una delegazione russa guidata dal vicepresidente del Consiglio di Sicurezza, Dmitry Medvedev, ha incontrato una delegazione statunitense, tra cui il genero di Donald Trump, in Florida per discutere di sicurezza europea, la guerra in Ucraina e le future relazioni bilaterali.",
+    "peso notizia": 60,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'ex presidente Donald Trump e il governatore della Florida Ron DeSantis hanno commentato pubblicamente la possibilità di attacchi di droni (BPLA) sul territorio degli Stati Uniti, con Trump che ha definito la situazione \"molto pericolosa\" e DeSantis che ha chiesto azioni immediate per proteggere i confini nazionali.",
+    "peso notizia": 35,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le autorità iraniane hanno concesso il permesso a una flotta di petroliere legate all'India di transitare attraverso lo Stretto di Hormuz, dopo un periodo di blocco dovuto a presunte violazioni ambientali, in un contesto di tensioni regionali.",
+    "peso notizia": 20,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le Forze di Difesa Israeliane (IDF) stanno espandendo l'operazione di terra nel sud del Libano, impiegando nuovi battaglioni di fanteria e corazzati per colpire le infrastrutture di Hezbollah, in una significativa intensificazione del conflitto oltre il confine settentrionale di Israele.",
+    "peso notizia": 75,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le Forze Armate Ucraine hanno attaccato con droni due stazioni di compressione del gasdotto TurkStream nella regione di Krasnodar, in Russia, causando danni e interruzioni al flusso di gas.",
+    "peso notizia": 65,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le forze russe stanno avanzando a ovest della linea ferroviaria nella regione di Kupiansk, incontrando una complessa situazione difensiva ucraina. L'articolo analizza le dinamiche tattiche, le posizioni delle unità e le potenziali implicazioni strategiche di un possibile sfondamento in questa direzione, che potrebbe minacciare le linee di rifornimento ucraine.",
+    "peso notizia": 40,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un attacco con drone ha colpito una petroliera statunitense nel porto di Bassora, in Iraq, mentre contemporaneamente un attacco informatico ha preso di mira le ferrovie israeliane, causando ritardi e disordini. Le autorità israeliane attribuiscono l'attacco cyber all'Iran.",
+    "peso notizia": 65,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un attacco con droni ha colpito un deposito di carburante a Muharraq, in Bahrein, causando l'incendio di migliaia di tonnellate di carburante. L'incidente si verifica in un paese strategico che ospita la Quinta Flotta degli Stati Uniti, in un contesto di tensioni regionali.",
+    "peso notizia": 65,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'ex presidente degli Stati Uniti Donald Trump ha dichiarato che la vittoria di Stati Uniti e Israele nella loro contrapposizione con l'Iran è inevitabile, sottolineando la necessità di una risposta dura e definendo l'Iran come una minaccia globale.",
+    "peso notizia": 65,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un analista militare cinese valuta l'efficacia di un recente attacco missilistico contro la base aerea USA di Al Dhafra negli Emirati Arabi Uniti, mettendo in discussione l'efficacia dei sistemi di difesa Patriot e discutendo le implicazioni per la proiezione di potenza statunitense nella regione.",
+    "peso notizia": 75,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il servizio di sicurezza federale russo (FSB) ha annunciato di aver sventato un attacco terroristico a Sebastopoli, in Crimea, accusando il \"regime di Kiev\" di averlo ordinato.",
+    "peso notizia": 40,
+    "Data": "2026-03-12",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo riporta dichiarazioni e azioni militari dell'Iran, tra cui l'impiego di bombardieri strategici e la minaccia di minare lo Stretto di Hormuz, in risposta a presunte minacce esterne e come dimostrazione di forza in una delle vie marittime più strategiche al mondo.",
+    "peso notizia": 85,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le forze iraniane hanno abbattuto 11 droni MQ-9A Reaper americani dall'inizio del conflitto in corso, segnando un significativo aumento delle ostilità dirette contro asset militari statunitensi nella regione.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La Norvegia ha ospitato l'esercitazione NATO 'Cold Response 2026', una delle più grandi al mondo, con oltre 40.000 militari da 35 nazioni, testando la difesa collettiva e l'interoperabilità in condizioni artiche estreme.",
+    "peso notizia": 75,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un generale della Bundeswehr afferma che l'esperienza tedesca nella fornitura di supporto all'Ucraina sta aiutando la Germania a prepararsi per un possibile attacco della Russia, accelerando la trasformazione delle forze armate tedesche e la preparazione della popolazione.",
+    "peso notizia": 75,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un generale iraniano dei Guardiani della Rivoluzione, Amir Ali Hajizadeh, dichiara che l'Iran possiede missili a base sottomarina operativi e pronti all'uso, definendoli una 'sorpresa per il nemico', in un contesto di tensioni regionali.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'ex presidente degli Stati Uniti Donald Trump ha dichiarato che una guerra con l'Iran si concluderebbe 'in qualsiasi momento quando lo vorrò', affermando di poter risolvere il conflitto in 24 ore e criticando l'attuale amministrazione per la sua gestione della crisi.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo un rapporto del CNN citato dall'articolo, la Russia ha condiviso con l'Iran tattiche avanzate per l'impiego di droni d'assalto tipo Shahed, apprese durante il conflitto in Ucraina, migliorando l'efficacia operativa iraniana.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Analisi di un cambio di strategia militare iraniana, che abbandonerebbe la dottrina degli attacchi di ritorsione per adottare una strategia offensiva preventiva, inclusi attacchi a lungo raggio e asimmetrici, in risposta alle minacce percepite, in particolare da Israele e Stati Uniti.",
+    "peso notizia": 70,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Hezbollah ha lanciato il più massiccio attacco di razzi e proiettili d'artiglieria contro Israele dall'inizio della guerra, colpendo obiettivi militari nel nord del paese, incluso un centro di comando.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La nave cisterna 'Mayuree Naree' è stata attaccata e ha preso fuoco mentre tentava di attraversare lo Stretto di Hormuz, in un'area dove operano forze iraniane e occidentali, aumentando le tensioni in una via di transito strategica per il petrolio globale.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un alto ufficiale dell'esercito iraniano ha dichiarato che il paese è pronto a far salire il prezzo del petrolio a 200 dollari al barile, minacciando di chiudere gli stretti strategici in risposta a potenziali attacchi, in un chiaro messaggio di pressione economica e militare.",
+    "peso notizia": 60,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un ex primo ministro israeliano, Ehud Barak, ha dichiarato che Israele potrebbe entrare in conflitto con la Turchia, dopo l'Iran, a causa delle tensioni regionali e delle alleanze di Ankara con Hamas e l'Iran, in un contesto di allargamento delle ostilità in Medio Oriente.",
+    "peso notizia": 70,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo fonti russe, droni iraniani hanno colpito l'aeroporto di Dubai negli Emirati Arabi Uniti e obiettivi militari statunitensi in Bahrain, causando danni significativi e vittime.",
+    "peso notizia": 85,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo fonti russe citate dall'articolo, Kiev avrebbe tentato di sabotare i gasdotti Turkish Stream e Blue Stream, infrastrutture critiche per il trasporto di gas russo verso la Turchia e l'Europa meridionale, utilizzando droni subacquei.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "A causa della guerra in Medio Oriente, Giappone e Corea del Sud stanno valutando di acquistare alluminio dalla russa Rusal, nonostante le sanzioni, per sostituire le forniture dalla regione instabile, riducendo la dipendenza dal Golfo Persico.",
+    "peso notizia": 20,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Giappone ha annunciato il dispiegamento di missili a lungo raggio in grado di raggiungere obiettivi nella Cina continentale, in un contesto di crescenti tensioni regionali.",
+    "peso notizia": 70,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo fonti russe, gli Stati Uniti hanno condotto un attacco aereo su una scuola femminile nella provincia iraniana del Sistan e Baluchistan, causando vittime. L'articolo accusa l'intelligence israeliana di aver fornito coordinate obsolete, presentando l'evento come un attacco deliberato mascherato da errore.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il prezzo del petrolio della marca russa Urals si è praticamente equiparato a quello della marca Brent, segnando un significativo cambiamento nelle dinamiche del mercato energetico globale e nell'efficacia del price cap occidentale.",
+    "peso notizia": 15,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un generale statunitense in congedo, Mark Hertling, avverte pubblicamente che gli USA non hanno imparato sufficientemente dalla guerra in Ucraina per un eventuale conflitto su larga scala con l'Iran, sottolineando carenze nella produzione di munizioni e nella logistica.",
+    "peso notizia": 50,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Pentagono ha ammesso per la prima volta perdite di personale militare statunitense nel conflitto con l'Iran, segnando un'evoluzione significativa e una potenziale escalation delle ostilità dirette tra le due nazioni.",
+    "peso notizia": 75,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Gli Stati Uniti hanno chiesto alla Romania, membro NATO, di ospitare aerei da attacco supplementari per condurre potenziali attacchi contro obiettivi in Iran, secondo fonti militari e diplomatiche.",
+    "peso notizia": 75,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Droni kamikaze russi 'Geran-2' hanno colpito e distrutto un impianto di produzione di droni a Kharkiv, in Ucraina, secondo fonti russe. L'attacco mira a ridurre la capacità di produzione di droni dell'Ucraina.",
+    "peso notizia": 25,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo la stampa iraniana, i quartier generali delle formazioni curde in Iraq sono stati attaccati da droni d'assalto, in un'operazione attribuibile a forze che si oppongono a tali gruppi nella regione.",
+    "peso notizia": 35,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo, citando un rapporto di Bloomberg, analizza come l'Iran moderno sia diventato un avversario più pericoloso e sofisticato per gli Stati Uniti, con capacità missilistiche avanzate, una rete di proxy regionali e una maggiore integrazione nell'economia globale che lo rendono un avversario più complesso da affrontare rispetto al passato.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le autorità russe (FSB) hanno arrestato un agente del servizio di sicurezza ucraino (SBU) accusato di preparare atti di sabotaggio contro aeroporti militari russi.",
+    "peso notizia": 40,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Gli Stati Uniti hanno integrato un sistema di intelligenza artificiale in un drone per ridurre le sue zone cieche e migliorarne l'autonomia decisionale in scenari complessi, rappresentando un avanzamento significativo nelle capacità di guerra autonoma.",
+    "peso notizia": 20,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Analisi sulla carenza di sistemi missilistici di difesa aerea nei paesi del Golfo Persico per contrastare efficacemente le potenziali minacce provenienti dall'Iran, evidenziando un punto debole nella sicurezza regionale.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'Unione Europea ha trovato un meccanismo legale per aggirare il veto dell'Ungheria e garantire un pacchetto di aiuti finanziari da 50 miliardi di euro all'Ucraina, sostenendo così lo sforzo bellico di Kiev nonostante l'opposizione interna al blocco.",
+    "peso notizia": 35,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il governo degli Stati Uniti ha imposto restrizioni all'accesso pubblico alle immagini satellitari più recenti e ad alta risoluzione della compagnia Planet Labs, al fine di proteggere segreti militari e operativi.",
+    "peso notizia": 35,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le autorità della regione russa di Bryansk hanno riferito di un attacco ucraino con missili Storm Shadow, forniti dal Regno Unito, dichiarando il numero di missili intercettati e i danni causati.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Gli attacchi dei droni ucraini contro obiettivi in Russia stanno diventando più massicci e di lunga durata, segnalando un'intensificazione delle operazioni militari oltre il fronte principale e un potenziale innalzamento del livello di confronto.",
+    "peso notizia": 40,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Presidente ucraino Volodymyr Zelensky ha dichiarato di aver inviato un messaggio all'ex Presidente USA Donald Trump, avvertendo che senza il sostegno occidentale la guerra in Ucraina potrebbe trasformarsi in una Terza Guerra Mondiale, ma di non aver ricevuto risposta.",
+    "peso notizia": 75,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La Marina russa ha iniziato a schierare unità di sicurezza armata a bordo di petrolieri civili per proteggerli da potenziali attacchi, una misura che l'articolo sostiene renda i paesi NATO più cauti nelle loro operazioni.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'Iran ha presentato condizioni agli Stati Uniti per cessare le ostilità e tornare al tavolo dei negoziati, legando la fine del fuoco al ritiro del sostegno militare USA a Israele e alla fine dell'assedio di Gaza.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Sono apparse immagini che mostrano il nuovo impiego del missile balistico pesante Khorramshahr-4 da parte dell'Iran contro obiettivi in Israele, evidenziando un potenziamento delle capacità di attacco a lungo raggio della Repubblica Islamica.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'Iran ha chiesto formalmente ai paesi vicini del Golfo Persico le coordinate delle basi e dei nascondigli segreti di Israele e degli Stati Uniti nella regione, al fine di pianificare attacchi missilistici e di droni contro di essi.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo discute il potenziale allentamento o rimozione delle sanzioni dell'UE sul petrolio russo, un'azione che, secondo l'autore, sta causando preoccupazione a Bruxelles per le sue implicazioni geopolitiche ed economiche, incluso il possibile indebolimento della pressione occidentale sulla Russia.",
+    "peso notizia": 60,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La Casa Bianca ha comunicato il numero di militari statunitensi rimasti feriti nel corso delle operazioni belliche contro l'Iran, confermando l'esistenza di uno stato di guerra diretta tra i due paesi.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'ex presidente e candidato statunitense Donald Trump ha chiesto all'Iran di sminare lo Stretto di Hormuz, minacciando gravi conseguenze se Teheran non lo farà, in un contesto di tensioni per la sicurezza delle rotte marittime globali.",
+    "peso notizia": 70,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo fonti citate dall'articolo, le forze ucraine hanno utilizzato missili cruise Storm Shadow, forniti dal Regno Unito, per colpire un impianto industriale nella regione russa di Bryansk, con Mosca che minaccia ritorsioni.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un diplomatico iraniano ha dichiarato che la portaerei statunitense USS Abraham Lincoln è stata danneggiata in un attacco nel Golfo Persico, sebbene la notizia non sia stata confermata da fonti ufficiali americane.",
+    "peso notizia": 75,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo analizza la percezione israeliana di risultati insoddisfacenti nella guerra con l'Iran, discutendo le implicazioni strategiche, il ruolo delle potenze globali e il possibile riassetto degli equilibri di potere nel Medio Oriente.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Presidente ucraino Volodymyr Zelenskyy ha dichiarato che la Russia sta sostenendo l'Iran e potrebbe inviare proprie truppe nel paese, affermando che Mosca sta cercando di destabilizzare ulteriormente il Medio Oriente e che il mondo deve rispondere a questa minaccia.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La Marina degli Stati Uniti ha deciso di cessare la scorta ai petrolieri commerciali attraverso lo Stretto di Hormuz, una via d'acqua critica per il transito del petrolio globale, citando una nuova valutazione delle minacce e la necessità di riallocare risorse.",
+    "peso notizia": 65,
+    "Data": "2026-03-11",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Hezbollah ha colpito con un drone una stazione satellitare israeliana situata a 160 km dal confine libanese, danneggiando un'infrastruttura critica per le comunicazioni e l'intelligence.",
+    "peso notizia": 70,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo riporta l'annuncio dell'Unione Europea di schierare uno \"scudo europeo\" di difesa missilistica a Cipro, in risposta a minacce percepite nella regione, specificamente citando l'Iran. Il dispiegamento è presentato come una misura di protezione per l'isola e per gli interessi europei nel Mediterraneo orientale.",
+    "peso notizia": 60,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Ministero degli Esteri iraniano ha accusato l'Unione Europea di ipocrisia e silenzio complice in seguito a un attacco militare subito dal paese, denunciando una risposta selettiva della comunità internazionale alle violenze.",
+    "peso notizia": 35,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'Iran ha lanciato un attacco missilistico e con droni contro un aeroporto e installazioni missilistiche in Israele, definendolo una \"risposta rapida\" a una precedente azione israeliana.",
+    "peso notizia": 85,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo l'articolo, fonti russe avrebbero comunicato all'ex presidente USA Donald Trump che la Russia non ha trasmesso all'Iran informazioni di intelligence ottenute dagli Stati Uniti, in risposta a precedenti accuse americane di tale trasferimento.",
+    "peso notizia": 65,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il portavoce del Cremlino Dmitry Peskov dichiara che la crisi ucraina richiede la soluzione non solo della questione territoriale, ma anche di problemi geopolitici, di sicurezza e militari più ampi, suggerendo che gli obiettivi russi vanno oltre il controllo del territorio.",
+    "peso notizia": 45,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Ministero della Difesa russo ha proposto un emendamento legislativo per consentire l'uso delle Forze Armate al di fuori del paese al fine di 'proteggere i cittadini russi e gli interessi nazionali', anche in assenza di una dichiarazione di guerra o di una richiesta ufficiale di aiuto da parte dello Stato ospitante.",
+    "peso notizia": 75,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "I giganti tecnologici statunitensi (Amazon, Microsoft, Google) stanno chiudendo o ridimensionando i loro data center nel Golfo Persico a causa dell'aumento del rischio di attacchi informatici e fisici, legati alle tensioni regionali e alla rivalità con l'Iran.",
+    "peso notizia": 35,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Gli Stati Uniti hanno annunciato lo sviluppo e i test di un'arma laser compatta progettata per contrastare i droni (BPLA), rappresentando un avanzamento tecnologico militare significativo.",
+    "peso notizia": 35,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Giappone e Corea del Sud hanno espresso preoccupazione per la decisione degli Stati Uniti di ridistribuire sistemi di difesa missilistica (THAAD e Patriot) dall'Asia al Medio Oriente, temendo un indebolimento delle difese regionali contro la minaccia nordcoreana e cinese.",
+    "peso notizia": 35,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La State Bank of India (SBI), la più grande banca del paese, ha sospeso i pagamenti per le forniture di petrolio russo, aderendo alle sanzioni occidentali. Questa decisione complica significativamente il commercio energetico tra Russia e India, un partner cruciale per Mosca nel bypassare le restrizioni.",
+    "peso notizia": 70,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le autorità iraniane hanno respinto le minacce dell'ex presidente USA Donald Trump e le richieste di sbloccare lo Stretto di Hormuz, affermando che la loro politica di sicurezza nella regione non cambierà in base alle pressioni esterne.",
+    "peso notizia": 80,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le forze armate iraniane hanno condotto un attacco missilistico contro un campo militare tedesco in Giordania, utilizzando missili balistici a lungo raggio. L'attacco è stato una risposta diretta al supporto tedesco a Israele e mirava a colpire un obiettivo strategico di un alleato chiave degli Stati Uniti nella regione.",
+    "peso notizia": 85,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Arabia Saudita, Iraq, Emirati Arabi Uniti e Kuwait hanno drasticamente ridotto di un terzo la loro estrazione di petrolio, in una mossa coordinata che impatta significativamente l'offerta globale di greggio.",
+    "peso notizia": 30,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Le Forze Aerospaziali Russe hanno condotto nuovi attacchi con missili di precisione contro l'isola di Zmiinyi (Snake Island) nel Mar Nero, colpendo presunte posizioni e mezzi militari ucraini.",
+    "peso notizia": 15,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo, citando dichiarazioni dell'ex presidente USA Donald Trump, afferma che i missili da crociera Tomahawk sono venduti a molti paesi e che persino l'Iran ne sarebbe in possesso, sollevando questioni sulla diffusione di tecnologia militare avanzata e sui suoi effetti sugli equilibri di potere regionali e globali.",
+    "peso notizia": 70,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo fonti citate dall'articolo, le forze di Israele e Stati Uniti hanno attaccato un aeroporto in Iran, causando incendi nei depositi di carburante. L'evento è presentato come un'azione militare diretta contro il territorio iraniano.",
+    "peso notizia": 85,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Presidente del Consiglio Europeo, Charles Michel, ha criticato pubblicamente gli Stati Uniti per non aver consultato gli alleati europei prima di un'importante mossa strategica, descritta come un atto di 'non-alleati', mettendo in luce una frattura nella solidarietà transatlantica.",
+    "peso notizia": 20,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La Germania, su iniziativa del cancelliere Scholz, guiderà un consorzio europeo per produrre e fornire all'Ucraina 35 sistemi missilistici antiaerei PAC-3 per i sistemi Patriot, potenziando significativamente le difese ucraine contro attacchi aerei e missilistici russi.",
+    "peso notizia": 65,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "La prima partitura dell'anno del nuovo sistema missilistico antiaereo ad alta precisione 9M333 \"Zenit\" è stata consegnata alle Forze Armate russe, rafforzando le capacità di difesa aerea del paese.",
+    "peso notizia": 20,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il leader supremo iraniano Ali Khamenei ha respinto le affermazioni dell'ex presidente USA Donald Trump secondo cui la guerra in Medio Oriente sarebbe finita, dichiarando che l'Iran deciderà autonomamente quando terminare il conflitto e accusando Trump di mentire.",
+    "peso notizia": 35,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Presidente francese Emmanuel Macron ha visitato la portaerei a propulsione nucleare Charles de Gaulle e ha tenuto un discorso motivazionale all'equipaggio, sottolineando l'importanza della prontezza operativa e del ruolo della Francia.",
+    "peso notizia": 45,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'analista militare russo Vladislav Shurygin, citando il colonnello Viktor Baranets, riporta la proposta di rendere sotterranei gli oggetti strategici critici della Russia (come centri di comando e industrie della difesa) sul modello iraniano, per proteggerli da attacchi di precisione nemici in uno scenario di conflitto su vasta scala.",
+    "peso notizia": 50,
+    "Data": "2026-03-10",
+    "author": "Vladislav Shurygin (citato come autore dell'analisi su TopWar)"
+  },
+  {
+    "notizia": "Secondo l'articolo, l'utilizzo di sistemi di difesa aerea S-II da parte di Stati Uniti e Israele ha permesso di colpire e neutralizzare con successo obiettivi primari all'interno del territorio iraniano.",
+    "peso notizia": 90,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Segretario di Stato americano Antony Blinken ha espresso pubblicamente preoccupazione per i possibili esiti della guerra in Iran, sottolineando le potenziali conseguenze destabilizzanti per la regione e gli interessi strategici globali.",
+    "peso notizia": 75,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il senatore statunitense Lindsey Graham minaccia l'Arabia Saudita, esortandola a entrare in guerra contro l'Iran e sostenendo che, in caso contrario, gli USA potrebbero ritirare il loro sostegno alla sicurezza del regno.",
+    "peso notizia": 65,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Un deputato ucraino afferma che la Russia è in grado di fornire autonomamente droni kamikaze all'Iran, suggerendo un potenziale rafforzamento della cooperazione militare e tecnologica tra i due paesi in risposta alle sanzioni occidentali.",
+    "peso notizia": 40,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il comandante della Marina iraniana, contrammiraglio Alireza Tangsiri, ha dichiarato che il transito delle navi attraverso lo Stretto di Hormuz sarà consentito solo se Israele cesserà le sue operazioni militari nella Striscia di Gaza, collegando esplicitamente la sicurezza di una via marittima strategica globale a un conflitto regionale.",
+    "peso notizia": 65,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'ex presidente Donald Trump ha dichiarato che, se rieletto, ordinerebbe alla Marina USA di affondare le navi da guerra iraniane che minacciano le navi americane nello Stretto di Hormuz, definendo l'azione \"molto più divertente\" del bombardare obiettivi a terra.",
+    "peso notizia": 60,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo l'articolo, le Forze Armate dell'Ucraina (VSU) hanno iniziato a prepararsi da gennaio per una possibile offensiva contro le Forze Armate della Federazione Russa, indicando una pianificazione per future operazioni militari su larga scala nel conflitto in corso.",
+    "peso notizia": 65,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Il Ministro degli Esteri iraniano, Hossein Amir-Abdollahian, ha commentato l'uso dei sistemi d'artiglieria HIMARS forniti dagli USA all'Ucraina, affermando che dimostra l'inefficacia della tecnologia occidentale e ringraziando gli Stati Uniti per aver 'riconosciuto' questa inefficacia attraverso il loro impiego sul campo.",
+    "peso notizia": 35,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "Secondo l'articolo, i negoziati segreti tra Russia, Ucraina e Stati Uniti sono stati sospesi a causa dell'imminente minaccia di una guerra tra Israele e Iran, che ha costretto gli USA a spostare l'attenzione e le risorse diplomatiche sul Medio Oriente.",
+    "peso notizia": 75,
+    "Data": "2026-03-10",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo analizza i costi economici sostenuti dall'Iran a causa delle sue azioni belliche e delle sanzioni internazionali, e valuta l'impatto di shock geoeconomici derivanti dal conflitto sui mercati globali, in particolare su energia e materie prime.",
+    "peso notizia": 35,
+    "Data": "2026-03-09",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo riporta lo spiegamento di 11 bombardieri strategici statunitensi B-52 e B-1B presso la base aerea RAF Fairford nel Regno Unito, interpretato come un chiaro segnale di forza verso l'Iran e la Russia in un contesto di crescenti tensioni internazionali.",
+    "peso notizia": 65,
+    "Data": "2026-03-09",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'articolo riporta che il drone statunitense MQ-9B SeaGuardian è stato dotato di missili cruise e anti-nave, aumentando notevolmente le sue capacità di attacco a lungo raggio e di sorveglianza marittima in scenari potenzialmente conflittuali.",
+    "peso notizia": 40,
+    "Data": "2026-03-06",
+    "author": "Non specificato"
+  },
+  {
+    "notizia": "L'Iran ha colpito nuovamente la base aerea di Ali Al Salem in Kuwait, dove sono schierati militari italiani, con missili e droni, aumentando le tensioni in una regione già instabile.",
+    "peso notizia": 75,
+    "Data": "2026-03-06",
+    "author": "Non specificato"
+  }
+]

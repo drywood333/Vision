@@ -1,0 +1,6675 @@
+{
+  "Iran": {
+    "tensione_geopolitica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 43.08,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 6.63,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 6.63,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 26.51,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 29.82,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 13.26,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 46.39,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 19.49,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 24.37,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 6.63,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 18.71,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 19.49,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 19.49,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 21.05,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 19.88,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.42,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 39.77,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 43.08,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 46.39,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 39.77,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 33.14,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.16,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 43.08,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 46.39,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 26.51,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.61,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.61,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.42,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 49.71,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 49.71,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 19.88,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 36.45,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.42,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 39.77,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 43.08,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 56.34,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 53.02,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 39.77,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 49.32,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.42,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 19.88,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 52.63,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 49.71,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 53.02,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 26.51,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 52.63,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 56.34,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 29.82,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 43.86,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.16,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 46.39,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 39.77,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.16,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 46.39,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 33.14,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 43.08,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 56.34,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 53.02,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 97.47,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.16,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 13.26,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 31.58,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 52.63,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 49.71,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 46.39,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.16,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 26.51,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 16.57,
+        "peso": 35,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 31.38,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 24.37,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 34.11,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 15.79,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ]
+  },
+  "Stati Uniti": {
+    "tensione_geopolitica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 22.42,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 31.38,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 49.32,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 49.32,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.42,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 19.49,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 31.58,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 97.47,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 97.47,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 97.47,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 97.47,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 52.63,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.42,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 53.61,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 40.35,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.61,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 52.63,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 94.74,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 100,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.61,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 52.63,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 89.47,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 31.58,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.16,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 31.58,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 78.95,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 52.63,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 63.16,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 31.38,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 42.11,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 73.68,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      },
+      {
+        "valore": 22.42,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 22.42,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 19.49,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 21.05,
+        "peso": 85,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatica": [
+      {
+        "valore": 0,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ]
+  },
+  "Russia": {
+    "tensione_geopolitica": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 18.71,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 40.35,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 88.89,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 88.89,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 88.89,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 49.32,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 79.53,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 18.71,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      },
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ]
+  },
+  "Francia": {
+    "tensione_geopolitica": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 49.32,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 40.35,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 49.32,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ]
+  },
+  "Ucraina": {
+    "tensione_geopolitica": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 8.97,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 85.19,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 0,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 67.25,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 58.28,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 26.9,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 53.8,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 8.97,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 76.22,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 17.93,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 80.7,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 71.73,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 44.83,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 35.87,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 13.45,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 62.77,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 8.97,
+        "peso": 65,
+        "data": "2026-03-11"
+      }
+    ]
+  },
+  "Ungheria": {
+    "tensione_geopolitica": [
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 18.71,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 9.36,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 74.85,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 42.11,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 18.71,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 18.71,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 51.46,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 18.71,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 70.18,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 51.46,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 84.21,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 51.46,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 42.11,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 0,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 9.36,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 46.78,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 65.5,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 56.14,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 37.43,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 28.07,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 60.82,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 9.36,
+        "peso": 70,
+        "data": "2026-03-11"
+      }
+    ]
+  },
+  "Cina": {
+    "tensione_geopolitica": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 24.37,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 53.61,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 0.97,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-11"
+      }
+    ]
+  },
+  "Israele": {
+    "tensione_geopolitica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "attivita_militare": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "attivita_militare_osservata": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "rischio_incidente": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "rischio_escalation": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "attivita_diplomatica_offensiva": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "pressione_internazionale": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "stato_mediazione_diplomatica": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "sostegno_alleati": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "imprevedibilita_leadership": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "livello_deterrenza": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "coesione_decisionale": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_militare_attuale": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "livello_modernizzazione_forze_armate": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "preparazione_operativa": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "esperienza_combattimento_recente": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_proiezione_forza": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_difesa_territoriale": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capabilita_risposta_missilistica": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_nucleare": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_logistica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_industria_bellica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "stato_morale_forzearmate": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_guerra_ibrida": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_offensiva_cibernetica": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_difesa_cibernetica": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_spaziale": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_intelligence": [
+      {
+        "valore": 92.59,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "pressione_economica": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "capacita_economica_sostenere_guerra": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "autonomia_energetica": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "dipendenza_esterna_critica": [
+      {
+        "valore": 63.35,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "risorse_strategiche": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "stabilita_interna": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "polarizzazione_politica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "mobilitazione_popolare": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "vulnerabilita_interna": [
+      {
+        "valore": 73.1,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "posizione_geografica_strategica": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "controllo_territoriale_effettivo": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "andamento_oro": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "riserve_valutarie": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "export_energetico": [
+      {
+        "valore": 29.24,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "spesa_militare_annunciata": [
+      {
+        "valore": 82.85,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "coscrizione_obbligatoria": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "test_missilistici": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "attacchi_ibridi_subiti": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "flussi_migratori": [
+      {
+        "valore": 19.49,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "espulsioni_diplomatiche": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "narrativa_nemico": [
+      {
+        "valore": 87.72,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "disinformazione_rilevata": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "visite_ufficiali": [
+      {
+        "valore": 58.48,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "lotte_fazioni_potere": [
+      {
+        "valore": 68.23,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "ritiro_trattati_internazionali": [
+      {
+        "valore": 38.99,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "retorica_bellicosa": [
+      {
+        "valore": 77.97,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ],
+    "rischio_incidente_nucleare": [
+      {
+        "valore": 48.73,
+        "peso": 75,
+        "data": "2026-03-10"
+      }
+    ]
+  }
+}

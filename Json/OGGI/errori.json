@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-03-12T13:28:00.929Z",
+    "title": "Italia – Indonesia: cresce la Partnership Militare",
+    "url": "https://difesanews.com/italia-indonesia-cresce-la-partnership-militare/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T13:37:46.121Z",
+    "title": "Sovranità digitale europea: il controllo dei dati entra nell’agenda geopolitica",
+    "url": "https://difesanews.com/sovranita-digitale-europea-il-controllo-dei-dati-entra-nellagenda-geopolitica/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T14:05:09.178Z",
+    "title": "Un drone Shahed ha colpito un grattacielo di Dubai durante un attacco alle truppe statunitensi.",
+    "url": "https://it.topwar.ru/279230-dron-shahed-v-hode-ataki-na-voennyh-ssha-porazil-neboskreb-v-dubae.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T14:14:48.835Z",
+    "title": "L'Unione Europea ha annunciato un nuovo programma strategico per la ripresa industriale.",
+    "url": "https://it.topwar.ru/279208-evrosojuz-objavil-o-novoj-strategicheskoj-programme-vozrozhdenija-promyshlennosti.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T14:26:49.664Z",
+    "title": "L'Agenzia Internazionale per l'Energia aprirà l'accesso a enormi riserve di petrolio.",
+    "url": "https://it.topwar.ru/279175-mezhdunarodnoe-jenergeticheskoe-agentstvo-otkroet-dostup-k-ogromnym-zapasam-nefti.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T14:55:40.462Z",
+    "title": "Von der Leyen: abbandonare le centrali nucleari è stato un errore strategico per l'Europa",
+    "url": "https://it.topwar.ru/279132-fon-der-ljajen-otkaz-ot-ajes-byl-strategicheskoj-oshibkoj-evropy.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  }
+]

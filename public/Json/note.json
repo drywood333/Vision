@@ -1,0 +1,32 @@
+{
+  "byNation": {
+    "Cina": {
+      "nota": "Intensificherà le esercitazioni militari e le pressioni diplomatiche per testare la risposta degli Stati Uniti e dei suoi alleati nello Stretto di Taiwan, avvicinandosi a una normalizzazione della presenza militare nell'area.",
+      "GA": 3
+    },
+    "Iran": {
+      "nota": "Accelererà il supporto logistico e di intelligence ai suoi proxy regionali per sfruttare l'instabilità e costringere una risposta diretta delle potenze occidentali, rischiando un incidente maggiore.",
+      "GA": 2
+    },
+    "Paesi Bassi": {
+      "nota": "",
+      "GA": 0
+    },
+    "Russia": {
+      "nota": "Condurrà una provocazione militare deliberata, come un test missilistico o un'incursione aerea, nello spazio NATO del Baltico o del Mar Nero per saggiare l'unità e la prontezza di risposta dell'Alleanza.",
+      "GA": 1
+    },
+    "Stati Uniti": {
+      "nota": "Dispiegherà pubblicamente un gruppo da battaglia carrier strike group aggiuntivo nel Mar Cinese Meridionale o nel Mediterraneo orientale come segnale di deterrenza simultaneo verso Cina e Russia.",
+      "GA": 2
+    },
+    "Svezia": {
+      "nota": "",
+      "GA": 0
+    },
+    "Ucraina": {
+      "nota": "",
+      "GA": 0
+    }
+  }
+}

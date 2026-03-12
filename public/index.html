@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision AI</title>
+    <link rel="icon" type="image/png" href="/vision/V1.png" />
+    <link rel="shortcut icon" href="/vision/V1.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css" />
+    <style>
+        :root {
+            --bg-color: #21201c; /* Warm dark background (Claude-like) */
+            --sidebar-bg: #191919; /* Darker sidebar */
+            --panel-bg: #2a2a2a;
+            --text-color: #999999;
+            --accent-color: #d27555; 
+            --border-color: #333;
+            --input-bg: transparent;
+            --hover-bg: #2c2c2c;
+            --button-bg: #333;
+            --button-hover: #444;
+            --success-color: #448a4e;
+            --danger-color: #cf6679;
+            --left-column-width: minmax(300px, 28%);
+            --right-column-width: minmax(210px, 18%);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: var(--left-column-width) 1fr var(--right-column-width);
+            overflow: hidden;
+            font-size: 0.875rem;
+        }
+
+        /* Sidebar (Left) */
+        .sidebar {
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid #333;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .sidebar-top {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+        .sidebar-url-scroll {
+            flex: 1;
+            min-height: 0;
+            overflow-y: auto;
+            padding-right: 0.25rem;
+        }
+        .sidebar-tabs {
+            display: flex;
+            gap: 0;
+            background: #252525;
+            border-radius: 10px;
+            padding: 4px;
+            border: 1px solid #333;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+            margin-bottom: 0.75rem;
+        }
+        .sidebar-tab {
+            flex: 1;
+            padding: 0.5rem 0.6rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 8px;
+            background: transparent;
+            color: #999;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .sidebar-tab:hover {
+            color: #ccc;
+            background: rgba(255,255,255,0.04);
+        }
+        .sidebar-tab.active {
+            background: linear-gradient(180deg, #3a3a3a 0%, #2a2a2a 100%);
+            color: var(--accent-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        }
+        .sidebar-panel-hidden {
+            display: none !important;
+        }
+        .folder-panel {
+            padding: 0.25rem 0;
+            font-size: 0.8rem;
+        }
+        .folder-active-label {
+            font-size: 0.75rem;
+            color: #9aa0a6;
+            margin-bottom: 0.35rem;
+        }
+        .folder-actions {
+            display: flex;
+            gap: 0.35rem;
+            margin-bottom: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .folder-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 260px; /* lista cartelle più grande */
+            overflow-y: auto;
+            border: 1px solid #333;
+            border-radius: 6px;
+            background: #111;
+        }
+        .folder-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            padding: 0.55rem 0.65rem; /* righe ancora più alte */
+            font-size: 0.82rem;       /* font leggermente più grande */
+            border-bottom: 1px solid #262626;
+            background: #151515;      /* sfondo grigio scuro in stile app */
+        }
+        .folder-item:nth-child(2n) {
+            background: #181818;      /* lieve alternanza per leggibilità */
+        }
+        .folder-item:last-child {
+            border-bottom: none;
+        }
+        .folder-name {
+            flex: 1;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        .folder-name::before {
+            content: '●';
+            color: #555;
+            font-size: 0.7rem;
+            margin-right: 0.35rem;
+        }
+        .folder-item.active {
+            border-left: 3px solid #22c55e;
+            background: rgba(34,197,94,0.08);
+        }
+        .folder-item.active .folder-name {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+        .folder-item.active .folder-name::before {
+            color: #22c55e;
+        }
+        .folder-item button {
+            font-size: 0.7rem;
+            padding: 0.1rem 0.35rem;
+        }
+        .email-recipient-item {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.25rem 0.4rem;
+            font-size: 0.82rem;
+            border: none;
+            background: transparent;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .email-recipient-item:hover {
+            background-color: var(--hover-bg);
+        }
+        .email-recipient-item.inactive { opacity: 0.5; }
+        .email-recipient-item .email-recipient-addr { flex: 1; min-width: 0; color: var(--text-color); }
+        .email-recipient-item .email-recipient-edit-wrap {
+            display: flex;
+            flex-direction: row;
+            gap: 0.25rem;
+            flex: 1;
+            min-width: 0;
+        }
+        .email-recipient-item input.email-recipient-input {
+            width: auto;
+            flex: 1;
+            padding: 0.2rem 0.3rem;
+            font-size: 0.78rem;
+            background: transparent;
+            border: none;
+            border-radius: 4px;
+            color: #b8b8b8;
+        }
+        .email-recipient-item input.email-recipient-input::placeholder {
+            color: #7f7f7f;
+        }
+        .email-recipient-item input.email-recipient-input:nth-child(2) {
+            flex: 0 0 130px;
+        }
+        .email-recipient-item .email-recipient-actions { display: flex; gap: 0.25rem; flex-shrink: 0; }
+        .email-recipient-item .email-recipient-actions button {
+            min-width: 1.6rem;
+            width: 1.6rem;
+            padding: 0.1rem 0;
+            text-align: center;
+            color: #9f9f9f;
+            border-color: #3a3a3a;
+            background: transparent;
+        }
+        .email-add-row {
+            display: flex;
+            gap: 0.35rem;
+            margin-bottom: 0.5rem;
+            align-items: center;
+        }
+        .email-add-row .email-new-input {
+            flex: 1;
+            min-width: 0;
+            padding: 0.4rem 0.5rem;
+            font-size: 0.8rem;
+            background: #1b1b1b;
+            border: 1px solid #333;
+            border-radius: 6px;
+            color: var(--text-color);
+        }
+        .email-add-row .email-new-input::placeholder { color: #666; }
+        .email-add-row .email-alias-input {
+            width: 120px;
+            flex: 0 0 120px;
+        }
+        #email-recipients-list {
+            border: none;
+            background: transparent;
+            border-radius: 0;
+            max-height: 260px;
+            overflow-y: auto;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar-bottom {
+            flex-shrink: 0;
+            margin-top: auto;        /* sempre fissata in basso */
+            padding-top: 0.9rem;     /* un po' più margine sopra il tasto START */
+            padding-bottom: 1.6rem;  /* più staccata dal bordo inferiore, quindi visivamente più in alto */
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            border-top: 1px solid #333; /* sottile separatore scuro sopra l'area START */
+        }
+
+        .sidebar h1 {
+            font-family: "Tiempos Headline", "Merriweather", "Georgia", serif; /* Serif for Title */
+            font-size: 1.875rem; /* Updated to requested size */
+            font-weight: 500;
+            margin: 0.5rem 0 0.25rem 0;
+            color: #999999;
+        }
+        .app-title-wrap {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+        .app-title-wrap .app-title-logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+        .app-subtitle {
+            font-size: 0.69rem;
+            color: #aab1b8;
+            margin: 0 0 1.05rem 0;
+            min-height: 1em;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            opacity: 0.9;
+        }
+        #riassunto-chat-count { 
+            color: #d27555; 
+        } 
+        .controls {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        #url-search {
+            flex: 0 0 auto;
+            width: 180px;
+            max-width: 50%;
+            padding: 0.35rem 0.55rem;
+            font-size: 0.8rem;
+            border-radius: 6px;
+            border: 1px solid #333;
+            background: #1b1b1b;
+            color: #999999;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.6);
+        }
+        #url-search::placeholder {
+            color: #666;
+        }
+
+        button {
+            background-color: var(--button-bg);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: var(--button-hover);
+        }
+
+        button.primary {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+            color: #999999;
+            font-weight: 600;
+        }
+        button#ai-chat-send {
+            background-color: #4B5C2A;
+            border-color: #4d6255;
+            color: #a9a9a9;
+        }
+        .start-stop-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.25rem;
+        }
+        .debug-checks-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 0.8rem;
+            width: 100%;
+            margin-bottom: 0.4rem;
+        }
+        .debug-check-wrap {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.8rem;
+            color: var(--text-color);
+            cursor: pointer;
+        }
+        .debug-check-wrap .toggle-switch { margin-right: 0; }
+        .start-stop-wrap {
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            gap: 0.45rem;
+            width: 100%;
+            max-width: 280px;
+            background: #252525;
+            border-radius: 10px;
+            padding: 5px;
+            border: 1px solid #333;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+        }
+        .start-stop-wrap .start-stop-btn {
+            flex: 1;
+            padding: 0.7rem 0.5rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            background: transparent;
+            color: #999;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .start-stop-wrap .start-stop-btn:hover {
+            filter: brightness(1.1);
+        }
+        .start-stop-wrap .start-stop-btn:not(.running) {
+            background: #448a4e;
+            color: #d1d1d1;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        .start-stop-wrap .start-stop-btn:not(.running):hover {
+            background: #388e3c;
+        }
+        .start-stop-wrap .start-stop-btn.running {
+            background: #c62828;
+            color: #d1d1d1;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        .start-stop-wrap .start-stop-btn.running:hover {
+            background: #d32f2f;
+        }
+        .start-stop-wrap .clear-json-btn {
+            flex: 0 0 auto;
+            padding: 0.7rem 0.9rem;
+            border: 1px solid #7a2f3b;
+            border-radius: 8px;
+            background: #2b1c21;
+            color: #cf6679;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+        .start-stop-wrap .clear-json-btn:hover {
+            background: #3a2329;
+            border-color: #a04255;
+        }
+        .start-stop-wrap .clear-json-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .start-stop-wrap .vision-email-btn {
+            flex: 0 0 auto;
+            padding: 0.7rem 0.9rem;
+            border: 1px solid #4a5568;
+            border-radius: 8px;
+            background: #2d3748;
+            color: #a0aec0;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .start-stop-wrap .vision-email-btn:hover {
+            background: #3d4a5c;
+            border-color: #718096;
+            color: #e2e8f0;
+        }
+
+        .action-buttons-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem 0;
+        }
+        .action-buttons-row .action-btn {
+            padding: 0.4rem 0.65rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background-color: var(--button-bg);
+            color: var(--text-color);
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .action-buttons-row .action-btn:hover {
+            background-color: var(--button-hover);
+        }
+        .action-buttons-row .action-btn.action-btn-sintesi {
+            background-color: #3a3845;
+            border-color: #444;
+        }
+        .action-buttons-row .action-btn.action-btn-sintesi:hover {
+            background-color: #454250;
+        }
+        .action-buttons-row .action-btn.action-btn-note {
+            background-color: var(--button-bg);
+        }
+        .action-buttons-row .action-btn.action-btn-vred {
+            background-color: var(--button-bg);
+            color: #e8d88a;
+        }
+        .action-buttons-row .action-btn.action-btn-vred:hover {
+            background-color: var(--button-hover);
+        }
+
+        .validity-wrap {
+            margin-bottom: 1rem;
+        }
+        .validity-label {
+            display: block;
+            font-size: 0.75rem;
+            color: #888;
+            margin-bottom: 0.4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .validity-options {
+            display: flex;
+            gap: 0;
+            background: #252525;
+            border-radius: 10px;
+            padding: 4px;
+            border: 1px solid #333;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+        }
+        .validity-btn {
+            flex: 1;
+            padding: 0.5rem 0.6rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 8px;
+            background: transparent;
+            color: #999;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .validity-btn:hover {
+            color: #ccc;
+            background: rgba(255,255,255,0.04);
+        }
+        .validity-wrap.params-locked {
+            opacity: 0.65;
+            pointer-events: none;
+        }
+        .sidebar-panel-locked {
+            opacity: 0.65;
+            pointer-events: none;
+        }
+        .sidebar-tab-locked {
+            opacity: 0.7;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+        .validity-btn.active {
+            background: linear-gradient(180deg, #3a3a3a 0%, #2a2a2a 100%);
+            color: var(--accent-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        }
+        .batch-wait-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #252525;
+            border-radius: 10px;
+            padding: 8px 10px;
+            border: 1px solid #333;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+        }
+        .batch-wait-range {
+            flex: 1;
+            accent-color: var(--accent-color);
+            cursor: pointer;
+        }
+        .batch-wait-value {
+            min-width: 56px;
+            text-align: right;
+            color: var(--accent-color);
+            font-size: 0.78rem;
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+        
+        button.danger {
+            color: var(--danger-color);
+            border-color: var(--danger-color);
+            background: transparent;
+        }
+
+        #url-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .url-item {
+            display: flex;
+            gap: 0.3rem;
+            align-items: center;
+            background: transparent;
+            padding: 0.25rem 0.4rem;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .url-item:hover {
+            background-color: var(--hover-bg);
+        }
+
+        .url-drag-handle {
+            cursor: grab;
+            color: #666;
+            font-size: 1rem;
+            padding: 0.2rem 0.3rem;
+            user-select: none;
+            flex-shrink: 0;
+        }
+        .url-drag-handle:active {
+            cursor: grabbing;
+        }
+        .url-drag-handle:hover {
+            color: var(--accent-color);
+        }
+        .url-item.url-dragging {
+            opacity: 0.5;
+        }
+        .url-item.url-drag-over {
+            outline: 2px dashed var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        .url-type-label {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 4.25rem;
+            padding: 0.2rem 0rem;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #9aa0a6;
+            background: #252525;
+            border: 1px solid #33333385;
+            border-radius: 4px;
+            flex-shrink: 0;
+            margin-right: 0.4rem;
+        }
+        .url-type-label.url-type--blog {
+            color: #d27455;
+            background: #63463c2b;
+        }
+        .url-type-label.url-type--telegram {
+            color: #6ab0f3;
+            background: rgba(106, 176, 243, 0.08);
+            border-color: rgb(106 176 243 / 8%);
+        }
+        .url-type-label.url-type--youtube {
+            color: #e06c6c;
+            background: rgba(224, 108, 108, 0.08);
+            border-color: rgba(224, 108, 108, 0.25);
+        }
+        .url-type-label.url-type--rss {
+            color: #98c379;
+            background: rgba(152, 195, 121, 0.1);
+            border-color: rgba(152, 195, 121, 0.25);
+        }
+
+        .url-page-select {
+            margin-right: 0.35rem;
+            padding: 0.1rem 0.25rem;
+            background: #202124;
+            border: 1px solid #3c4043;
+            color: #e8eaed;
+            border-radius: 4px;
+            font-size: 0.7rem;
+        }
+
+        .url-item input {
+            flex-grow: 1;
+            background: transparent;
+            border: none;
+            color: var(--text-color);
+            outline: none;
+            font-size: 0.875rem;
+            min-width: 0;
+            padding: 0;
+        }
+
+        .ai-chat-panel {
+            border: 1px solid var(--border-color);
+            background: #2a2a2a;
+            border-radius: 8px;
+            padding: 0.6rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            min-height: 220px;
+            height: 100%;
+            overflow: hidden;
+        }
+        .ai-chat-title {
+            font-size: 0.75rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: .5rem; 
+        }
+        .ai-chat-header {
+            display: block;
+            justify-content: center;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 0.5rem;
+        }
+        .panel-toggle-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            overflow: hidden;
+            height: 100%;
+        }
+        .panel-toggle-content.hidden {
+            display: none !important;
+        }
+        #note-list-container {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 0;
+        }
+        .note-item {
+            background: #191919;
+            border: 1px solid #2f2f2f;
+            border-radius: 6px;
+            padding: 0.6rem;
+            font-size: 0.8rem;
+        }
+        .note-country {
+            color: var(--accent-color);
+            font-weight: 300;
+            margin-bottom: 0.3rem;
+            font-size: 0.85rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            position: relative;
+        }
+        .note-country-main {
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+        }
+        .note-country-name {
+            line-height: 1.2;
+        }
+        .note-ga {
+            color: #d9b357;
+            font-size: 0.75rem;
+            font-weight: normal;
+            line-height: 1.2;
+        }
+        .note-text {
+            color: #999;
+            line-height: 1.4;
+            white-space: pre-wrap;
+        }
+        .note-prompt-info {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.1rem;
+            height: 1.1rem;
+            margin-left: 0.35rem;
+            font-size: 0.9rem;
+            color: rgba(250, 224, 120, 0.9);
+            cursor: pointer;
+            border-radius: 50%;
+            background: rgba(250, 224, 120, 0.15);
+            border: 1px solid rgba(250, 224, 120, 0.4);
+            flex-shrink: 0;
+        }
+        .note-prompt-info:hover {
+            background: rgba(250, 224, 120, 0.3);
+            border-color: rgba(250, 224, 120, 0.8);
+        }
+        .note-prompt-popup {
+            display: none;
+            position: fixed;
+            left: 12px;
+            top: 12px;
+            padding: 1rem 1.25rem;
+            background: rgba(26, 26, 26, 0.98);
+            border: 1px solid rgba(250, 224, 120, 0.4);
+            border-radius: 8px;
+            font-size: 0.8rem;
+            line-height: 1.45;
+            color: var(--text-color);
+            width: min(480px, calc(100vw - 2rem));
+            max-height: 260px;
+            overflow-y: auto;
+            z-index: 3000;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+            white-space: pre-wrap;
+        }
+        .note-prompt-popup.is-visible {
+            display: block;
+        }
+
+        .ai-chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            border: 1px solid #2a2a2a;
+            border-radius: 6px;
+            background: #191919;
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+        .ai-chat-msg {
+            font-size: 0.8rem;
+            line-height: 1.35;
+            border-radius: 8px;
+            padding: 0.45rem 0.55rem;
+            white-space: pre-wrap;
+            word-break: break-word;
+            position: relative;
+        }
+        .ai-chat-msg.user {
+            background: rgba(217,119,87,0.2);
+            border: 1px solid rgba(217,119,87,0.45);
+            color: #f3d0c4;
+            align-self: flex-end;
+            max-width: 90%;
+        }
+        .ai-chat-msg.assistant {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+            color: #999999;
+            align-self: flex-start;
+            max-width: 95%;
+        }
+        .ai-chat-context-menu {
+            position: fixed;
+            z-index: 4000;
+            background: #111111;
+            border-radius: 6px;
+            border: 1px solid #333333;
+            box-shadow: 0 10px 24px rgba(0,0,0,0.7);
+            padding: 0.4rem 0.5rem;
+            min-width: 220px;
+            max-width: 320px;
+        }
+        .ai-chat-context-menu button {
+            width: 100%;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #e5e5e5;
+            font-size: 0.78rem;
+            text-align: left;
+            padding: 0.35rem 0.3rem;
+            cursor: pointer;
+        }
+        .ai-chat-context-menu button:hover {
+            background: rgba(59,130,246,0.15);
+            color: #f9fafb;
+        }
+        .ai-chat-msg-send-tg {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #9ca3af;
+            font-size: 0.75rem;
+            cursor: pointer;
+            padding: 0;
+            opacity: 0.0;
+            transition: opacity 0.15s ease, color 0.15s ease;
+        }
+        .ai-chat-msg:hover .ai-chat-msg-send-tg {
+            opacity: 1.0;
+        }
+        .ai-chat-msg-send-tg:hover {
+            color: #e5e7eb;
+        }
+        .ai-chat-input-wrap {
+            display: flex;
+            gap: 0.4rem;
+        }
+        .ai-chat-input {
+            flex: 1;
+            min-height: 34px;
+            max-height: 90px;
+            resize: vertical;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background: #111;
+            color: var(--text-color);
+            padding: 0.45rem 0.5rem;
+            outline: none;
+            font-size: 0.82rem;
+        }
+        .ai-chat-send {
+            padding: 0.4rem 0.7rem;
+            min-width: 74px;
+        }
+
+        .right-panel {
+            border-left: 1px solid var(--border-color);
+            background-color: var(--sidebar-bg);
+            padding: 1rem;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 1rem;
+            overflow: hidden;
+        }
+        .accepted-panel {
+            border: 1px solid var(--border-color);
+            background: #2a2a2a;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 0.6rem;
+        }
+        .urgent-panel {
+            border: 1px solid rgba(250, 224, 120, 0.45); /* giallo molto tenue e uniforme */
+            background: rgb(0 0 0 / 33%);
+            border-radius: 10px;
+            padding: 0.5rem 0.75rem;
+            margin: 0 0 0.48rem 0; /* pannello separato, pochissimo spazio sopra la mappa */
+            font-size: 0.8rem;
+            line-height: 1.35;
+            max-height: 7.8em;
+            overflow-y: auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        }
+        .urgent-header-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            margin-bottom: 0.2rem;
+        }
+        .urgent-title {
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.76rem;
+            color: #d9b357;
+            font-weight: 600;
+        }
+        .urgent-regenera {
+            font-size: 0.78rem;
+            font-weight: 500;
+            padding: 0.35rem 0.6rem;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background-color: var(--button-bg);
+            color: var(--text-color);
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background 0.2s;
+        }
+        .urgent-regenera:hover {
+            background-color: var(--button-hover);
+        }
+        .urgent-regenera:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .urgent-message {
+            color: #d6d6d6;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        .urgent-title-wrap {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .urgent-days {
+            display: block;
+            margin-top: 0.18rem;
+            color: #d9b357;
+            font-size: 0.78rem;
+        }
+        .urgent-percentage {
+            display: block;
+            margin-top: 0.12rem;
+            color: #a3e635;
+            font-size: 0.78rem;
+        }
+        .urgent-pct-inline {
+            color: #a3e635;
+        }
+        .urgent-info-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.25rem;
+            height: 1.25rem;
+            padding: 0;
+            border: 1px solid rgba(250, 224, 120, 0.5);
+            border-radius: 50%;
+            background: rgba(250, 224, 120, 0.15);
+            color: #d9b357;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        .urgent-info-icon:hover {
+            background: rgba(250, 224, 120, 0.3);
+            border-color: rgba(250, 224, 120, 0.8);
+        }
+        .urgent-panel-wrapper {
+            position: relative;
+        }
+        .urgent-spiegazione-popup {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            margin-top: 0.25rem;
+            padding: 0.6rem 0.75rem;
+            background: rgba(26, 26, 26, 0.98);
+            border: 1px solid rgba(250, 224, 120, 0.4);
+            border-radius: 8px;
+            font-size: 0.78rem;
+            line-height: 1.4;
+            color: var(--text-color);
+            max-height: 16rem;
+            overflow-y: auto;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        .urgent-spiegazione-popup.is-visible {
+            display: block;
+        }
+        .accepted-header {
+            padding: 0.55rem 0.65rem;
+            font-size: 0.75rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid var(--border-color);
+            background: #1a1a1a;
+        }
+        .accepted-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0.55rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .accepted-list.hidden {
+            display: none;
+        }
+        .accepted-item {
+            border: 1px solid #2f2f2f;
+            border-radius: 8px;
+            background: #191919;
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+        .accepted-title {
+            color: #999999;
+            font-size: 0.82rem;
+            font-weight: 300;
+            line-height: 1.3;
+        }
+        .accepted-meta {
+            color: #9aa0a6;
+            font-size: 0.74rem;
+        }
+        .accepted-note {
+            color: #999999;
+            font-size: 0.76rem;
+            line-height: 1.3;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .accepted-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
+        .accepted-toggle {
+            display: flex;
+            gap: 0;
+            background: #252525;
+            border-radius: 10px;
+            padding: 2px;
+            border: 1px solid #333;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+        }
+        .accepted-toggle-btn {
+            flex: 1;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.7rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 8px;
+            background: transparent;
+            color: #999;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .accepted-toggle-btn:hover {
+            color: #ccc;
+            background: rgba(255,255,255,0.04);
+        }
+        .accepted-toggle-btn.active {
+            background: linear-gradient(180deg, #3a3a3a 0%, #2a2a2a 100%);
+            color: var(--accent-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        }
+
+        .accepted-item.scartato-item {
+            background: #140909;
+        }
+        .accepted-item.accepted-fase1 .accepted-title {
+            color: #d9b357;
+        }
+        .accepted-item.accepted-fase2 .accepted-title {
+            color: #448a4e;
+        }
+        .accepted-item.scartato-item .accepted-title {
+            color: #f97373;
+        }
+
+        .icon-btn {
+            padding: 0.2rem 0.4rem;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+        .icon-btn:hover { opacity: 1; }
+
+        /* Main Content (Right) */
+        .main-content {
+            display: grid;
+            grid-template-rows: 1fr auto minmax(120px, 22vh); /* Mappa | Barra progresso | Log */
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Top Panel (Results): lista nazioni a sinistra + mappa */
+        .results-panel {
+            padding: 0;
+            overflow: hidden;
+            border-bottom: 1px solid var(--border-color);
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: row;
+        }
+        .nations-list-panel {
+            width: 200px;
+            min-width: 180px;
+            flex-shrink: 0;
+            background: var(--panel-bg);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .nations-list-panel-left {
+            border-right: 1px solid var(--border-color);
+        }
+        .nations-list-block {
+            flex: 1;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .nations-list-block-nucleare {
+            flex: 1;
+        }
+        .nations-list-block .nations-list-title {
+            flex-shrink: 0;
+        }
+        .nations-list-panel .nations-list-title {
+            padding: 0.5rem 0.6rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #888;
+            border-bottom: 1px solid var(--border-color);
+        }
+        #nations-list-nucleare,
+        #nations-list-guerra {
+            flex: 1;
+            min-height: 0;
+            overflow-y: auto;
+            padding: 0.4rem;
+        }
+        .nation-list-item {
+            margin-bottom: 0.6rem;
+            font-size: 0.8rem;
+        }
+        .nation-list-item .nation-list-name {
+            color: var(--text-color);
+            margin-bottom: 0.25rem;
+        }
+        .nation-list-item .nation-list-values {
+            color: #888;
+            font-size: 0.75rem;
+            margin-left: 0.25rem;
+        }
+        .nation-list-item .nation-list-bar-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+        .nation-list-item .nation-list-bar-track {
+            height: 6px;
+            border-radius: 3px;
+            background: #252525;
+            overflow: hidden;
+        }
+        .nation-list-item .nation-list-bar {
+            height: 100%;
+            border-radius: 3px;
+            min-width: 2px;
+            transition: width 0.2s ease;
+        }
+        #world-map-container {
+            flex: 1;
+            min-width: 200px;
+            min-height: 200px;
+            margin: 0;               /* stessi margini orizzontali del box avviso */
+            border-radius: 8px;
+            border: 1px solid #333;
+            overflow: hidden;
+            background-color: #111111;
+        }
+        .results-panel h2 {
+            display: none;
+        }
+
+        #results-content {
+            display: none;
+        }
+
+        /* Progress bar (tra mappa e log) */
+        .progress-panel {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.4rem 1rem;
+            background-color: var(--panel-bg);
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+        .progress-panel .progress-bar-wrap {
+            flex: 1;
+            min-width: 120px;
+            height: 1.25rem;
+            background: #1a1a1a;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+        .progress-panel .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #2e7d32, #43a047);
+            border-radius: 4px;
+            transition: width 0.2s ease;
+            min-width: 0;
+        }
+        .progress-panel .progress-bar-fill.phase1b {
+            background: linear-gradient(90deg, #ef6c00, #ffa000);
+        }
+        .progress-panel .progress-text {
+            color: var(--text-color);
+            white-space: nowrap;
+        }
+
+        /* Bottom Panel (Console Log) */
+        .console-panel {
+            background-color: #191919; /* Even darker for console */
+            padding: 1rem;
+            overflow-y: auto;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.7rem;
+            font-weight: normal;
+            color: #00ff00; /* Matrix green style or just light gray */
+            margin: 1rem;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        .console-header {
+            color: #666;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            border-bottom: 1px solid #333;
+            padding-bottom: 0.2rem;
+        }
+
+        .log-entry {
+            margin-bottom: 0.2rem;
+            border-bottom: 1px solid #222;
+            padding-bottom: 0.1rem;
+        }
+        .log-info { color: #ccc; }
+        .log-warn { color: #d9b357; }
+        .log-error { color: #f44336; }
+        .log-success { color: #4caf50; }
+        .log-fuchsia { color: #ff66ff; }
+        .timestamp { color: #555; margin-right: 0.5rem; }
+
+        /* Toggle Switch */
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 34px;
+            height: 20px;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+
+        .toggle-switch input { 
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #444;
+            transition: .2s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 14px;
+            width: 14px;
+            left: 3px;
+            bottom: 3px;
+            background-color: #ccc;
+            transition: .2s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: var(--success-color);
+        }
+        
+        input:checked + .slider:before {
+            background-color: #d1d1d1;
+            transform: translateX(14px);
+        }
+
+        /* Segnaposto: nessun pallino, solo fumetti centrati sulla nazione */
+        #world-map-container .jvm-container {
+            cursor: default;
+        }
+        #world-map-container #jvm-markers-group circle {
+            visibility: hidden;
+            pointer-events: none;
+        }
+        #world-map-container .jvm-container text {
+            fill: #d1d1d1 !important;
+            font-size: 12px !important;
+            font-weight: normal !important;
+            paint-order: stroke;
+            stroke: #1f2937;
+            stroke-width: 2px;
+        }
+        /* Fumetto: rettangolo chiaro tenue */
+        #world-map-container .nation-marker-bubble-rect {
+            fill: rgba(209,209,209,0.2) !important;
+            stroke: rgba(209,209,209,0.4) !important;
+            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3));
+        }
+        /* Stanghetta bianca */
+        #world-map-container .nation-marker-bubble-line {
+            stroke: #d1d1d1 !important;
+            stroke-width: 1.5px;
+        }
+        /* Popup parametri: stile in linea con l’app (dark, card) */
+        #world-map-container .jvm-tooltip,
+        .jvm-tooltip {
+            border-radius: 10px;
+            background: var(--panel-bg) !important;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+            padding: 0 !important;
+            max-width: 340px;
+            overflow: hidden;
+            font-size: 0.8rem;
+            user-select: none;
+        }
+        .jvm-tooltip .vision-tooltip-title {
+            background: linear-gradient(135deg, #3a3936 0%, #2a2a2a 100%);
+            color: #d1d1d1;
+            padding: 10px 14px;
+            font-weight: 600;
+            font-size: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .jvm-tooltip .vision-tooltip-metrics {
+            padding: 8px 14px;
+            background: rgba(217,119,87,0.12);
+            color: var(--text-color);
+            border-bottom: 1px solid var(--border-color);
+            font-weight: 500;
+        }
+        .jvm-tooltip .vision-tooltip-stima-ia {
+            padding: 8px 14px;
+            background: rgba(59,130,246,0.15);
+            color: var(--text-color);
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+        }
+        .jvm-tooltip .vision-tooltip-note {
+            padding: 8px 14px;
+            background: rgba(34,197,94,0.1);
+            color: var(--text-color);
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.8rem;
+            line-height: 1.35;
+            white-space: normal;
+            max-width: 320px;
+        }
+        .jvm-tooltip .vision-tooltip-params {
+            padding: 10px 14px 12px;
+            max-height: 280px;
+            overflow-y: auto;
+        }
+        .jvm-tooltip .vision-tooltip-param {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            gap: 12px;
+        }
+        .jvm-tooltip .vision-tooltip-param:last-child {
+            border-bottom: none;
+        }
+        .jvm-tooltip .vision-tooltip-param-name {
+            color: #999;
+            font-size: 0.75rem;
+        }
+        .jvm-tooltip .vision-tooltip-param-value {
+            color: var(--accent-color);
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+
+
+        /* Responsive: sezioni in cascata su mobile */
+        @media (max-width: 900px) {
+            body {
+                grid-template-columns: 1fr;
+                grid-auto-rows: auto;
+                height: auto;
+                min-height: 100vh;
+                overflow-x: hidden;
+                overflow-y: auto;
+            }
+            .sidebar {
+                height: auto;
+                min-height: 0;
+                overflow: visible;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                display: inherit; 
+            }
+            .sidebar-url-scroll {
+                max-height: 280px;
+            }
+            .main-content {
+                height: auto;
+                grid-template-rows: auto auto auto;
+                min-height: 0;
+                overflow: visible;
+            }
+            .results-panel {
+                flex-direction: column;
+                min-height: 0;
+            }
+            .nations-list-panel {
+                width: 100%;
+                min-width: 0;
+                max-height: 220px;
+            }
+            .nations-list-panel-left {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+            #world-map-container {
+                min-height: 280px;
+                flex: none;
+            }
+            .right-panel {
+                border-left: none;
+                border-top: 1px solid var(--border-color);
+                grid-template-rows: auto auto;
+                height: auto;
+                overflow: visible;
+            }
+            .console-panel {
+                min-height: 140px;
+                margin: 0.5rem;
+            }
+            .accepted-panel {
+                display: none;
+            }
+            .nations-list-panel.nations-list-panel-left {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Left Sidebar: Controls & URL List -->
+    <div class="sidebar">
+        <div class="sidebar-top">
+            <div class="app-title-wrap">
+                <img src="/vision/V1.png" alt="" class="app-title-logo" width="36" height="36" />
+                <h1 id="app-title">Vision AI</h1>
+            </div>
+            <div class="app-subtitle">
+                <span id="articles-date-range"></span>
+                <span id="riassunto-chat-count" class="app-subtitle-extra" style="margin-left: 0.5rem; opacity: 0.9;"></span>
+                <span id="active-agents-text" style="margin-left: 0.75rem; opacity: 0.9;"></span>
+            </div>
+            <div class="sidebar-tabs">
+                <button type="button" class="sidebar-tab active" data-panel="url">Gestione URL</button>
+                <button type="button" class="sidebar-tab" data-panel="params">Parametri</button>
+                <button type="button" class="sidebar-tab" data-panel="emails">Reports</button>
+                <button type="button" class="sidebar-tab" data-panel="folders">Cartelle</button>
+            </div>
+            <div class="validity-wrap" data-panel-section="params">
+                <span class="validity-label">Validità articoli</span>
+                <div class="validity-options" id="validity-options">
+                    <button type="button" class="validity-btn" data-hours="24">24H</button>
+                    <button type="button" class="validity-btn active" data-hours="48">48H</button>
+                    <button type="button" class="validity-btn" data-hours="72">72H</button>
+                    <button type="button" class="validity-btn" data-hours="168">7gg</button>
+                    <button type="button" class="validity-btn" data-hours="360">15gg</button>
+                    <button type="button" class="validity-btn" data-hours="480">20gg</button>
+                    <button type="button" class="validity-btn" data-hours="720">30gg</button>
+                </div>
+            </div>
+            <div class="validity-wrap" data-panel-section="params">
+                <span class="validity-label">Tempo di retroelaborazione</span>
+                <div class="validity-options" id="emwa-lookback-options" title="Limita gli articolielaborati considerati per EMWA_Pesato.json agli articoli non più vecchi di questo periodo">
+                    <button type="button" class="validity-btn" data-hours="24">24h</button>
+                    <button type="button" class="validity-btn" data-hours="48">48h</button>
+                    <button type="button" class="validity-btn" data-hours="72">72h</button>
+                    <button type="button" class="validity-btn active" data-hours="168">7gg</button>
+                    <button type="button" class="validity-btn" data-hours="360">15gg</button>
+                    <button type="button" class="validity-btn" data-hours="480">20gg</button>
+                    <button type="button" class="validity-btn" data-hours="720">30gg</button>
+                </div>
+            </div>
+            <div class="validity-wrap" data-panel-section="params">
+                <span class="validity-label">Aggiornamento files Json</span>
+                <div class="validity-options" id="json-update-options" title="Rigenera EMWA_Pesato, EMWA_Pesato_Sommato e Articoli_riassunto ogni N articoli elaborati">
+                    <button type="button" class="validity-btn active" data-count="0">OFF</button>
+                    <button type="button" class="validity-btn" data-count="10">10</button>
+                    <button type="button" class="validity-btn" data-count="20">20</button>
+                    <button type="button" class="validity-btn" data-count="50">50</button>
+                    <button type="button" class="validity-btn" data-count="100">100</button>
+                </div>
+            </div>
+            <div class="validity-wrap" data-panel-section="params">
+                <span class="validity-label">Numero Agenti (Parallelo)</span>
+                <div class="validity-options" id="analyze-concurrent-options" title="Richieste question_per_article in parallelo">
+                    <button type="button" class="validity-btn active" data-value="1">1</button>
+                    <button type="button" class="validity-btn" data-value="10">10</button>
+                    <button type="button" class="validity-btn" data-value="50">50</button>
+                    <button type="button" class="validity-btn" data-value="100">100</button>
+                    <button type="button" class="validity-btn" data-value="150">150</button>
+                </div>
+            </div>
+            <div class="validity-wrap" data-panel-section="params">
+                <span class="validity-label">Tempo di attesa Batch</span>
+                <div class="batch-wait-control" title="A fine elaborazione attende e riavvia automaticamente il batch">
+                    <input type="range" id="batch-wait-range" class="batch-wait-range" min="0" max="7" step="1" value="0" />
+                    <span id="batch-wait-value" class="batch-wait-value">OFF</span>
+                </div>
+            </div>
+            <div class="validity-wrap" data-panel-section="params">
+                <span class="validity-label">Opzioni avanzate</span>
+                <div style="display:flex;flex-direction:column;gap:0.35rem;">
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="debug-one-article" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Limita a 1 Articolo</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="only-search-phase" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Solo fase ricerca articoli</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="log-show-questions" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Domande</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="log-show-responses" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Risposte</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="use-emwa-params" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Usa parametri EMWA</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="force-deepseek-chat" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Forza DeepSeek Chat</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="force-reprocess-existing" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Forza rielaborazione presenti</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="auto-send-email" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Invia Report</span>
+                    </label>
+                    <label class="debug-check-wrap">
+                        <span class="toggle-switch">
+                            <input type="checkbox" id="telegram-elab-report" />
+                            <span class="slider"></span>
+                        </span>
+                        <span>Report Telegram stato (30m)</span>
+                    </label>
+                </div>
+            </div>
+                <div class="controls" data-panel-section="url">
+                    <button onclick="addUrl()">+ URL</button>
+                    <button onclick="saveUrls()">Salva</button>
+                    <button type="button" id="select-all-urls-btn" onclick="toggleSelectAllUrls()">Deselect All</button>
+                    <input type="text" id="url-search" placeholder="Cerca nelle URL..." oninput="setUrlFilter(this.value)" />
+                </div>
+                <div class="folder-panel sidebar-panel-hidden" data-panel-section="emails">
+                <div class="folder-active-label">Indirizzi (email o Telegram) a cui inviare il report</div>
+                <div class="email-add-row">
+                    <input type="text" id="new-email-input" class="email-new-input" placeholder="Email (es. nome@dominio) o Telegram (es. @username)" />
+                    <input type="text" id="new-email-alias-input" class="email-new-input email-alias-input" placeholder="Alias" />
+                    <button type="button" onclick="addEmailFromInput()">Aggiungi</button>
+                </div>
+                <ul id="email-recipients-list" class="folder-list">
+                    <!-- Lista indirizzi iniettata da script -->
+                </ul>
+            </div>
+            <div class="folder-panel sidebar-panel-hidden" data-panel-section="folders">
+                <div class="folder-active-label">
+                    Cartella attiva: <span id="json-active-folder-label">Principale</span>
+                </div>
+                <div class="folder-actions">
+                    <button type="button" onclick="createJsonFolder()">Nuova cartella</button>
+                    <button type="button" onclick="refreshJsonFolders()">Ricarica</button>
+                </div>
+                <ul id="json-folder-list" class="folder-list">
+                    <!-- Cartelle Json -->
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar-url-scroll" data-panel-section="url">
+            <ul id="url-list">
+                <!-- URL items injected here -->
+            </ul>
+        </div>
+        <div class="sidebar-bottom">
+            <div class="start-stop-area">
+                <div class="start-stop-wrap">
+                    <button class="primary start-stop-btn" id="start-stop-btn" onclick="handleStartStop()">START</button>
+                    <button type="button" class="vision-email-btn" id="vision-email-btn" onclick="openVisionEmail()">Report</button>
+                    <button type="button" class="clear-json-btn" id="clear-json-btn" onclick="clearJsonFiles()">CLEAR</button>
+                </div>
+            </div>
+            <div class="action-buttons-row">
+                <button type="button" class="action-btn" onclick="elaboraPesatiERiassunto()">Pesati + Riassunto</button>
+                <button type="button" class="action-btn action-btn-sintesi" onclick="elaboraSintesiPesata()">Sintesi</button>
+                <button type="button" class="action-btn action-btn-note" onclick="generaNote()">Note</button>
+                <button type="button" class="action-btn action-btn-vred" onclick="generaVRed()">VRed</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Area: Split Vertical -->
+    <div class="main-content">
+        
+        <!-- Top: Nucleare + Guerra (sinistra) + Avviso + mappa -->
+        <div class="results-panel">
+            <div class="nations-list-panel nations-list-panel-left">
+                <div class="nations-list-block nations-list-block-nucleare">
+                    <div class="nations-list-title">Nucleare</div>
+                    <div id="nations-list-nucleare"></div>
+                </div>
+                <div class="nations-list-block nations-list-block-guerra">
+                    <div class="nations-list-title">Guerra</div>
+                    <div id="nations-list-guerra"></div>
+                </div>
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column;padding:1rem;gap:0.2rem;">
+                <div class="urgent-panel-wrapper">
+                    <div class="urgent-panel" id="urgent-panel">
+                        <div class="urgent-header-row">
+                            <span class="urgent-title-wrap">
+                                <span class="urgent-title">Avviso urgente</span>
+                                <button type="button" class="urgent-info-icon" id="urgent-info-btn" title="Mostra spiegazione" aria-label="Spiegazione">ℹ</button>
+                            </span>
+                            <button type="button" class="urgent-regenera" id="urgent-regenera-btn" title="Rigenera messaggio VRED">Refresh</button>
+                        </div>
+                        <div class="urgent-message" id="urgent-message">Nessun avviso globale disponibile.</div>
+                        <span class="urgent-days" id="urgent-days"></span>
+                        <span class="urgent-percentage" id="urgent-percentage"></span>
+                    </div>
+                    <div class="urgent-spiegazione-popup" id="urgent-spiegazione-popup" role="tooltip" aria-hidden="true"></div>
+                </div>
+                <div id="world-map-container">
+                    <div id="world-map" style="width: 100%; height: 100%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra progresso: elaborati / totali, inseriti in file -->
+        <div class="progress-panel" id="progress-panel">
+            <div class="progress-bar-wrap">
+                <div class="progress-bar-fill" id="progress-bar-fill" style="width: 0%;"></div>
+            </div>
+            <span class="progress-text" id="progress-text">Elaborati: 0 / 0 — Inseriti in file: 0</span>
+        </div>
+ 
+        <!-- Console Log -->
+        <div class="console-panel">
+            <div class="console-header">System Console</div>
+            <div id="console-output">
+                <!-- Logs injected here -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="right-panel">
+        <div class="ai-chat-panel">
+            <div class="ai-chat-header">
+                <div class="validity-options" id="chat-note-toggle">
+                    <button type="button" class="validity-btn active" data-mode="note">Note</button>
+                    <button type="button" class="validity-btn" data-mode="chat">Chat IA</button>
+                </div>
+            </div>
+            
+            <!-- Pannello Chat -->
+            <div id="panel-chat-container" class="panel-toggle-content hidden">
+                <div id="ai-chat-messages" class="ai-chat-messages"></div>
+                <div class="ai-chat-input-wrap">
+                    <textarea id="ai-chat-input" class="ai-chat-input" placeholder="Scrivi una domanda alla IA..."></textarea>
+                    <button id="ai-chat-send" class="primary ai-chat-send" type="button">Invia</button>
+                </div>
+            </div>
+
+            <!-- Pannello Note -->
+            <div id="panel-note-container" class="panel-toggle-content">
+                <div id="note-list-container" class="accepted-list"></div>
+            </div>
+        </div>
+        <div class="accepted-panel">
+            <div class="ai-chat-header">
+                <div class="validity-options accepted-toggle" id="accepted-toggle">
+                    <button type="button" class="validity-btn accepted-toggle-btn active" data-mode="accettati">Accettati</button>
+                    <button type="button" class="validity-btn accepted-toggle-btn" data-mode="scartati">Scartati</button>
+                    <button type="button" class="validity-btn accepted-toggle-btn" data-mode="errori">Errati</button>
+                </div>
+            </div>
+            <div id="accepted-list-accettati" class="accepted-list"></div>
+            <div id="accepted-list-scartati" class="accepted-list hidden"></div>
+            <div id="accepted-list-errori" class="accepted-list hidden"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

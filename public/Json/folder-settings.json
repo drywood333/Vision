@@ -1,0 +1,41 @@
+{
+  "validity_hours": 168,
+  "analyze_max_concurrent": 180,
+  "debug_one_article": false,
+  "only_search_phase": false,
+  "log_show_questions": false,
+  "log_show_responses": false,
+  "force_sintesi_each_valid": false,
+  "url_list_settings": {
+    "activeByUrl": {
+      "https://www.repubblica.it/esteri/1/": false,
+      "https://it.topwar.ru/news/page/1": true,
+      "https://www.ilgiornale.it/sezioni/esteri.html?page=1": true,
+      "https://www.lantidiplomatico.it/news-in_primo_piano/0/20/45289/": true,
+      "https://www.lantidiplomatico.it/news-in_primo_piano/20/20/45289/": true,
+      "https://www.lantidiplomatico.it/news-in_primo_piano/40/20/45289/": true,
+      "https://nododigordio.org/categoria/global-gordian-outlook/": true,
+      "https://www.notiziegeopolitiche.net/category/pri/page/1": true,
+      "https://www.lindipendente.online/category/news-mondo/page/1": true,
+      "https://www.ansa.it/sito/notizie/mondo/index_@.shtml": true,
+      "https://it.insideover.com/articoli/page/1": true,
+      "https://www.lindipendente.online/category/news-mondo/": true,
+      "https://www.unimondo.org/news": true,
+      "https://www.controinformazione.info/page/1": true,
+      "https://www.maurizioblondet.it/page/1": true,
+      "https://www.laverita.info/geopolitica/": true,
+      "https://www.renovatio21.com/articoli/": true,
+      "https://www.nogeoingegneria.com/page/1": true,
+      "https://grandeinganno.it/page/1": true,
+      "https://ladiscussione.com/esteri/page/1": true,
+      "https://www.ispionline.it/it/pubblicazioni?tipologie=daily-focus": true,
+      "https://t.me/s/nicolaililin": true,
+      "https://t.me/s/infodefITALY": true,
+      "https://t.me/s/giorgiobianchiphotojournalist": true,
+      "https://t.me/s/RaffaellaRegoli": true,
+      "https://t.me/s/ukr_leaks_italia": true,
+      "https://t.me/s/defcon_alerts": true,
+      "https://t.me/s/Andrea_lucidi": true
+    }
+  }
+}

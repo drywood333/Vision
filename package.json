@@ -1,0 +1,28 @@
+{
+  "name": "vision-ai-reader",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "description": "Analizzatore di articoli web con AI locale",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --max-http-header-size=262144 server.js"
+  },
+  "dependencies": {
+    "@tavily/core": "^0.7.1",
+    "axios": "^0.21.4",
+    "basic-ftp": "^5.2.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "0.22.0",
+    "chrono-node": "^2.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "nodemailer": "^6.10.1",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.13"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "address": "studio.dmd.bk@gmail.com",
+    "type": "email",
+    "active": false,
+    "alias": "Progredire"
+  },
+  {
+    "address": "1008391129",
+    "type": "telegram",
+    "active": true,
+    "alias": "Progredire"
+  },
+  {
+    "address": "alessandro.delfino@delfinal.it",
+    "type": "email",
+    "active": false,
+    "alias": "Delfinal"
+  },
+  {
+    "address": "831087538",
+    "type": "telegram",
+    "active": false,
+    "alias": "Alessandro Delfino"
+  },
+  {
+    "address": "6395167210",
+    "type": "telegram",
+    "active": false,
+    "alias": "Anna Zic"
+  }
+]

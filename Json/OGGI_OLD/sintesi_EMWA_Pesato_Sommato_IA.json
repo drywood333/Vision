@@ -1,0 +1,172 @@
+[
+  {
+    "nazione": "Arabia Saudita",
+    "GG": 120
+  },
+  {
+    "nazione": "Azerbaigian",
+    "GG": 90
+  },
+  {
+    "nazione": "Bahrein",
+    "GG": 45
+  },
+  {
+    "nazione": "Belgio",
+    "GG": 3650
+  },
+  {
+    "nazione": "Cina",
+    "GG": 730,
+    "GR": 1460
+  },
+  {
+    "nazione": "Corea del Nord",
+    "GG": 180,
+    "GR": 365
+  },
+  {
+    "nazione": "Corea del Sud",
+    "GG": 365
+  },
+  {
+    "nazione": "Cuba",
+    "GG": 180
+  },
+  {
+    "nazione": "Cipro",
+    "GG": 60
+  },
+  {
+    "nazione": "Emirati Arabi Uniti",
+    "GG": 60
+  },
+  {
+    "nazione": "Finlandia",
+    "GG": 3650
+  },
+  {
+    "nazione": "Francia",
+    "GG": 180,
+    "GR": 365
+  },
+  {
+    "nazione": "Georgia",
+    "GG": 365
+  },
+  {
+    "nazione": "Germania",
+    "GG": 3650
+  },
+  {
+    "nazione": "Giappone",
+    "GG": 730
+  },
+  {
+    "nazione": "Giordania",
+    "GG": 90
+  },
+  {
+    "nazione": "Grecia",
+    "GG": 365
+  },
+  {
+    "nazione": "India",
+    "GG": 365,
+    "GR": 730
+  },
+  {
+    "nazione": "Iraq",
+    "GG": 90
+  },
+  {
+    "nazione": "Iran",
+    "GG": 7,
+    "GR": 30
+  },
+  {
+    "nazione": "Israele",
+    "GG": 14,
+    "GR": 60
+  },
+  {
+    "nazione": "Italia",
+    "GG": 365
+  },
+  {
+    "nazione": "Kuwait",
+    "GG": 30
+  },
+  {
+    "nazione": "Libano",
+    "GG": 30
+  },
+  {
+    "nazione": "Lituania",
+    "GG": 3650
+  },
+  {
+    "nazione": "Pakistan",
+    "GG": 365,
+    "GR": 730
+  },
+  {
+    "nazione": "Polonia",
+    "GG": 730
+  },
+  {
+    "nazione": "Qatar",
+    "GG": 60
+  },
+  {
+    "nazione": "Regno Unito",
+    "GG": 180,
+    "GR": 365
+  },
+  {
+    "nazione": "Russia",
+    "GG": 90,
+    "GR": 180
+  },
+  {
+    "nazione": "Serbia",
+    "GG": 3650
+  },
+  {
+    "nazione": "Siria",
+    "GG": 60
+  },
+  {
+    "nazione": "Slovacchia",
+    "GG": 3650
+  },
+  {
+    "nazione": "Spagna",
+    "GG": 3650
+  },
+  {
+    "nazione": "Stati Uniti",
+    "GG": 30,
+    "GR": 90
+  },
+  {
+    "nazione": "Svezia",
+    "GG": 3650
+  },
+  {
+    "nazione": "Turchia",
+    "GG": 365
+  },
+  {
+    "nazione": "Ucraina",
+    "GG": 60
+  },
+  {
+    "nazione": "Ungheria",
+    "GG": 3650
+  },
+  {
+    "nazione": "Yemen",
+    "GG": 180
+  }
+]

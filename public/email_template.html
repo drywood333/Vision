@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vision AI Email</title>
+    <style type="text/css">
+        /* Reset styles */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; }
+        
+        /* General styles */
+        body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; background-color: #21201c; font-family: 'Inter', Helvetica, Arial, sans-serif; color: #d1d1d1; }
+        
+        /* Client-specific overrides */
+        .ExternalClass { width: 100%; }
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+        
+        /* Mobile styles */
+        @media screen and (max-width: 600px) {
+            .container { width: 88% !important; max-width: 360px !important; }
+            .mobile-padding { padding-left: 12px !important; padding-right: 12px !important; }
+            .stats-table { width: 100% !important; }
+            .stats-table td {
+                display: block !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+                border-left: none !important;
+                border-top: 1px solid #333333 !important;
+                text-align: left !important;
+            }
+            .stats-table td:first-child {
+                border-top: none !important;
+            }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #6f6950; color: #d1d1d1; font-family: 'Inter', Helvetica, Arial, sans-serif;">
+    
+    <!-- Main Wrapper -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #6f6950;">
+        <tr>
+            <td align="center" style="padding: 20px 0;">
+                
+                <!-- Container -->
+                <table border="0" cellpadding="0" cellspacing="0" width="600" class="container" style="background-color: #3b3b3b; border: 1px solid #333333; border-radius: 8px; overflow: hidden;">
+                    
+                    <!-- Header -->
+                    <tr>
+                        <td align="center" class="mobile-padding" style="padding: 30px 20px; border-bottom: 1px solid #333333; background-color: #191919;">
+                            <h1 style="margin: 0; font-family: 'Times New Roman', serif; font-size: 28px; font-weight: 500; color: #ececec;">Vision AI</h1>
+                            <p style="margin: 5px 0 0 0; font-size: 12px; color: #aab1b8; text-transform: uppercase; letter-spacing: 1px;">Daily Report</p>
+                        </td>
+                    </tr>
+
+                    <!-- Urgent Section (mimicking .urgent-panel) -->
+                    <tr>
+                        <td class="mobile-padding" style="padding: 20px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #2d2a22; border: 1px solid rgba(250, 224, 120, 0.45); border-radius: 8px;">
+                                <tr>
+                                    <td style="padding: 15px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td style="padding-bottom: 8px;">
+                                                    <span style="font-size: 12px; font-weight: 600; color: #fef9c3; text-transform: uppercase; letter-spacing: 1px;">Avviso importante</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color: #fefce8; font-size: 14px; font-weight: 500; line-height: 1.4;">
+                                                    {{URGENT_MESSAGE}}
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding-top: 8px;">
+                                                    <span style="color: #facc15; font-size: 12px; display: block;">Finestra temporale: {{URGENT_DAYS}}</span>
+                                                    <span style="color: #a3e635; font-size: 12px; display: block;">Attendibilità: {{URGENT_PERCENTAGE}}</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Main Content / Articles List -->
+                    <tr>
+                        <td class="mobile-padding" style="padding: 0 20px 20px 20px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td style="padding-bottom: 15px; border-bottom: 1px solid #333333;">
+                                        <span style="font-size: 14px; color: #d27555; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Sintesi Analisi</span>
+                                    </td>
+                                </tr>
+                                
+                                {{ARTICLES_LIST}}
+
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Stats / Footer Panel -->
+                    <tr>
+                        <td class="mobile-padding" style="background-color: #2a2a2a; padding: 20px; border-top: 1px solid #333333;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td align="center">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="stats-table" style="background-color: #21201c; border-radius: 6px; border: 1px solid #333;">
+                                            <tr>
+                                                <td style="padding: 10px 20px; color: #888; font-size: 12px;">
+                                                    Articoli analizzati: <span style="color: #d27555; font-weight: bold;">{{ARTICLES_COUNT}}</span>
+                                                </td>
+                                                <td style="padding: 10px 20px; color: #888; font-size: 12px; border-left: 1px solid #333;">
+                                                    Nazioni coinvolte: <span style="color: #448a4e; font-weight: bold;">{{NATIONS_COUNT}}</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Footer Copyright -->
+                    <tr>
+                        <td align="center" style="padding: 20px; background-color: #191919; color: #666; font-size: 11px;">
+                            &copy; 2026 Vision AI. Tutti i diritti riservati.
+                        </td>
+                    </tr>
+
+                </table>
+                <!-- End Container -->
+
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
