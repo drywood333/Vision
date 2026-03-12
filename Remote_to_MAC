@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REMOTE="${1:-origin}"
+BRANCH="${2:-main}"
+
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  echo "Errore: esegui questo script dentro una repository Git."
+  exit 1
+fi
+
+echo "[Remote_to_MAC] Sincronizzazione da ${REMOTE}/${BRANCH}"
+
+STASH_NAME=""
+if [[ -n "$(git status --porcelain)" ]]; then
+  STASH_NAME="auto-stash-remote-to-mac-$(date +%Y%m%d-%H%M%S)"
+  echo "[Remote_to_MAC] Modifiche locali rilevate: creo stash temporaneo (${STASH_NAME})..."
+  git stash push -u -m "${STASH_NAME}" >/dev/null
+fi
+
+git fetch "${REMOTE}"
+git pull --rebase "${REMOTE}" "${BRANCH}"
+
+if [[ -n "${STASH_NAME}" ]]; then
+  if git stash list | grep -Fq "${STASH_NAME}"; then
+    echo "[Remote_to_MAC] Ripristino modifiche locali..."
+    if ! git stash pop; then
+      echo "[Remote_to_MAC] Conflitti durante stash pop. Risolvili e poi continua."
+      exit 1
+    fi
+  fi
+fi
+
+echo "[Remote_to_MAC] Completato."

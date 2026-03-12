@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+REMOTE="${1:-origin}"
+BRANCH="${2:-main}"
+MESSAGE="${3:-sync: update from MAC}"
+
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  echo "Errore: esegui questo script dentro una repository Git."
+  exit 1
+fi
+
+echo "[MAC_to_Remote] Pubblicazione verso ${REMOTE}/${BRANCH}"
+
+if [[ -n "$(git status --porcelain)" ]]; then
+  git add -A
+  git commit -m "${MESSAGE}"
+else
+  echo "[MAC_to_Remote] Nessuna modifica locale da committare."
+fi
+
+if git ls-remote --exit-code --heads "${REMOTE}" "${BRANCH}" >/dev/null 2>&1; then
+  git fetch "${REMOTE}"
+  git pull --rebase "${REMOTE}" "${BRANCH}"
+else
+  echo "[MAC_to_Remote] Branch remoto ${REMOTE}/${BRANCH} non trovato: eseguo primo push."
+fi
+
+git push -u "${REMOTE}" "${BRANCH}"
+
+echo "[MAC_to_Remote] Completato."
