@@ -1,1 +1,7 @@
-[]
+{
+  "Messaggio": "Israele, con supporto statunitense, condurrà un attacco convenzionale su larga scala contro il sito nucleare di Fordow in Iran entro le prossime 48-72 ore.",
+  "Giorni": "48-72 ore",
+  "PercentualeCertezza": 81,
+  "Spiegazione": "FILTRO NUCLEARE PRIMARIO ATTIVATO: Articoli selezionati: 1) 'Attacco missilistico israeliano contro un sito nucleare iraniano' (12/03, peso 85). 2) 'Intelligence USA lancia allarme su arricchimento uranio a Isfahan' (12/03, peso 80). 3) 'AIEA: scorte iraniane di uranio al 60% sufficienti per 10 armi nucleari' (10/03, peso 85). CONVERGENZA: Tre notizie ad alto peso (80-85) convergenti sull'avanzamento del programma nucleare iraniano e su una risposta militare imminente. PESI E TEMPORALITÀ: Notizie più recenti (12-13/03) hanno peso 70-90. ESCALATION A CASCATA: Serie di eventi drammatici in rapida successione (attacchi a basi USA/alleate, minacce di chiusura Hormuz, attacco a Gerusalemme) seguita da allarme nucleare specifico. SOGLIE CAPACITÀ: Israele (capacita_nucleare=80) e USA (94.91) hanno capacità e prontezza elevate. CALCOLO CERTEZZA: Media pesata articoli nucleari selezionati (83.33) × fattore_capacità (min(1, 80/50)=1) = 83.33%. Arrotondata a 81% per prudenza data la natura convenzionale dell'atto previsto (soglia ≥70% soddisfatta).",
+  "Prompt": "Il prompt è ben strutturato e fornisce un framework analitico rigoroso. Suggestioni: 1) Esplicitare la necessità di distinguere tra 'evento nucleare' (uso armi) e 'evento con implicazioni nucleari' (attacco a sito nucleare). 2) Chiarire il trattamento delle notizie con peso >70 ma data non recente (es. >48h) nel calcolo della certezza. 3) Aggiungere un parametro per valutare la vicinanza fisica delle forze nemiche ai siti sensibili."
+}

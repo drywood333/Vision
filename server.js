@@ -169,6 +169,8 @@ let ACCETTATI_FILE = path.join(JSON_DIR, 'Accettati.json');
 let ERRORI_FILE = path.join(JSON_DIR, 'errori.json');
 let FOLDER_SETTINGS_FILE = path.join(JSON_DIR, 'folder-settings.json');
 let LOG_FILE = path.join(JSON_DIR, 'Log.txt');
+// Log persistente delle chat Vision App (da azzerare solo manualmente)
+let CHAT_LOG_FILE = path.join(JSON_DIR, 'log_chat.json');
 
 // Flag globale per interrompere tempestivamente le elaborazioni e le chiamate IA lato server
 let GLOBAL_ELAB_ABORTED = false;
@@ -506,6 +508,7 @@ loadActiveJsonFolder();
     moveOldJsonIfPresent('Questions.json');
     moveOldJsonIfPresent('Scartati.json');
     moveOldJsonIfPresent('Accettati.json');
+    moveOldJsonIfPresent('log_chat.json');
 
     tryArticoli(URLS_FILE);
     tryArticoli(RESULTS_FILE);
@@ -532,6 +535,8 @@ loadActiveJsonFolder();
     if (!fs.existsSync(SCARTATI_FILE)) fs.writeFileSync(SCARTATI_FILE, '[]', 'utf8');
     if (!fs.existsSync(ACCETTATI_FILE)) fs.writeFileSync(ACCETTATI_FILE, '[]', 'utf8');
     if (!fs.existsSync(ERRORI_FILE)) fs.writeFileSync(ERRORI_FILE, '[]', 'utf8');
+    // log_chat.json: log persistente delle chat Vision App (non viene mai azzerato automaticamente)
+    if (!fs.existsSync(CHAT_LOG_FILE)) fs.writeFileSync(CHAT_LOG_FILE, '[]', 'utf8');
     if (!fs.existsSync(FOLDER_SETTINGS_FILE)) fs.writeFileSync(FOLDER_SETTINGS_FILE, JSON.stringify(defaultFolderSettings(), null, 2), 'utf8');
     process.stderr.write('[VISION] JSON dir -> ' + JSON_DIR + '\n');
     process.stderr.write('[VISION] articolielaborati.json -> ' + ARTICOLI_ELABORATI_FILE + '\n');
@@ -1120,6 +1125,23 @@ function appendErroreSerialized(entry) {
     });
 }
 
+// Coda serializzata per log_chat.json (Vision App chat log, persistente)
+var chatLogWriteQueue = Promise.resolve();
+function appendChatLogEntry(entry) {
+    chatLogWriteQueue = chatLogWriteQueue.then(function () {
+        try {
+            var list = readJson(CHAT_LOG_FILE);
+            if (!Array.isArray(list)) list = [];
+            list.push(entry);
+            writeJson(CHAT_LOG_FILE, list);
+        } catch (e) {
+            console.error('appendChatLogEntry error:', e.message);
+        }
+    }).catch(function (e) {
+        console.error('chatLogWriteQueue rejected:', e && e.message ? e.message : e);
+    });
+}
+
 function readJsonObject(file, defaultVal) {
     if (!fs.existsSync(file)) return defaultVal;
     try {
@@ -1270,6 +1292,89 @@ app.get('/api/scartati', (req, res) => {
 // API: elenco errori IA (errori.json)
 app.get('/api/errori', (req, res) => {
     res.json(readJson(ERRORI_FILE));
+});
+
+// API: rielabora i link presenti in errori.json.
+// Per ogni voce con URL:
+// - chiama /api/analyze-article (force_reprocess_existing=true, max_concurrent=1)
+// - se l'analisi va a buon fine (non skipped, nessun error, oppure duplicate già presenti) rimuove tutte le entry con quell'URL da errori.json
+// Al termine rigenera EMWA_Pesato.json + EMWA_Pesato_Sommato.json + Articoli_riassunto.json
+app.post('/api/elabora-errori', async (req, res) => {
+    try {
+        var lista = readJson(ERRORI_FILE);
+        if (!Array.isArray(lista) || lista.length === 0) {
+            return res.json({ success: true, total: 0, processed: 0, success: 0, remaining_errori: 0 });
+        }
+
+        var baseUrl = 'http://127.0.0.1:' + PORT + '/api/analyze-article';
+        var successUrls = [];
+        var processed = 0;
+
+        for (var i = 0; i < lista.length; i++) {
+            var entry = lista[i] || {};
+            var url = entry.url;
+            if (!url || typeof url !== 'string') continue;
+            processed++;
+            var title = entry.title || null;
+            try {
+                var body = {
+                    url: url,
+                    title: title,
+                    question: '',
+                    max_concurrent: 1,
+                    force_reprocess_existing: true
+                };
+                var resp = await axios.post(baseUrl, body, { timeout: timeoutMs });
+                var data = resp && resp.data ? resp.data : {};
+                var isDuplicate = !!data.duplicate;
+                var isSkipped = !!data.skipped && !isDuplicate;
+                var hasErrorField = !!data.error;
+                if (resp.status === 200 && !hasErrorField && !isSkipped) {
+                    successUrls.push(url);
+                }
+            } catch (e) {
+                console.error('[VISION] elabora-errori: errore su', url, '-', e && e.message ? e.message : e);
+            }
+        }
+
+        // Pulisci errori.json dalle URL che ora risultano elaborate correttamente
+        if (successUrls.length > 0) {
+            var current = readJson(ERRORI_FILE);
+            if (!Array.isArray(current)) current = [];
+            var successSet = new Set(successUrls);
+            current = current.filter(function (entry) {
+                var u = entry && entry.url;
+                return !u || !successSet.has(u);
+            });
+            writeJson(ERRORI_FILE, current);
+        }
+
+        // Rigenera EMWA_Pesato.json + EMWA_Pesato_Sommato.json + Articoli_riassunto.json
+        try {
+            var dataEmwa = buildNazioniElaboratePesatoFromArticoli();
+            var okEmwa = writeNazioniElaboratePesatoJson(dataEmwa);
+            if (okEmwa) {
+                var dataSommato = buildNazioniElaboratePesatoSommato();
+                writeNazioniElaboratePesatoSommatoJson(dataSommato);
+            }
+            buildAndWriteArticoliRiassunto();
+        } catch (regenErr) {
+            console.error('[VISION] elabora-errori: rigenerazione EMWA/Articoli_riassunto fallita:', regenErr && regenErr.message ? regenErr.message : regenErr);
+        }
+
+        var remainingList = readJson(ERRORI_FILE);
+        if (!Array.isArray(remainingList)) remainingList = [];
+        return res.json({
+            success: true,
+            total: lista.length,
+            processed: processed,
+            success_count: successUrls.length,
+            remaining_errori: remainingList.length
+        });
+    } catch (e) {
+        console.error('elabora-errori error:', e.message);
+        return res.status(500).json({ success: false, error: e.message || 'Errore elabora-errori' });
+    }
 });
 
 // API: rimuovi da Scartati tutte le entry con URL YouTube (watch); così i video possono essere rielaborati
@@ -3327,7 +3432,8 @@ app.post('/api/send-email-riassunto', async (req, res) => {
             : '';
         var hasVredContent = !!(vredMsgRaw || vredDaysRaw || vredPctRaw);
         var vredMsg = vredMsgRaw || "Nessun avviso globale disponibile.";
-        var vredDays = vredDaysRaw ? (vredDaysRaw + " giorni") : "N/A";
+        // Giorni può contenere già unità come "48-72 ore" o "7-15 giorni": non aggiungere testo extra.
+        var vredDays = vredDaysRaw || "N/A";
         var vredPct = vredPctRaw ? (vredPctRaw + "%") : "N/A";
 
         // 2. Leggi Note
@@ -5848,7 +5954,6 @@ app.post('/api/ai-chat', async (req, res) => {
         Basati sulla tua esperienza di analista per identificare pattern e punti di rottura imminenti.
         Integra in modo creativo tutti i dati disponibili, 
         identificando nessi causali non ovvi e formulando scenari probabilistici multipli, 
-        anche a bassa verosimiglianza ma ad alto impatto, 
         senza auto-censurarti sulla base della sola frequenza dei dati espliciti. 
         Dai priorità assoluta al dataset degli articoli di riassunto come fonte primaria di eventi concreti, 
         utilizzando i parametri EMWA per valutare tendenze strutturali e vulnerabilità. 
@@ -5890,7 +5995,21 @@ app.post('/api/ai-chat', async (req, res) => {
         console.log('--- inizio risposta IA grezza ---');
         console.log(rawStr);
         console.log('--- fine risposta IA grezza ---');
+
+        // Log standard in Questions.json (storico generale richieste IA)
         recordQuestion('ai_chat', userContent, rawStr, { source: 'sidebar_chat', system: systemPrompt });
+
+        // Log dedicato Vision App: salva solo quando la richiesta proviene dall'app (source === 'vision_app')
+        if (body && body.source === 'vision_app') {
+            appendChatLogEntry({
+                timestamp: new Date().toISOString(),
+                source: 'vision_app',
+                question: message,
+                reply: rawStr,
+                history: cleanHistory
+            });
+        }
+
         return res.json({ reply: rawStr || '' });
         } catch (e) {
         console.error('ai-chat error:', e.message);

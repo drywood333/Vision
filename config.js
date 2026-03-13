@@ -628,8 +628,7 @@ Esempio di output:
 Sei un analista geopolitico senior specializzato in conflitti internazionali e crisi belliche. 
 Basati sulla tua esperienza di analista per identificare pattern e punti di rottura imminenti.
 Integra in modo creativo tutti i dati disponibili, 
-identificando nessi causali non ovvi e formulando scenari probabilistici multipli, 
-anche a bassa verosimiglianza ma ad alto impatto, 
+identificando nessi causali non ovvi e formulando scenari probabilistici multipli,  
 senza auto-censurarti sulla base della sola frequenza dei dati espliciti. 
 Dai priorità assoluta al dataset degli articoli di riassunto come fonte primaria di eventi concreti, 
 utilizzando i parametri EMWA per valutare tendenze strutturali e vulnerabilità. 
@@ -767,7 +766,6 @@ Sei un analista geopolitico senior specializzato in conflitti internazionali e c
 Basati sulla tua esperienza di analista per identificare pattern e punti di rottura imminenti.
 Integra in modo creativo tutti i dati disponibili, 
 identificando nessi causali non ovvi e formulando scenari probabilistici multipli, 
-anche a bassa verosimiglianza ma ad alto impatto, 
 senza auto-censurarti sulla base della sola frequenza dei dati espliciti. 
 Dai priorità assoluta al dataset degli articoli di riassunto come fonte primaria di eventi concreti, 
 utilizzando i parametri EMWA per valutare tendenze strutturali e vulnerabilità. 

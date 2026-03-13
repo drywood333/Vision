@@ -20,13 +20,13 @@
   {
     "address": "831087538",
     "type": "telegram",
-    "active": false,
+    "active": true,
     "alias": "Alessandro Delfino"
   },
   {
     "address": "6395167210",
     "type": "telegram",
-    "active": false,
+    "active": true,
     "alias": "Anna Zic"
   }
 ]

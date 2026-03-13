@@ -46,5 +46,749 @@
     "stage": "question_per_article",
     "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
     "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T15:49:28.457Z",
+    "title": "Stampa britannica: negli impianti di stoccaggio del Regno Unito sono rimaste riserve di gas sufficienti solo per due giorni.",
+    "url": "https://it.topwar.ru/279065-britanskaja-pressa-zapasov-gaza-v-hranilischah-korolevstva-ostalos-na-dva-dnja.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:34:17.048Z",
+    "title": "Allarme degli 007 Usa: \"Teheran vuole minare Hormuz\". Trump: \"Le rimuova o conseguenze mai viste\". Italia, Germania e Inghilterra al lavoro per proteggere le navi",
+    "url": "https://www.ilgiornale.it/news/guerra/raid-notturni-su-teheran-i-pasdaran-determineremo-noi-fine-2636388.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:42:06.367Z",
+    "title": "Caro petrolio, la paura fa 100 (dollari)",
+    "url": "https://www.ilgiornale.it/news/politica/caro-petrolio-paura-fa-100-dollari-2635840.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:44:04.933Z",
+    "title": "\"Ha esportato droni militari e petrolio dall'Iran\": gli affari silenziosi di Teheran",
+    "url": "https://www.ilgiornale.it/news/politica-estera/ha-esportato-droni-militari-e-petrolio-dalliran-affari-2636056.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:46:46.464Z",
+    "title": "Multipolarità imperfetta: perché il nuovo ordine globale si sta frammentando",
+    "url": "https://www.notiziegeopolitiche.net/multipolarita-imperfetta-perche-il-nuovo-ordine-globale-si-sta-frammentando/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:49:43.292Z",
+    "title": "Iran. Confermata l’uccisione di Khamenei",
+    "url": "https://www.notiziegeopolitiche.net/iran-sempre-piu-certa-luccisione-di-khamenei/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:56:17.061Z",
+    "title": "Gli obiettivi di Israele e USA nella guerra in Iran",
+    "url": "https://www.lindipendente.online/2026/03/10/gli-obiettivi-di-israele-e-usa-nella-guerra-in-iran/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:57:00.149Z",
+    "title": "Usa. T-bond e stablecoin, una miscela esplosiva",
+    "url": "https://www.notiziegeopolitiche.net/usa-t-bond-e-stablecoin-una-miscela-esplosiva/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T16:58:51.657Z",
+    "title": "Le multinazionali straniere fanno causa ai governi africani contro le nazionalizzazioni",
+    "url": "https://www.lindipendente.online/2026/03/05/le-multinazionali-straniere-fanno-causa-ai-governi-africani-contro-le-nazionalizzazioni/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:21:25.292Z",
+    "title": "Possibilità di sopravvivenza: un esperto prevede che gli Stati Uniti dovranno affrontare un “secondo Vietnam” in caso di conflitto con l’Iran",
+    "url": "https://www.controinformazione.info/possibilita-di-sopravvivenza-un-esperto-prevede-che-gli-stati-uniti-dovranno-affrontare-un-secondo-vietnam-in-caso-di-conflitto-con-liran/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:21:34.821Z",
+    "title": "L’Iran ha emesso un avviso di espulsione verso gli Stati Uniti.",
+    "url": "https://www.controinformazione.info/liran-ha-emesso-un-avviso-di-espulsione-verso-gli-stati-uniti/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "```json\n[]\n```"
+  },
+  {
+    "timestamp": "2026-03-12T17:24:20.060Z",
+    "title": "Guerra USA Israele Iran: Aggiornamenti principali",
+    "url": "https://www.controinformazione.info/guerra-usa-israele-iran-aggiornamenti-principali/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:24:51.760Z",
+    "title": "La possibile revoca delle sanzioni sul petrolio russo sta scatenando il panico a Bruxelles",
+    "url": "https://www.controinformazione.info/la-possibile-revoca-delle-sanzioni-sul-petrolio-russo-sta-scatenando-il-panico-a-bruxelles/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:31:02.551Z",
+    "title": "Guerra in Iran in diretta: Teheran promette di usare missili potenti, rifiuta i colloqui con Trump",
+    "url": "https://www.controinformazione.info/guerra-in-iran-in-diretta-teheran-promette-di-usare-missili-potenti-rifiuta-i-colloqui-con-trump/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:31:46.715Z",
+    "title": "Le forze di USAe Israele hanno attaccato un’altra scuola in Iran",
+    "url": "https://www.controinformazione.info/le-forze-di-usae-israele-hanno-attaccato-unaltra-scuola-in-iran/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:33:54.704Z",
+    "title": "I media statunitensi ammettono finalmente il fallimento totale dell’aggressione militare USA-Israele contro l’Iran",
+    "url": "https://www.controinformazione.info/i-media-statunitensi-ammettono-finalmente-il-fallimento-totale-dellaggressione-militare-usa-israele-contro-liran/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:41:34.175Z",
+    "title": "LE GUERRE DELL’INTELLIGENZA ARTIFICIALE: NON SIETE PREPARATI",
+    "url": "https://www.nogeoingegneria.com/motivazioni/sociale/le-guerre-dellintelligenza-artificiale-non-siete-preparati/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:42:26.689Z",
+    "title": "NON IL PETROLIO, MA L’ACQUA MINACCIA GLI STATI DEL GOLFO",
+    "url": "https://www.nogeoingegneria.com/motivazioni/aria-acqua/non-il-petrolio-ma-lacqua-minaccia-gli-stati-del-golfo/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:42:47.922Z",
+    "title": "LE BASI MILITARI DEGLI USA IN EUROPA, MEDITERRANEO E MEDIORIENTE, CON O SENZA COPERTURA NATO (*)",
+    "url": "https://www.nogeoingegneria.com/effetti/politicaeconomia/le-basi-militari-degli-usa-in-europa-mediterraneo-e-medioriente-con-o-senza-copertura-nato/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:43:23.956Z",
+    "title": "10 Marzo 2026 TRUMP VUOLE VINCERE LA CORSA AL 6G  Read more",
+    "url": "https://www.nogeoingegneria.com/news/trump-vuole-vincere-la-corsa-al-6g/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:46:03.836Z",
+    "title": "NEI GIOCHI DI GUERRA SIMULATA, I TOP MODELLI IA RACCOMANDANO L’USO DI ARMI NUCLEARI NEL 95% DEI CASI",
+    "url": "https://www.nogeoingegneria.com/tecnologie/nucleare/nei-giochi-di-guerra-simulata-i-top-modelli-ia-raccomandano-luso-di-armi-nucleari-nel-95-dei-casi/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:46:21.270Z",
+    "title": "“SIGONELLA E MUOS COINVOLTI NELLA GUERRA, LA SICILIA È A RISCHIO”",
+    "url": "https://www.nogeoingegneria.com/news/sigonella-e-muos-coinvolti-nella-guerra-la-sicilia-e-a-rischio/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:49:49.087Z",
+    "title": "SCOTT RITTER: UN ERRORE STRATEGICO CATASTROFICO DEGLI USA E DI ISRAELE – FOLLIA ALLO STATO PURO",
+    "url": "https://www.nogeoingegneria.com/news/scott-ritter-un-errore-strategico-catastrofico-degli-usa-e-di-israele-follia-allo-stato-puro/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:50:39.552Z",
+    "title": "PROJECT SUNRISE: GAZA EMERGE COME IL PRIMO ESPERIMENTO CONTROLLATO PER LA TECNOCRAZIA",
+    "url": "https://www.nogeoingegneria.com/effetti/politicaeconomia/project-sunrise-gaza-emerge-come-il-primo-esperimento-controllato-per-la-tecnocrazia/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T17:59:02.858Z",
+    "title": "No Title",
+    "url": "https://ladiscussione.com/424614/esteri/crisi-iran-stati-uniti-golfo-energia/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T18:00:30.824Z",
+    "title": "No Title",
+    "url": "https://ladiscussione.com/424290/esteri/drone-iran-bahrein-impianto-desalinizzazione/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T18:01:21.192Z",
+    "title": "No Title",
+    "url": "https://ladiscussione.com/424122/esteri/crisi-medio-oriente-tensioni-missili/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T18:07:58.431Z",
+    "title": "Le scorte di munizioni in Europa saranno esaurite in pochi g...",
+    "url": "https://telegram.local/post/01a6c898",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T18:14:25.367Z",
+    "title": "Maritime Security Digest: February 28 to March 7, 2026. The ...",
+    "url": "https://telegram.local/post/78ba41c8",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T18:36:06.677Z",
+    "title": "BREAKING: Reports of an oil tanker on fire after being struc...",
+    "url": "https://telegram.local/post/4a8ce6d8",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T18:42:22.172Z",
+    "title": "Iran, due droni colpiscono Dubai",
+    "url": "https://www.adnkronos.com/internazionale/esteri/iran-due-droni-colpiscono-dubai-video_7a76EShTDysDwlC6zWnOR0",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T18:50:04.282Z",
+    "title": "Il Foglio di guerra: una diretta con le firme del Foglio sulla crisi in medio oriente",
+    "url": "https://www.ilfoglio.it/esteri/2026/03/12/video/il-foglio-di-guerra-una-diretta-con-le-firme-del-foglio-sulla-crisi-in-medio-oriente-8776933/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T19:08:34.678Z",
+    "title": "La strategia di Putin: così Trump gli ha offerto l'occasione di rientrare in gioco. Sanzioni e petrolio: «Ma basteranno due parole per tornare indietro»",
+    "url": "https://www.corriere.it/esteri/26_marzo_10/strategia-putin-cosi-trump-sanzioni-petrolio-74f98435-6370-4400-8628-63edb60b2xlk.shtml",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n\n]"
+  },
+  {
+    "timestamp": "2026-03-12T19:23:10.507Z",
+    "title": "Iran, il video dell'Idf degli attacchi su obiettivi militari",
+    "url": "https://video.corriere.it/esteri/iran-il-video-dell-idf-degli-attacchi-su-obiettivi-militari/c505a866-f47a-43a0-8b20-b5646042fxlk",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T19:23:33.409Z",
+    "title": "Iran, Ue complice di Usa e Israele. Colpito sito armi nucleari di Teheran. Giù produzione petrolio",
+    "url": "https://www.ilsole24ore.com/art/il-petrolio-torna-sopra-100-dollari-barile-tariffe-voli-europa-asia-stelle-AIxcwUuB",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T19:25:22.017Z",
+    "title": "Iran, il “bazooka” dell’Aie: rilascio di 400 milioni di barili di petrolio. Trump al G7: «Decisioni di enorme importanza»",
+    "url": "https://www.ilsole24ore.com/art/wsj-proposta-dell-agenzia-internazionale-l-energia-sblocco-riserve-petrolio-senza-precedenti-AIqfWKtB",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T19:29:04.618Z",
+    "title": "Trump: «La guerra contro l’Iran finirà molto presto». Con Putin telefonata di un’ora",
+    "url": "https://www.ilsole24ore.com/art/iran-32-feriti-bahrein-drone-emirati-attivano-difesa-aerea--figlio-khamenei-nuova-guida-AIY5SjqB",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T19:47:45.562Z",
+    "title": "Stretto di Hormuz, cargo thailandese in fiamme dopo l’attacco: le immagini",
+    "url": "https://www.rainews.it/video/2026/03/stretto-di-hormuz-cargo-thailandese-in-fiamme-dopo-lattacco-le-immagini-4ee5e0e4-75e0-4756-8a4c-9dd4ed013413.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T19:59:32.691Z",
+    "title": "Le criptovalute hanno aiutato l'Iran a stare galla nonostante le sanzioni, ma la guerra rischia di rompere il giocattolo",
+    "url": "https://www.wired.it/article/iran-criptovalute-effetti-mining-rischi-sanzioni/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T20:02:36.680Z",
+    "title": "L’economia globale sotto shock",
+    "url": "https://www.internazionale.it/magazine/joe-wallace/2026/03/12/l-economia-globale-sotto-shock",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T23:08:05.242Z",
+    "title": "Un drone Shahed ha colpito un grattacielo di Dubai durante un attacco alle truppe statunitensi.",
+    "url": "https://it.topwar.ru/279230-dron-shahed-v-hode-ataki-na-voennyh-ssha-porazil-neboskreb-v-dubae.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 85,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 60,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 90,\n    \"attivita_diplomatica_offensiva\": 65,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 60,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 95,\n    \"preparazione_operativa\": 90,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 95,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 95,\n    \"stato_morale_forzearmate\": 80,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 75,\n    \"pressione_economica\": 60,\n    \"capacita_economica_sostenere_guerra\": 90,\n    \"autonomia_energetica\": 85,\n    \"dipendenza_esterna_critica\": 20,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 95,\n    \"export_energetico\": 80,\n    \"spesa_militare_annunciata\": 90,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 80,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 80,\n    \"disinformazione_rilevata\": 60,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 40,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 70,\n    \"rischio_incidente_nucleare\": 40\n  },\n  {\n    \"nazione\": \"Israele\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tens"
+  },
+  {
+    "timestamp": "2026-03-12T23:11:09.587Z",
+    "title": "L'Agenzia Internazionale per l'Energia aprirà l'accesso a enormi riserve di petrolio.",
+    "url": "https://it.topwar.ru/279175-mezhdunarodnoe-jenergeticheskoe-agentstvo-otkroet-dostup-k-ogromnym-zapasam-nefti.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T23:17:41.460Z",
+    "title": "Caro petrolio, la paura fa 100 (dollari)",
+    "url": "https://www.ilgiornale.it/news/politica/caro-petrolio-paura-fa-100-dollari-2635840.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T23:19:59.814Z",
+    "title": "\"Ha esportato droni militari e petrolio dall'Iran\": gli affari silenziosi di Teheran",
+    "url": "https://www.ilgiornale.it/news/politica-estera/ha-esportato-droni-militari-e-petrolio-dalliran-affari-2636056.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 30,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 60,\n    \"attivita_diplomatica_offensiva\": 20,\n    \"pressione_internazionale\": 90,\n    \"stato_mediazione_diplomatica\": 10,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 50,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 40,\n    \"preparazione_operativa\": 50,\n    \"esperienza_combattimento_recente\": 50,\n    \"capacita_proiezione_forza\": 30,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 70,\n    \"capacita_nucleare\": 35,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 70,\n    \"capacita_offensiva_cibernetica\": 50,\n    \"capacita_difesa_cibernetica\": 40,\n    \"capacita_spaziale\": 20,\n    \"capacita_intelligence\": 60,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 40,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 60,\n    \"posizione_geografica_strategica"
+  },
+  {
+    "timestamp": "2026-03-12T23:24:03.827Z",
+    "title": "Le multinazionali straniere fanno causa ai governi africani contro le nazionalizzazioni",
+    "url": "https://www.lindipendente.online/2026/03/05/le-multinazionali-straniere-fanno-causa-ai-governi-africani-contro-le-nazionalizzazioni/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T23:29:22.473Z",
+    "title": "Guerra USA Israele Iran: Aggiornamenti principali",
+    "url": "https://www.controinformazione.info/guerra-usa-israele-iran-aggiornamenti-principali/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T23:37:05.474Z",
+    "title": "I media statunitensi ammettono finalmente il fallimento totale dell’aggressione militare USA-Israele contro l’Iran",
+    "url": "https://www.controinformazione.info/i-media-statunitensi-ammettono-finalmente-il-fallimento-totale-dellaggressione-militare-usa-israele-contro-liran/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 80,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 85,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 90,\n    \"pressione_economica\": 60,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 75,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 80,\n    \"export_energetico\": 60,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 30,\n    \"attacchi_ibridi_subiti\": 40,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 50,\n    \"narrativa_nemico\": 80,\n    \"disinformazione_rilevata\": 60,\n    \"visite_ufficiali\": 40,\n    \"lotte_fazioni_potere\": 50,\n    \"ritiro_trattati_internazionali\": 30,\n    \"retorica_bellicosa\": 70,\n    \"rischio_incidente_nucleare\": 40\n  },\n  {\n    \"nazione\": \"Israele\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 80,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 85,\n    \"attivita_diplomatica_offensiva\": 75,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 90,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 85,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 85,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 90,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 70,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 90,\n    \"capacita"
+  },
+  {
+    "timestamp": "2026-03-12T23:37:22.149Z",
+    "title": "LE GUERRE DELL’INTELLIGENZA ARTIFICIALE: NON SIETE PREPARATI",
+    "url": "https://www.nogeoingegneria.com/motivazioni/sociale/le-guerre-dellintelligenza-artificiale-non-siete-preparati/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-12T23:46:27.927Z",
+    "title": "YouTube video eczyryj1eDU",
+    "url": "https://www.youtube.com/watch?v=eczyryj1eDU",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "Error: STOP richiesto"
+  },
+  {
+    "timestamp": "2026-03-13T00:30:03.472Z",
+    "title": "STARK Defence, la nuova potenza europea dei droni d’attacco - VIDEO",
+    "url": "https://difesanews.com/stark-defence-la-nuova-potenza-europea-dei-droni-dattacco-video/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-13T00:31:39.187Z",
+    "title": "Guerra in Iran, le news di oggi. Teheran, abbattuto aereo Usa in Iraq",
+    "url": "https://www.repubblica.it/esteri/2026/03/13/diretta/guerra_iran_usa_israele_news_oggi-425218225/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 65,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 85,\n    \"attivita_diplomatica_offensiva\": 75,\n    \"pressione_internazionale\": 85,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 60,\n    \"coesione_decisionale\": 65,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 75,\n    \"capabilita_risposta_missilistica\": 70,\n    \"capacita_nucleare\": 20,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 65,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 60,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 85,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 65,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 40,\n    \"export_energetico\": 70,\n    \"spesa_militare_annunciata\": 60,\n    \"coscrizione_obbligatoria"
+  },
+  {
+    "timestamp": "2026-03-13T00:31:41.474Z",
+    "title": "Dalla Trincea alle Accademie: l’Ucraina insegna alla Germania la guerra del futuro",
+    "url": "https://difesanews.com/dalla-trincea-alle-accademie-lucraina-insegna-alla-germania-la-guerra-del-futuro/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Ucraina\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 60,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 50,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 60,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 70,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 75,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 70,\n    \"capacita_difesa_cibernetica\": 70,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione"
+  },
+  {
+    "timestamp": "2026-03-13T00:33:30.892Z",
+    "title": "Israele: \"L'Iran lancia missili su Gerusalemme\", ma il Ministero posta un video di febbraio",
+    "url": "https://www.repubblica.it/esteri/2026/03/12/video/israele_missile_iran_gerusalemme_citta_vecchia-425217410/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Israele\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 85,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 85,\n    \"rischio_escalation\": 90,\n    \"attivita_diplomatica_offensiva\": 75,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 85,\n    \"coesione_decisionale\": 90,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 95,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 80,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 85,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 85,\n    \"capacita_industria_bellica\": 85,\n    \"stato_morale_forzearmate\": 80,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 85,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 80,\n    \"capacita_intelligence\": 90,\n    \"pressione_economica\": 60,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 70,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 60,\n    \"stabilita_interna\": 75,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 80,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 80,\n    \"export_energetico\": 30,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 90,\n    \"test_missilistici\": 70,\n    \"attacchi_ibridi_subiti\": 80,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 50,\n    \"narrativa_nemico\": 90,\n    \"disinformazione_rilevata\": 70,\n    \"visite_ufficiali\": 40,\n    \"lotte_fazioni_potere\": 60,\n    \"ritiro_trattati_internazionali\": 30,\n    \"retorica_bellicosa\": 90,\n    \"rischio_incidente_nucleare\": 40\n  },\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 85,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 80,\n    \"rischio_incidente\": 85,\n    \"rischio_escalation\": 90,\n    \"attivita_diplomatica_offensiva\": 75,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 80,\n    \"livello_deterrenza\": 75,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 60,\n    \"preparazione_operativa\": 75,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 65,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 75,\n    \"capacita_nucleare\": 20,\n    \"capacita_logistica\": 70,\n    \"capacita_industria_bellica\": 70,\n    \"stato_morale_forzearmate\": 75,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita_offensiva_cibernetica\": 75,\n    \"capacita_difesa_cibernetica\": 70,\n    \"capacita_spaziale\": 60,\n    \"capacita_intelligence\": 80,\n    \"pressione_economica\": 90,\n    \"capacita_economica_sostenere_guerra\": 60,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 50,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 70,\n    \"vulnerabilita_interna\": 70,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 85,\n    \"andamento_oro\": 70,\n    \"riserve_valutarie\": 50,\n    \"export_energetico\": 80,\n    \"spesa_militare_annunciata\": 70,\n    \"coscrizione_obbligatoria\": 80,\n    \"test_missilistici\": 80,\n    \"attacchi_ibridi_subiti\": 60,\n    \"flussi_migratori\": 40,\n    \"espulsioni_diplomatiche\": 60,\n    \"narrativa_nemico\": 90,\n    \"disinformazione_rilevata\": 80,\n    \"visite_ufficial"
+  },
+  {
+    "timestamp": "2026-03-13T00:33:48.609Z",
+    "title": "Il Ministero degli Esteri iraniano ha confermato che Mojtaba Khamenei è rimasto ferito.",
+    "url": "https://it.topwar.ru/279253-mid-irana-podtverdil-informaciju-o-ranenii-modzhtaby-hamenei.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-13T00:34:06.575Z",
+    "title": "Lo zolfo sta diventando un effetto collaterale inaspettato della guerra tra Stati Uniti e Israele e l'Iran.",
+    "url": "https://it.topwar.ru/279261-sera-stanovitsja-neozhidannoj-pobochkoj-vojny-ssha-i-izrailja-s-iranom.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 50,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 60,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 50,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 60,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 50,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 20,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 70,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 70,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 60,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 80,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 40,\n    \"export_energetico\": 70,\n    \"spesa_militare_annunciata\": 60,\n    \"coscrizione_obbligatoria\": 80,\n    \"test_missilistici\": 70,\n    \"attacchi_ibridi_subiti\": 60,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 40,\n    \"narrativa_nemico\": 80,\n    \"disinformazione_rilevata\": 70,\n    \"visite_ufficiali\": 50,\n    \"lotte_fazioni_potere\": 60,\n    \"ritiro_trattati_internazionali\": 50,\n    \"retorica_bellicosa\": 70,\n    \"rischio_incidente_nucleare\": 30\n  },\n  {\n    \"nazione\": \"Israele\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 90,\n    \"attivita_militare_osservata\": 90,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 85,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 90,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 95,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 80,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 85,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 90,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 80,\n    \"capacita_intelligence\": 95,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 60,\n    \"dipendenza_esterna_critica\": 50,\n    \"risorse_strategiche\": 40,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\":"
+  },
+  {
+    "timestamp": "2026-03-13T00:35:04.616Z",
+    "title": "È scoppiato un incendio su una portaerei statunitense in servizio nel Mar Rosso.",
+    "url": "https://it.topwar.ru/279258-na-dejstvujuschem-v-krasnom-more-amerikanskom-avianosce-proizoshel-pozhar.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti d'America\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 35,\n    \"tensione_geopolitica\": 60,\n    \"attivita_militare\": 75,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 40,\n    \"attivita_diplomatica_offensiva\": 0,\n    \"pressione_internazionale\": 0,\n    \"stato_mediazione_diplomatica\": 0,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 65,\n    \"livello_modernizzazione_forze_armate\": 85,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 85,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 85,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 80,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 85,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 90,\n    \"capacita_intelligence\": 85,\n    \"pressione_economica\": 50,\n    \"capacita_economica_sostenere_guerra\": 85,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 20,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 95,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 0,\n    \"riserve_valutarie\": 90,\n    \"export_energetico\": 70,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 50,\n    \"flussi_migratori\": 0,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 60,\n    \"disinformazione_rilev"
+  },
+  {
+    "timestamp": "2026-03-13T00:35:38.552Z",
+    "title": "L'Iran è ora sospettato: la Polonia sta indagando su un attacco informatico a una centrale nucleare.",
+    "url": "https://it.topwar.ru/279254-teper-podozrevajut-iran-v-polshe-rassledujut-kiberataku-na-jadernyj-centr.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Polonia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 70,\n    \"attivita_militare\": 0,\n    \"attivita_militare_osservata\": 0,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 40,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 0,\n    \"sostegno_alleati\": 90,\n    \"imprevedibilita_leadership\": 30,\n    \"livello_deterrenza\": 70,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 60,\n    \"esperienza_combattimento_recente\": 0,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 60,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 70,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 50,\n    \"capacita_offensiva_cibernetica\": 60,\n    \"capacita_difesa_cibernetica\": 70,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 60,\n    \"autonomia_energetica\": 50,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 40,\n    \"stabilita_interna\": 80,\n    \"polarizzazione_politica\": 50,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 50,\n    \"export_energetico\": 0,\n    \"spesa_militare_annunciata\": 70,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 80,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 60,\n    \"disinformazione_rilevata\": 50,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 30,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 30,\n    \"rischio_incidente_nucleare\": 60\n  },\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 30,\n    \"attivita_militare_osservata\": 0,\n    \"rischio_incidente\": 85,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 90,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 70,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 60,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 50,\n    \"capacita_"
+  },
+  {
+    "timestamp": "2026-03-13T00:38:51.534Z",
+    "title": "Bessent, 'nessun prezzo renderebbe la guerra all'Iran insostenibile'",
+    "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/03/12/bessent-nessun-prezzo-renderebbe-la-guerra-alliran-insostenibile_2aae5b84-57f0-48f2-a042-c9fc18fec4fb.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 30,\n    \"attivita_militare_osservata\": 20,\n    \"rischio_incidente\": 50,\n    \"rischio_escalazione\": 70,\n    \"attivita_diplomatica_offensiva\": 80,\n    \"pressione_internazionale\": 50,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 40,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 95,\n    \"preparazione_operativa\": 90,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 95,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 95,\n    \"stato_morale_forzearmate\": 80,\n    \"capacita_guerra_ibrida\": 90,\n    \"capacita_offensiva_cibernetica\": 95,\n    \"capacita_difesa_cibernetica\": 90,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 95,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 90,\n    \"autonomia_energetica\": 100,\n    \"dipendenza_esterna_critica\": 10,\n    \"risorse_strategiche\": 90,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 60,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 30,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 90,\n    \"export_energetico\": 80,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 30,\n    \"flussi_migratori\": 20,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 80,\n    \"disinformazione_rilevata\": 50,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 40,\n    \"ritiro_trattati_internazionali\": 30,\n    \"retorica_bellicosa\": 85,\n    \"rischio_incidente_nucleare\": 30\n  },\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 30,\n    \"rischio_incidente\": 60,\n    \"rischio_escalazione\": 75,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 70,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 65,\n    \"livello_modernizzazione_forze_armate\": 60,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 50,\n    \"capacita_difesa_territoriale\": 75,"
+  },
+  {
+    "timestamp": "2026-03-13T00:39:14.786Z",
+    "title": "Nyt, 'l'Iran ha iniziato a posare mine nello Stretto di Hormuz'",
+    "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/03/12/nyt-liran-ha-iniziato-a-posare-mine-nello-stretto-di-hormuz_3c4cd6df-6d39-47ea-baaa-544336e457fb.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 85,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 75,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 40,\n    \"imprevedibilita_leadership\": 75,\n    \"livello_deterrenza\": 60,\n    \"coesione_decisionale\": 65,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 40,\n    \"preparazione_operativa\": 50,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 50,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 75,\n    \"capacita_nucleare\": 20,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 50,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 65,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 70,\n    \"stabilita_interna\": 50,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 60,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 30,\n    \"export_energetico\": 70,\n    \"spesa_militare_annunciata\": 60,\n    \"coscrizione_obbligatoria\": 80,\n    \"test_missilistici\": 70,\n    \"attacchi_ibridi_subiti\": 60,\n    \"flussi_migratori\": 0,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 80,\n    \"disinformazione_rilevata\": 50,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 60,\n    \"ritiro_trattati_internazionali\": 70,\n    \"retorica_bellicosa\": 85,\n    \"rischio_incidente_nucleare\": 60\n  },\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 95,\n    \"preparazione_operativa\": 90,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 95,\n    \"stato_morale_forzearmate\": 80,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 80,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 90,\n    \"pressione_economica\": 50,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 85,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\":"
+  },
+  {
+    "timestamp": "2026-03-13T00:39:56.023Z",
+    "title": "Sei soldati francesi feriti in un raid con drone a Erbil",
+    "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/03/12/sei-soldati-francesi-feriti-in-un-raid-con-drone-a-erbil_10dcb1a7-b626-4655-b26e-0b9a8be00a47.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Francia\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 65,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 40,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 80,\n    \"livello_modernizzazione_forze_armate\": 85,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 75,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 80,\n    \"capacita_industria_bellica\": 85,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 75,\n    \"capacita_offensiva_cibernetica\": 80,\n    \"capacita_difesa_cibernetica\": 80,\n    \"capacita_spaziale\": 85,\n    \"capacita_intelligence\": 85,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 75,\n    \"autonomia_energetica\": 50,\n    \"dipendenza_esterna_critica\": 40,\n    \"risorse_strategiche\": 60,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 50,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 70,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 70,\n    \"export_energetico\": 40,\n    \"spesa_militare_annunciata\": 60,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 20,\n    \"attacchi_ibridi_subiti\": 60,\n    \"flussi_migratori\": 40,\n    \"espulsioni_diplomatiche\": 30,\n    \"narrativa_nemico\": 50,\n    \"disinformazione_rilevata\": 40,\n    \"visite_ufficiali\": 20,\n    \"lotte_fazioni_potere\": 30,\n    \"ritiro_trattati_internazionali\": 10,\n    \"retorica_bellicosa\": 60,\n    \"rischio_incidente_nucleare\": 10\n  },\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 50,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,"
+  },
+  {
+    "timestamp": "2026-03-13T00:40:10.957Z",
+    "title": "Iran, 'distruggeremo le infrastrutture di petrolio e gas nella regione'",
+    "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/03/12/iran-distruggeremo-le-infrastrutture-di-petrolio-e-gas-nella-regione_55a7424a-966b-464c-b59f-b2ca698d0b84.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 20,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 90,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 40,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 70,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 50,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 70,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 40,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 50,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 50,\n    \"mobilitazione_popolare\": 70,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 80,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 30,\n    \"export_energetico\": 90,\n    \"spesa_militare_annunciata\": 50,\n    \"coscrizione_obbligatoria\": 90,\n    \"test_missilistici\": 70,\n    \"attacchi_ibridi_subiti\": 20,\n    \"flussi_migratori\": 0,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 90,\n    \"disinformazione_rilevata\": 50,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 60,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 90,\n    \"rischio_incidente_nucleare\": 0\n  },\n  {\n    \"nazione\": \"Israele\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 20,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 50,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno"
+  },
+  {
+    "timestamp": "2026-03-13T00:42:41.324Z",
+    "title": "Guerra all’Iran: il blocco di Hormuz e l’attivismo di Putin",
+    "url": "https://it.insideover.com/guerra/guerra-alliran-il-blocco-di-hormuz-e-lattivismo-di-putin.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 85,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 75,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 85,\n    \"attivita_diplomatica_offensiva\": 65,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 65,\n    \"coesione_decisionale\": 75,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 65,\n    \"esperienza_combattimento_recente\": 75,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 75,\n    \"capacita_nucleare\": 30,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 65,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 70,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 40,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 85,\n    \"capacita_economica_sostenere_guerra\": 50,\n    \"autonomia_energetica\": 85,\n    \"dipendenza_esterna_critica\": 45,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 65,\n    \"vulnerabilita_interna\": 65,\n    \"posizione_geografica_strategica\": 95,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 55,\n    \"riserve_valutarie\": 40,\n    \"export_energetico\": 70,\n    \"spesa_militare_annunciata\": 65,\n    \"coscrizione_obbligatoria\": 100,\n    \"test_missilistici\": 75,\n    \"attacchi_ibridi_subiti\": 70,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 50,\n    \"narrativa_nemico\": 85,\n    \"disinformazione_rilevata\": 75,\n    \"visite_ufficiali\": 40,\n    \"lotte_fazioni_potere\": 60,\n    \"ritiro_trattati_internazionali\": 50,\n    \"retorica_bellicosa\": 80,\n    \"rischio_incidente_nucleare\": 35\n  },\n  {\n    \"nazione\": \"Russia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 85,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 75,\n    \"rischio_incidente\": 65,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 80,\n    \"pressione_internazionale\": 85,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 65,\n    \"imprevedibilita_leadership\": 80,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 85,\n    \"capacita_militare_attuale\": 80,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 75,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 75,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 85,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 75,\n    \"capacita_industria_bellica\": 80,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 90,\n    \"capacita_offensiva_cibernetica\": 85,\n    \"capacita_difesa_cibernetica\": 75,\n    \"capacita_spaziale\": 80,\n    \"capacita_intelligence\": 85,\n    \"pressione_economica\": 75,\n    \"capacita_economica_sostenere_guerra\": 70,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 40,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\": 75,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 75,\n    \"vulnerabilita_interna\": 60,\n    \"posizione_geografica_strategica\": 80,\n    \"controllo_territoriale_effettivo\": 85,\n    \"andamento_oro\": 60,\n    \"riserve_valutarie\": 65"
+  },
+  {
+    "timestamp": "2026-03-13T00:43:06.936Z",
+    "title": "Perché la Corea del Nord ha deciso di puntare sulle armi spaziali",
+    "url": "https://it.insideover.com/spazio/perche-la-corea-del-nord-ha-deciso-di-puntare-sulle-armi-spaziali.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Corea del Nord\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 60,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 80,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 40,\n    \"imprevedibilita_leadership\": 90,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 90,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 30,\n    \"capacita_proiezione_forza\": 60,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 60,\n    \"capacita_nucleare\": 70,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 70,\n    \"capacita_offensiva_cibernetica\": 60,\n    \"capacita_difesa_cibernetica\": 40,\n    \"capacita_spaziale\": 70,\n    \"capacita_intelligence\": 60,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 30,\n    \"dipendenza_esterna_critica\": 70,\n    \"risorse_strategiche\": 40,\n    \"stabilita_interna\": 80,\n    \"polarizzazione_politica\": 20,\n    \"mobilitazione_popolare\": 80,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 80,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 30,\n    \"export_energetico\": 20,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 90,\n    \"test_missilistici\": 90,\n    \"attacchi_ibridi_subiti\": 30,\n    \"flussi_migratori\": 20,\n    \"espulsioni_diplomatiche\": 30,\n    \"narrativa_nemico\": 90,\n    \"disinformazione_rilevata\": 80,\n    \"visite_ufficiali\": 40,\n    \"lotte_fazioni_potere\": 20,\n    \"ritiro_trattati_internazionali\": 80,\n    \"retorica_bellicosa\": 90,\n    \"rischio_incidente_nucleare\": 60\n  },\n  {\n    \"nazione\": \"Stati Uniti d'America\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 70,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 60,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 60,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 90,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 95,\n    \"stato_morale_forzearmate\": 80,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 95,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 95,\n    \"pressione_economica\": 60,\n    \"capacita_economica_sostenere_guerra\": 85,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 40,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 80,\n    \"export_energet"
+  },
+  {
+    "timestamp": "2026-03-13T00:45:09.585Z",
+    "title": "InsideAsia – La febbre cinese dei chip",
+    "url": "https://it.insideover.com/le-newsletter-di-insideover/insideasia-la-febbre-cinese-dei-chip.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Cina\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 30,\n    \"attivita_militare_osservata\": 30,\n    \"rischio_incidente\": 60,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 65,\n    \"pressione_internazionale\": 75,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 40,\n    \"livello_deterrenza\": 85,\n    \"coesione_decisionale\": 90,\n    \"capacita_militare_attuale\": 85,\n    \"livello_modernizzazione_forze_armate\": 80,\n    \"preparazione"
+  },
+  {
+    "timestamp": "2026-03-13T00:46:05.195Z",
+    "title": "Non solo petrolio e gas, la Terza guerra del Golfo travolge anche i fertilizzanti e minaccia l’agricoltura",
+    "url": "https://it.insideover.com/economia/non-solo-petrolio-e-gas-la-terza-guerra-del-golfo-travolge-anche-i-fertilizzanti-e-minaccia-lagricoltura.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-13T00:47:33.575Z",
+    "title": "Telefonata Trump-Putin sull’Iran: prove di Endgame",
+    "url": "https://it.insideover.com/guerra/telefonata-trump-putin-sulliran-prove-di-endgame.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 20,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 80,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 70,\n    \"sostegno_alleati\": 90,\n    \"imprevedibilita_leadership\": 80,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 80,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 90,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 90,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 80,\n    \"capacita_spaziale\": 90,\n    \"capacita_intelligence\": 90,\n    \"pressione_economica\": 50,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 20,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 80,\n    \"export_energetico\": 50,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 20,\n    \"attacchi_ibridi_subiti\": 50,\n    \"flussi_migratori\": 50,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 60,\n    \"disinformazione_rilevata\": 70,\n    \"visite_ufficiali\": 80,\n    \"lotte_fazioni_potere\": 70,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 50,\n    \"rischio_incidente_nucleare\": 50\n  },\n  {\n    \"nazione\": \"Russia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 20,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 80,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 70,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 80,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 80,\n    \"capacita_difesa_territoriale\": 90,"
+  },
+  {
+    "timestamp": "2026-03-13T00:48:31.325Z",
+    "title": "La nuova strategia dei Marines per colmare il gap lasciato dai “vecchi” velivoli da guerra",
+    "url": "https://it.insideover.com/difesa/la-nuova-strategia-dei-marines-per-colmare-il-gap-lasciato-dai-vecchi-velivoli-da-guerra.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 50,\n    \"rischio_incidente\": 60,\n    \"rischio_escalation\": 65,\n    \"attivita_diplomatica_offensiva\": 40,\n    \"pressione_internazionale\": 30,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 40,\n    \"imprevedibilita_leadership\": 30,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 85,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 85,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 85,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 85,\n    \"capacita_difesa_cibernetica\": 80,\n    \"capacita_spaziale\": 85,\n    \"capacita_intelligence\": 85,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 85,\n    \"dipendenza_esterna_critica\": 20,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 70,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 80,\n    \"export_energetico\": 70,\n    \"spesa_militare_annunciata\": 75,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 30,\n    \"attacchi_ibridi_subiti\": 20,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 10,\n    \"narrativa_nemico\": 70,\n    \"disinformazione_rilevata\": 30,\n    \"visite_ufficiali\": 20,\n    \"lotte_fazioni_potere\": 40,\n    \"ritiro_trattati_internazionali\": 20,\n    \"retorica_bellicosa\": 60,\n    \"rischio_incidente_nucleare\": 30\n  },\n  {\n    \"nazione\": \"Cina\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 60,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 40,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 40,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 40,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 85,\n    \"livello_modernizzazione_forze_armate\": 80,\n    \"preparazione_operativa\": 75,\n    \"esperienza_combattimento_recente\": 40,\n    \"capacita_proiezione_forza\": 75,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 75,\n    \"capacita_industria_bellica\": 80,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 75,\n    \"capacita_offensiva_cibernetica\": 80,\n    \"capacita_difesa_cibernetica\": 75,\n    \"capacita_spaziale\": 80,\n    \"capacita_intelligence\": 80,\n    \"pressione_economica\": 50,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 60,\n    \"dipendenza_esterna_critica\": 70,\n    \"risorse_strategiche\": 60,\n    \"stabilita_interna\": 80,\n    \"polarizzazione_politica\": 30,\n    \"mobilitazione_popolare\": 40,\n    \"vulnerabilita_interna\": 30,\n    \"posizione_geografica_strategica\": 85,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 85,\n    \"export_energetico\": 50,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 80,\n    \"test_missilistici\": 60,\n    \"attacchi_ibridi_subiti\": 20,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 20,\n    \"narrativa_nemico\": 70,\n    \"disinformazione_rilevata\": 40,\n    \"visite_ufficiali\": 20,\n    \"lotte_fazioni_potere\": 30,\n    \"ritiro_trattati_internazionali\": 20,\n    \"retorica_bellic"
+  },
+  {
+    "timestamp": "2026-03-13T00:49:28.888Z",
+    "title": "GIORNI 11-12: GUERRA ALL’IRAN",
+    "url": "https://www.controinformazione.info/giorni-11-12-guerra-alliran/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 60,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 65,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 70,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 65,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 75,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 60,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 75,\n    \"capacita_nucleare\": 20,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 70,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 40,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_e"
+  },
+  {
+    "timestamp": "2026-03-13T00:49:56.474Z",
+    "title": "Le scorte di munizioni in Europa saranno esaurite in pochi g...",
+    "url": "https://telegram.local/post/6b1c59e0",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-13T00:51:01.260Z",
+    "title": "🌏LA SITUAZIONE È DISPERATA. IL MERCATO PETROLIFERO STA VIVE...",
+    "url": "https://telegram.local/post/20f792c0",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 90,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 60,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 60,\n    \"coesione_decisionale\": 50,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 60,\n    \"capacita_nucleare\": 10,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 40,\n    \"stato_morale_forzearmate\": 50,\n    \"capacita_guerra_ibrida\": 70,\n    \"capacita_offensiva_cibernetica\": 60,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 20,\n    \"capacita_intelligence\": 60,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 30,"
+  },
+  {
+    "timestamp": "2026-03-13T00:51:13.233Z",
+    "title": "L'Ucraina ha ricevuto alcuni dei missili Patriot, il cui tra...",
+    "url": "https://telegram.local/post/528bbcc4",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Ucraina\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 60,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 50,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 65,\n    \"attivita_diplomatica_offensiva\": 60,\n    \"pressione_internazionale\": 55,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 40,\n    \"livello_deterrenza\": 60,\n    \"coesione_decisionale\": 75,\n    \"capacita_militare_attuale\": 65,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 75,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 70,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 40,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 60,\n    \"capacita_offensiva_cibernetica\": 50,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 20,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 30,\n    \"dipendenza_esterna_critica\": 80,\n    \"risorse_strategiche\": 50,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 20,\n    \"mobilitazione_popolare\": 85,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 60,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 40,\n    \"export_energetico\": 10,\n    \"spesa_militare_annunciata\": 70,\n    \"coscrizione_obbligatoria\": 80,\n    \"test_missilistici\": 30,\n    \"attacchi_ibridi_subiti\": 80,\n    \"flussi_migratori\": 70,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 80,\n    \"disinformazione_rilevata\": 70,\n    \"visite_ufficiali\": 60,\n    \"lotte_fazioni_potere\": 10,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 70,\n    \"rischio_incidente_nucleare\": 40\n  },\n  {\n    \"nazione\": \"Germania\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 55,\n    \"tensione_geopolitica\": 60,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 30,\n    \"rischio_incidente\": 40,\n    \"rischio_escalation\": 55,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 30,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 80,\n    \"preparazione_operativa\": 60,\n    \"esperienza_combattimento_recente\": 20,\n    \"capacita_proiezione_forza\": 60,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 75,\n    \"capacita_nucleare\": 40,\n    \"capacita_logistica\": 80,\n    \"capacita_industria_bellica\": 85,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 60,\n    \"capacita_offensiva_cibernetica\": 70,\n    \"capacita_difesa_cibernetica\": 75,\n    \"capacita_spaziale\": 60,\n    \"capacita_intelligence\": 80,\n    \"pressione_economica\": 60,\n    \"capacita_economica_sostenere_guerra\": 70,\n    \"autonomia_energetica\": 40,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 50,\n    \"stabilita_interna\": 80,\n    \"polarizzazione_politica\": 40,\n    \"mobilitazione_popolare\": 20,\n    \"vulnerabilita_interna\": 30,\n    \"posizione_geografica_strategica\": 75,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 80,\n    \"export_energetico\": 30,\n    \"spesa_militare_annunciata\": 70,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 10,\n    \"attacchi_ibridi_subiti\": 50,\n    \"flussi_migratori\": 40,"
+  },
+  {
+    "timestamp": "2026-03-13T00:53:37.308Z",
+    "title": "L'Ucraina e la Romania hanno firmato un accordo per la produ...",
+    "url": "https://telegram.local/post/fa4b2478",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Ucraina\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 50,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 50,\n    \"attivita_militare_osservata\": 0,\n    \"rischio_incidente\": 30,\n    \"rischio_escalation\": 40,\n    \"attivita_diplomatica_offensiva\": 30,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 40,\n    \"livello_deterrenza\": 50,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 60,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 100,\n    \"capacita_proiezione_forza\": 30,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 40,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 70,\n    \"stato_morale_forzearmate\": 80,\n    \"capacita_guerra_ibrida\": 70,\n    \"capacita_offensiva_cibernetica\": 50,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 20,\n    \"capacita_intelligence\": 60,\n    \"pressione_economica\": 90,\n    \"capacita_economica_sostenere_guerra\": 50,\n    \"autonomia_energetica\": 40,\n    \"dipendenza_esterna_critica\": 80,\n    \"risorse_strategiche\": 50,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 20,\n    \"mobilitazione_popolare\": 90,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 60,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 40,\n    \"export_energetico\": 20,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 100,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 80,\n    \"flussi_migratori\": 70,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 90,\n    \"disinformazione_rilevata\": 80,\n    \"visite_ufficiali\": 70,\n    \"lotte_fazioni_potere\": 20,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 80,\n    \"rischio_incidente_nucleare\": 30\n  },\n  {\n    \"nazione\": \"Romania\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 50,\n    \"tensione_geopolitica\": 60,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 0,\n    \"rischio_incidente\": 30,\n    \"rischio_escalation\": 40,\n    \"attivita_diplomatica_offensiva\": 30,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 10,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 20,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 10,\n    \"capacita_proiezione_forza\": 30,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 60,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 70,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 50,\n    \"capacita_offensiva_cibernetica\": 50,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 60,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 50,\n    \"autonomia_energetica\": 50,\n    \"dipendenza_esterna_critica\": 40,\n    \"risorse_strategiche\": 40,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 40,\n    \"mobilitazione_popolare\": 20,\n    \"vulnerabilita_interna\": 30,\n    \"posizione_geografica_strategica\": 80,\n    \"controllo_territoriale_effettivo\": 100,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 60,\n    \"export_energetico\": 30,\n    \"spesa_militare_annunciata\": 70,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 30,\n    \"flussi_migratori\": 50,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 60,\n    \"disinformazione_rilevata\": 50,\n    \"visite_ufficiali\": 60,\n    \"lotte_fazioni_potere\": 30,\n    \"ritiro_trattati_internazionali"
+  },
+  {
+    "timestamp": "2026-03-13T00:53:57.959Z",
+    "title": "Iran Strikes US Fifth Fleet in Bahrain as Retaliation Spread...",
+    "url": "https://telegram.local/post/fe396f34",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 90,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 90,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 70,\n    \"coesione_decisionale\": 50,\n    \"capacita_militare_attuale\": 60,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 60,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 20,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 60,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 50,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 60,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 30,\n    \"export_energetico\": 80,\n    \"spesa_militare_annunciata\": 50,\n    \"coscrizione_obbligatoria\": 70,\n    \"test_missilistici\": 80,\n    \"attacchi_ibridi_subiti\": 40,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 40,\n    \"narrativa_nemico\": 90,\n    \"disinformazione_rilevata\": 70,\n    \"visite_ufficiali\": 30,\n    \"lotte_fazioni_potere\": 70,\n    \"ritiro_trattati_internazionali\": 60,\n    \"retorica_bellicosa\": 80,\n    \"rischio_incidente_nucleare\": 20\n  },\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 95,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 60,\n    \"rischio_incidente\": 80"
+  },
+  {
+    "timestamp": "2026-03-13T00:57:11.155Z",
+    "title": "CENTCOM Issues Civilian Warning to Iran; U.S. Closes Three E...",
+    "url": "https://telegram.local/post/d64f7774",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 50,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 75,"
+  },
+  {
+    "timestamp": "2026-03-13T00:58:25.206Z",
+    "title": "NATO Intercepts Second Iranian Missile Over Turkey as Saudi ...",
+    "url": "https://telegram.local/post/c5e95fae",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Turchia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 90,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 75,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 50,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 70,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 65,\n    \"capacita_guerra_ibrida\": 50,\n    \"capacita_offensiva_cibernetica\": 50,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 50,\n    \"capacita_economica_sostenere_guerra\": 50,\n    \"autonomia_energetica\": 50,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 40,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 0,\n    \"riserve_valutarie\": 50,\n    \"export_energetico\": 30,\n    \"spesa_militare_annunciata\": 50,\n    \"coscrizione_obbligatoria\": 100,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 40,\n    \"flussi_migratori\": 70,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 60,\n    \"disinformazione_rilevata\": 40,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 50,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 50,\n    \"rischio_incidente_nucleare\": 20\n  },\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 90,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 90,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 80,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 60,\n    \"preparazione_operativa\": 75,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 50,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 35,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 90,\n    \"capacita_offensiva_cibernetica\": 80,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 50,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 90,\n    \"capacita_economica_sostenere_guerra\": 50,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 70,\n    \"vulnerabilita_interna\": 60,\n    \"posizione_geografica_strategica\": 80,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 0,\n    \"riserve_valutarie\": 30,\n    \"export_energetico\": 90,\n    \"spesa_militare_annunciata\": 60,\n    \"coscrizione_obbligatoria\": 100,\n    \"test_missilistici\": 90,\n    \"attacchi_ibridi_subiti\": 40,\n    \"flussi_migratori\": 50,\n    \"espulsioni_diplomatiche\": 50,\n    \"narrativa_nemico\": 90,\n    \"disinformazione_rilevata\": 80,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 70,\n    \"ritiro_trattati_internazionali\": 50,\n    \"retorica_bellicosa\": 90,\n    \"rischio_incidente_"
+  },
+  {
+    "timestamp": "2026-03-13T01:03:39.834Z",
+    "title": "💶 UE: quasi 200 miliardi di euro di aiuti all’Ucraina dal 2...",
+    "url": "https://telegram.local/post/d3e2808d",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Ucraina\",\n    \"data\": \"2026-03-13\",\n    \"importanza_d"
+  },
+  {
+    "timestamp": "2026-03-13T01:05:28.639Z",
+    "title": "\"Possibile 200 dollari a barile, l'Ue consideri la riduzione dei consumi\". L'allarme dell'esperto",
+    "url": "https://www.adnkronos.com/internazionale/esteri/possibile-200-a-barile-lue-consideri-la-riduzione-dei-consumi-lallarme-dellesperto_6iNzYh92lC1UbsDIQ4Ln2k",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-13T01:06:30.476Z",
+    "title": "\"Khamenei non può mostrare la faccia\", Netanyahu e le 'sorprese' sulla Guida Suprema",
+    "url": "https://www.adnkronos.com/internazionale/esteri/iran-khamenei-guerra-netanyahu-cosa-ha-detto_14m4BAzFok7Ccady2yqPMU",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 50,\n    \"attivita_militare_osservata\": 0,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 90,\n    \"pressione_internazionale\": 75,\n    \"stato_mediazione_diplomatica\": 10,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 80,\n    \"livello_deterrenza\": 70,\n    \"coesione_decisionale\": 85,\n    \"capacita_militare_attuale\": 65,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 60,\n    \"esperienza_combattimento_recente\": 75,\n    \"capacita_proiezione_forza\": 55,\n    \"capacita_difesa_territoriale\": 75,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 55,\n    \"capacita_industria_bellica\": 65,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita_offensiva_cibernetica\": 75,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 40,\n    \"capacita_intelligence\": 80,\n    \"pressione_economica\": 85,\n    \"capacita_economica_sostenere_guerra\": 45,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 55,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 65,\n    \"vulnerabilita_interna\": 65,\n    \"posizione_geografica_strategica\": 85,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 0,\n    \"riserve_valutarie\": 0,\n    \"export_energetico\": 85,\n    \"spesa_militare_annunciata\": 0,\n    \"coscrizione_obbligatoria\": 75,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 0,\n    \"flussi_migratori\": 0,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 95,\n    \"disinformazione_rilevata\": 80,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 50,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 95,\n    \"rischio_incidente_nucleare\": 0\n  },\n  {\n    \"nazione\": \"Israele\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 0,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 50,\n    \"stato_mediazione_diplomatica\": 15,\n    \"sostegno_alleati\": 85,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 95,\n    \"preparazione_operativa\": 95,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 75,\n    \"capacita_difesa_territoriale\": 95,\n    \"capabilita_risposta_missilistica\": 95,\n    \"capacita_nucleare\": 30,\n    \"capacita_logistica\": 85,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 85,\n    \"capacita_guerra_ibrida\": 75,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 90,\n    \"capacita_spaziale\": 85,\n    \"capacita_intelligence\": 95,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 85,\n    \"autonomia_energetica\": 65,\n    \"dipendenza_esterna_critica\": 50,\n    \"risorse_strategiche\": 40,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 80,\n    \"vulnerabilita_interna\": 55,\n    \"posizione_geografica_strategica\": 70,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 0,\n    \"riserve_valutarie\": 0,\n    \"export_energetico\": 0,\n    \"spesa_militare_annunciata\": 0,\n    \"coscrizione_obbligatoria\": 90,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 0,\n    \"flussi_migratori\": 0,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\":"
+  },
+  {
+    "timestamp": "2026-03-13T01:07:49.349Z",
+    "title": "Sindrome dell’Avana: nuove prove e un'ipotesi inconfessabile per l'\"arma neurologica\"",
+    "url": "https://www.adnkronos.com/internazionale/esteri/sindrome-dellavana-nuove-prove-e-unipotesi-inconfessabile-per-larma-neurologica_3rPBcl1hqv3iKxMidyphly",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 20,\n    \"attivita_militare_osservata\": 10,\n    \"rischio_incidente\": 60,\n    \"rischio_escalation\": 50,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 65,\n    \"stato_mediazione_diplomatica\": 10,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 40,\n    \"livello_deterrenza\": 95,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 85,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 95,\n    \"capacita_nucleare\": 100,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 75,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 95,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 90,\n    \"pressione_economica\": 50,\n    \"capacita_economica_sostenere_guerra\": 85,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 20,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\": 65,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 95,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 90,\n    \"export_energetico\": 80,\n    \"spesa_militare_annunciata\": 85,\n    \"coscrizione_obbligatoria\": 10,\n    \"test_missilistici\": 70,\n    \"attacchi_ibridi_subiti\": 85,\n    \"flussi_migratori\": 40,\n    \"espulsioni_diplomatiche\": 60,\n    \"narrativa_nemico\": 75,\n    \"disinformazione_rilevata\": 80,\n    \"visite_ufficiali\": 30,\n    \"lotte_fazioni_potere\": 60,\n    \"ritiro_trattati_internazionali\": 30,\n    \"retorica_bellicosa\": 50,\n    \"rischio_incidente_nucleare\": 20\n  },\n  {\n    \"nazione\": \"Russia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 75,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 80,\n    \"pressione_internazionale\": 90,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 80,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 85,\n    \"capacita_militare_attuale\": 80,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 70,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 85,\n    \"capacita_nucleare\": 100,\n    \"capacita_logistica\": 70,\n    \"capacita_industria_bellica\": 75,\n    \"stato_morale_forzearmate\": 65,\n    \"capacita_guerra_ibrida\": 90,\n    \"capacita_offensiva_cibernetica\": 85,\n    \"capacita_difesa_cibernetica\": 80,\n    \"capacita_spaziale\": 80,\n    \"capacita_intelligence\": 85,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 60,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 50,\n    \"risorse_strategiche\": 90,\n    \"stabilita_interna\": 75,\n    \"polarizzazione_politica\": 30,\n    \"mobilitazione_popolare\": 60,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 85,\n    \"controllo_territoriale_effettivo\": 85,\n    \"andamento_oro\": 70,\n    \"riserve_valutarie\": 60,\n    \"export_energetico\": 90,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 80,\n    \"test_missilistici\": 80,\n    \"attacchi_ibridi_subiti\": 30,\n    \"flussi_migratori\": 20,\n    \"espulsioni_diplomatiche\": 80,\n    \"narrativa_nemico\": 85,\n    \"disinformazione_rilevata\": 90,\n    \"visite_ufficiali\": 50,\n    \"lotte_fazioni_potere"
+  },
+  {
+    "timestamp": "2026-03-13T01:08:01.140Z",
+    "title": "Il messaggio di Mojtaba Khamenei: tra minacce e appelli agli iraniani",
+    "url": "https://www.corriere.it/esteri/26_marzo_12/il-messaggio-di-mojtaba-khamenei-tra-minacce-e-appelli-agli-iraniani-fec2b129-0936-4549-87c8-4bab7e7a9xlk.shtml",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-13T01:09:10.748Z",
+    "title": "La trappola dello Stretto di Hormuz tra mine, droni e rotte obbligate. Parla Di Paola",
+    "url": "https://www.ilfoglio.it/esteri/2026/03/12/news/la-trappola-dello-stretto-di-hormuz-tra-mine-droni-e-rotte-obbligate-parla-di-paola-8778636/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 90,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 80,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 60,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 40,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 65,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 75,\n    \"capacita_nucleare\": 10,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 50,\n    \"stato_morale_forzearmate\": 65,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 60,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 30,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 30,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\": 50,\n    \"polarizzazione_politica\": 60,\n    \"mobilitazione_popolare\": 40,\n    \"vulnerabilita_interna\": 60,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 80,\n    \"export_energetico\": 80,\n    \"test_missilistici\": 70,\n    \"narrativa_nemico\": 80,\n    \"disinformazione_rilevata\": 70,\n    \"retorica_bellicosa\": 75,\n    \"rischio_incidente_nucleare\": 20\n  },\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-12\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 40,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 80,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 85,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 90,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 85,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 90,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 85,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 20,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 80,"
+  },
+  {
+    "timestamp": "2026-03-13T01:10:06.913Z",
+    "title": "Lo scudo anti missile di Israele sotto pressione per gli attacchi di Hezbollah e Iran",
+    "url": "https://www.ilsole24ore.com/art/gerusalemme-sotto-missili-iraniani-scudo-israele-sotto-pressione-AI9qFCvB",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[]"
+  },
+  {
+    "timestamp": "2026-03-13T01:12:46.885Z",
+    "title": "Petroliere colpite dagli attacchi nel Golfo: i relitti al largo di Bassora",
+    "url": "https://www.rainews.it/video/2026/03/petroliere-colpite-dagli-attacchi-nel-golfo-i-relitti-al-largo-di-bassora-b12154a4-61ce-4bfc-8b06-3220868c215a.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iraq\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 75,\n    \"attivita_diplomatica_offensiva\": 40,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 50,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 60,\n    \"livello_deterrenza\": 40,\n    \"coesione_decisionale\": 50,\n    \"capacita_militare_attuale\": 50,\n    \"livello_modernizzazione_forze_armate\": 40,\n    \"preparazione_operativa\": 60,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 30,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 40,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 30,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 50,\n    \"capacita_offensiva_cibernetica\": 30,\n    \"capacita_difesa_cibernetica\": 40,\n    \"capacita_spaziale\": 10,\n    \"capacita_intelligence\": 60,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 70,\n    \"risorse_strategiche\": 90,\n    \"stabilita_interna\": 50,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 70,\n    \"posizione_geografica_strategica\": 90,\n    \"controllo_territoriale_effettivo\": 70,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 60,\n    \"export_energetico\": 90,\n    \"spesa_militare_annunciata\": 50,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 20,\n    \"attacchi_ibridi_subiti\": 80,\n    \"flussi_migratori\": 50,\n    \"espulsioni_diplomatiche\": 30,\n    \"narrativa_nemico\": 70,\n    \"disinformazione_rilevata\": 70,\n    \"visite_ufficiali\": 40,\n    \"lotte_fazioni_potere\": 80,\n    \"ritiro_trattati_internazionali\": 20,\n    \"retorica_bellicosa\": 50,\n    \"rischio_incidente_nucleare\": 10\n  },\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 80,\n    \"rischio_incidente\": 85,\n    \"rischio_escalation\": 90,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 90,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 70"
+  },
+  {
+    "timestamp": "2026-03-13T06:07:28.917Z",
+    "title": "Robert Gates: “Raid efficaci ma non c’è stato il cambio di regime”",
+    "url": "https://www.repubblica.it/esteri/2026/03/13/news/robert_gates_intervista_iran_cambio_regime-425217865/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 70,\n    \"attivita_militare\": 20,\n    \"attivita_militare_osservata\": 0,\n    \"rischio_incidente\": 40,\n    \"rischio_escalation\": 60,\n    \"attivita_diplomatica_offensiva\": 80,\n    \"pressione_internazionale\": 50,\n    \"stato_mediazione_diplomatica\": 10,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 30,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 85,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 95,\n    \"capabilita_risposta_missilistica\": 90,"
+  },
+  {
+    "timestamp": "2026-03-13T06:07:31.291Z",
+    "title": "Il Golfo è in fiamme: colpite navi e infrastrutture. L’Idf risponde sul nucleare",
+    "url": "https://www.repubblica.it/esteri/2026/03/13/news/golfo_raid_iran_colpite_navi_idf_nucleare-425218076/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 75,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 80,\n    \"rischio_incidente\": 75,\n    \"rischio_escalation\": 80,\n    \"attivita_diplomatica_offensiva\": 60,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 40,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 65,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 70,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 75,\n    \"capabilita_risposta_missilistica\": 70,\n    \"capacita_nucleare\": 25,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 60,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 70,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 40,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica"
+  },
+  {
+    "timestamp": "2026-03-13T06:10:40.704Z",
+    "title": "\"Altrimenti sarete sepolti\": l'IRGC ha chiesto ai soldati statunitensi di lasciare la regione.",
+    "url": "https://it.topwar.ru/279272-inache-budete-pogrebeny-ksir-potreboval-ot-soldat-ssha-pokinut-region.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 70,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 50,\n    \"rischio_incidente\": 80,\n    \"rischio_escalation\": 70,\n    \"attivita_diplomatica_offensiva\": 40,\n    \"pressione_internazionale\": 30,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno"
+  },
+  {
+    "timestamp": "2026-03-13T06:11:06.442Z",
+    "title": "Gli Stati Uniti hanno revocato le sanzioni sul petrolio russo, ma solo temporaneamente.",
+    "url": "https://it.topwar.ru/279271-ssha-snjali-sankcii-s-rossijskoj-nefti-no-vremenno.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Russia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 60,\n    \"rischio_escalation\": 65,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 70,\n    \"imprevedibilita_leadership\": 75,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 85,\n    \"capacita_militare_attuale\": 75,\n    \"livello_modernizzazione_forze_armate\": 70,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 90,\n    \"capacita_proiezione_forza\": 60,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 85,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 70,\n    \"capacita_industria_bellica\": 80,\n    \"stato_morale_forzearmate\": 65,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita_offensiva_cibernetica\": 80,\n    \"capacita_difesa_cibernetica\": 70,\n    \"capacita_spaziale\": 80,\n    \"capacita_intelligence\": 85,\n    \"pressione_economica\": 75,\n    \"capacita_economica_sostenere_guerra\": 70,\n    \"autonomia_energetica\": 90,\n    \"dipendenza_esterna_critica\": 40,\n    \"risorse_strategiche\": 90,\n    \"stabilita_interna\": 75,\n    \"polarizzazione_politica\": 30,\n    \"mobilitazione_popolare\": 60,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 85,\n    \"controllo_territoriale_effettivo\": 80,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 60,\n    \"export_energetico\": 85,\n    \"spesa_militare_annunciata\": 90,\n    \"coscrizione_obbligatoria\": 80,\n    \"test_missilistici\": 70,\n    \"attacchi_ibridi_subiti\": 60,\n    \"flussi_migratori\": 30,\n    \"espulsioni_diplomatiche\": 70,\n    \"narrativa_nemico\": 85,\n    \"disinformazione_rilevata\": 80,\n    \"visite"
+  },
+  {
+    "timestamp": "2026-03-13T06:11:07.412Z",
+    "title": "Un aereo cisterna KC-135 dell'aeronautica militare statunitense si è schiantato nell'Iraq occidentale.",
+    "url": "https://it.topwar.ru/279269-chetvertyj-poshel-samolet-zapravschik-ks-135-vvs-ssha-ruhnul-na-zapade-iraka.html",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti d'America\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 40,\n    \"tensione_geopolitica\": 50,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 40,\n    \"attivita_diplomatica_offensiva\": 10,\n    \"pressione_internazionale\": 20,\n    \"stato_mediazione_diplomatica\": 0,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 30,\n    \"livello_deterrenza\": 80,\n    \"coesione_decisionale\": 70,\n    \"capacita_militare_attuale\": 90,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 80,\n    \"esperienza_combattimento_recente\": 70,\n    \"capacita_proiezione_forza\": 90,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 80,\n    \"capacita_nucleare\": 90,\n    \"capacita_logistica\": 90,\n    \"capacita_industria_bellica\": 90,\n    \"stato_morale_forzearmate\": 70,\n    \"capacita_guerra_ibrida\": 80,\n    \"capacita_offensiva_cibernetica\": 90,\n    \"capacita_difesa_cibernetica\": 80,\n    \"capacita_spaziale\": 90,\n    \"capacita_intelligence\": 90,\n    \"pressione_economica\": 50,\n    \"capacita_economica_sostenere_guerra\": 80,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 20,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 40,\n    \"posizione_geografica_strategica\": 80,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 80,\n    \"export_energetico\": 70,\n    \"spesa_militare_annunciata\": 80,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 30,\n    \"flussi_migratori\": 10,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 40,\n    \"disinformazione_rilevata\": 30,\n    \"visite_ufficiali\": 0,\n    \"lotte_fazioni_potere\": 30,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 20,\n    \"rischio_incidente_nucleare\": 10\n  },\n  {\n    \"nazione\": \"Iraq\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 50,\n    \"tensione_geopolitica\": 70,\n    \"attivita_militare\": 60,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 70,\n    \"rischio_escalation\": 50,\n    \"attivita_diplomatica_offensiva\": 10,\n    \"pressione_internazionale\": 40,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 30,\n    \"coesione_decisionale\": 40,\n    \"capacita_militare_attuale\": 50,\n    \"livello_modernizzazione_forze_armate\": 40,\n    \"preparazione_operativa\": 50,\n    \"esperienza_combattimento_recente\": 60,\n    \"capacita_proiezione_forza\": 30,\n    \"capacita_difesa_territoriale\": 50,\n    \"capabilita_risposta_missilistica\": 20,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 40,\n    \"capacita_industria_bellica\": 30,\n    \"stato_morale_forzearmate\": 50,\n    \"capacita_guerra_ibrida\": 30,\n    \"capacita_offensiva_cibernetica\": 20,\n    \"capacita_difesa_cibernetica\": 20,\n    \"capacita_spaziale\": 10,\n    \"capacita_intelligence\": 50,\n    \"pressione_economica\": 70,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 70,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 30,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 60,\n    \"vulnerabilita_interna\": 70,\n    \"posizione_geografica_strateg"
+  },
+  {
+    "timestamp": "2026-03-13T06:15:14.338Z",
+    "title": "Aggiornamenti in diretta sulla guerra tra Stati Uniti, Israele e Iran: l’Iran afferma che la nave da guerra americana Abraham Lincoln ha subito gravi danni; gli Stati Uniti replicano.",
+    "url": "https://www.controinformazione.info/aggiornamenti-in-diretta-sulla-guerra-tra-stati-uniti-israele-e-iran-liran-afferma-che-la-nave-da-guerra-americana-abraham-lincoln-ha-subito-gravi-danni-gli-stati-uniti-replicano/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 85,\n    \"tensione_geopolitica\": 80,\n    \"attivita_militare\": 75,\n    \"attivita_militare_osservata\": 70,\n    \"rischio_incidente\": 90,\n    \"rischio_escalation\": 85,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 75,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 90,\n    \"coesione_decisionale\": 80,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 90,\n    \"preparazione_operativa\": 85,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 90,\n    \"capabilita_risposta_missilistica\": 85,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 90,\n    \"capacita_industria_bellica\": 95,\n    \"stato_morale_forzearmate\": 80,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita"
+  },
+  {
+    "timestamp": "2026-03-13T06:20:29.512Z",
+    "title": "NATO Intercepts Iranian Missile Near Turkey; Commercial Vess...",
+    "url": "https://telegram.local/post/b7630c80",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 85,\n    \"tensione_geopolitica\": 90,\n    \"attivita_militare\": 85,\n    \"attivita_militare_osservata\": 100,\n    \"rischio_incidente\": 90,\n    \"rischio_escalation\": 85,\n    \"attivita_diplomatica_offensiva\": 75,\n    \"pressione_internazionale\": 85,\n    \"stato_mediazione_diplomatica\": 20,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 75,\n    \"livello_deterrenza\": 70,\n    \"coesione_decisionale\": 50,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 45,\n    \"preparazione_operativa\": 65,\n    \"esperienza_combattimento_recente\": 85,\n    \"capacita_proiezione_forza\": 55,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 85,\n    \"capacita_nucleare\": 10,\n    \"capacita_logistica\": 60,\n    \"capacita_industria_bellica\": 65,\n    \"stato_morale_forzearmate\": 65,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita_offensiva_cibernetica\": 75,\n    \"capacita_difesa_cibernetica\": 55,\n    \"capacita_spaziale\": 35,\n    \"capacita_intelligence\": 75,\n    \"pressione_economica\": 85,\n    \"capacita_economica_sostenere_guerra\": 45,\n    \"autonomia_energetica\": 85,\n    \"dipendenza_esterna_critica\": 65,\n    \"risorse_strategiche\": 80,\n    \"stabilita_interna\": 50,\n    \"polarizzazione_politica\": 75,\n    \"mobilitazione_popolare\": 55,\n    \"vulnerabilita_interna\": 55,\n    \"posizione_geografica_strategica\": 95,\n    \"controllo_territoriale_effettivo\": 75,\n    \"andamento_oro\": 60,\n    \"riserve_valutarie\": 35,\n    \"export_energetico\": 85,\n    \"spesa_militare_annunciata\": 55,\n    \"coscrizione_obbligatoria\": 100,\n    \"test_missilistici\": 85,\n    \"attacchi_ibridi_subiti\": 40,\n    \"flussi_migratori\": 20,\n    \"espulsioni_diplomatiche\": 30,\n    \"narrativa_nemico\": 85,\n    \"disinformazione_rilevata\": 75,\n    \"visite_ufficiali\": 20,\n    \"lotte_fazioni_potere\": 65,\n    \"ritiro_trattati_internazionali\": 25,\n    \"retorica_bellicosa\": 85,\n    \"rischio_incidente_nucleare\": 25\n  },\n  {\n    \"nazione\": \"Turchia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 80,\n    \"tensione_geopolitica\": 85,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 100,\n    \"rischio_incidente\": 90,\n    \"rischio_escalation\": 85,\n    \"attivita_diplomatica_offensiva\": 65,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 35,\n    \"sostegno_alleati\": 95,\n    \"imprevedibilita_leadership\": 75,\n    \"livello_deterrenza\": 85,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 75,\n    \"livello_modernizzazione_forze_armate\": 75,\n    \"preparazione_operativa\": 85,\n    \"esperienza_combattimento_recente\": 85,\n    \"capacita_proiezione_forza\": 65,\n    \"capacita_difesa_territoriale\": 85,\n    \"capabilita_risposta_missilistica\": 75,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 75,\n    \"capac"
+  },
+  {
+    "timestamp": "2026-03-13T06:20:35.370Z",
+    "title": "Iran, la minaccia di Trump: \"Guardate cosa succede oggi\"",
+    "url": "https://www.adnkronos.com/internazionale/esteri/iran-trump-minaccia-oggi_43p3rpF6x7MvwOtL4Uq1Gk",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 55,\n    \"tensione_geopolitica\": 75,\n    \"attivita_militare\": 30,\n    \"attivita_militare_osservata\": 20,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 60,\n    \"attivita_diplomatica_offensiva\": 70,\n    \"pressione_internazionale\": 80,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 70,\n    \"livello_deterrenza\": 65,\n    \"coesione_decisionale\": 50,\n    \"capacita_militare_attuale\": 55,\n    \"livello_modernizzazione_forze_armate\": 50,\n    \"preparazione_operativa\": 55,\n    \"esperienza_combattimento_recente\": 65,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 75,\n    \"capabilita_risposta_missilistica\": 70,\n    \"capacita_nucleare\": 20,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 55,\n    \"stato_morale_forzearmate\": 65,\n    \"capacita_guerra_ibrida\": 75,\n    \"capacita_offensiva_cibernetica\": 55,\n    \"capacita_difesa_cibernetica\": 50,\n    \"capacita_spaziale\": 35,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 80,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 80,\n    \"dipendenza_esterna_critica\": 55,\n    \"risorse_strategiche\": 75,\n    \"stabilita_interna\": 50,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 55,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 85,\n    \"controllo_territoriale_effettivo\": 70,\n    \"andamento_oro\": 0,\n    \"riserve_valutarie\": 30,\n    \"export_energetico\": 75,\n    \"spesa_militare_annunciata\": 55,\n    \"coscrizione_obbligatoria\": 100,\n    \"test_missilistici\": 70,\n    \"attacchi_ibridi_subiti\": 45,\n    \"flussi_migratori\": 25,\n    \"espulsioni_diplomatiche\": 35,\n    \"narrativa_nemico\": 85,\n    \"disinformazione_rilevata\": 70,\n    \"visite_ufficiali\": 30,\n    \"lotte_fazioni_potere\": 55,\n    \"ritiro_trattati_internazionali\": 65,\n    \"retorica_bellicosa\": 80,\n    \"rischio_incidente_nucleare\": 25\n  },\n  {\n    \"nazione\": \"Stati Uniti\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 55,\n    \"tensione_geopolitica\": 65,\n    \"attivita_militare\": 25,\n    \"attivita_militare_osservata\": 25,\n    \"rischio_incidente\": 45,\n    \"rischio_escalation\": 55,\n    \"attivita_diplomatica_offensiva\": 75,\n    \"pressione_internazionale\": 55,\n    \"stato_mediazione_diplomatica\": 35,\n    \"sostegno_alleati\": 85,\n    \"imprevedibilita_leadership\": 75,\n    \"livello_deterrenza\": 95,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 95,\n    \"livello_modernizzazione_forze_armate\": 95,\n    \"preparazione_operativa\": 85,\n    \"esperienza_combattimento_recente\": 75,\n    \"capacita_proiezione_forza\": 95,\n    \"capacita_difesa_territoriale\": 95,\n    \"capabilita_risposta_missilistica\": 95,\n    \"capacita_nucleare\": 95,\n    \"capacita_logistica\": 95,\n    \"capacita_industria_bellica\": 95,\n    \"stato_morale_forzearmate\": 75,\n    \"capacita_guerra_ibrida\": 85,\n    \"capacita_offensiva_cibernetica\": 95,\n    \"capacita_difesa_cibernetica\": 90,\n    \"capacita_spaziale\": 95,\n    \"capacita_intelligence\": 95,\n    \"pressione_economica\": 55,\n    \"capacita_economica_sostenere_guerra\": 85,\n    \"autonomia_energetica\": 85,\n    \"dipendenza_esterna_critica\": 35,\n    \"risorse_strategiche\": 85,\n    \"stabilita_interna\": 60,\n    \"polarizzazione_politica\": 80,\n    \"mobilitazione_popolare\": 35,\n    \"vulnerabilita_interna\": 50,\n    \"posizione_geografica_strategica\": 85,\n    \"controllo_territoriale_effettivo\": 95,\n    \"andamento_oro\": 0,\n    \"riserve_valutarie\": 90,\n    \"export_energetico\": 75,\n    \"spesa_militare_annunciata\": 95,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 75,\n    \"attacchi_ibridi_subiti\": 50,\n    \"flussi_migratori\": 65,\n    \""
+  },
+  {
+    "timestamp": "2026-03-13T06:21:15.322Z",
+    "title": "I militari italiani si ritirano dall'Iraq",
+    "url": "https://www.ilfoglio.it/esteri/2026/03/13/news/i-militari-italiani-si-ritirano-dall-iraq-8780423/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Italia\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 25,\n    \"tensione_geopolitica\": 30,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 30,\n    \"rischio_incidente\": 20,\n    \"rischio_escalation\": 20,\n    \"attivita_diplomatica_offensiva\": 10,\n    \"pressione_internazionale\": 20,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 30,\n    \"livello_deterrenza\": 40,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 70,\n    \"livello_modernizzazione_forze_armate\": 75,\n    \"preparazione_operativa\": 60,\n    \"esperienza_combattimento_recente\": 50,\n    \"capacita_proiezione_forza\": 60,\n    \"capacita_difesa_territoriale\": 80,\n    \"capabilita_risposta_missilistica\": 40,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 70,\n    \"capacita_industria_bellica\": 70,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 50,\n    \"capacita_offensiva_cibernetica\": 50,\n    \"capacita_difesa_cibernetica\": 60,\n    \"capacita_spaziale\": 40,\n    \"capacita_intelligence\": 70,\n    \"pressione_economica\": 40,\n    \"capacita_economica_sostenere_guerra\": 60,\n    \"autonomia_energetica\": 40,\n    \"dipendenza_esterna_critica\": 50,\n    \"risorse_strategiche\": 40,\n    \"stabilita_interna\": 70,\n    \"polarizzazione_politica\": 50,\n    \"mobilitazione_popolare\": 30,\n    \"vulnerabilita_interna\": 30,\n    \"posizione_geografica_strategica\": 60,\n    \"controllo_territoriale_effettivo\": 90,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 50,\n    \"export_energetico\": 20,\n    \"spesa_militare_annunciata\": 50,\n    \"coscrizione_obbligatoria\": 0,\n    \"test_missilistici\": 0,\n    \"attacchi_ibridi_subiti\": 30,\n    \"flussi_migratori\": 40,\n    \"espulsioni_diplomatiche\": 0,\n    \"narrativa_nemico\": 20,\n    \"disinformazione_rilevata\": 30,\n    \"visite_ufficiali\": 30,\n    \"lotte_fazioni_potere\": 30,\n    \"ritiro_trattati_internazionali\": 0,\n    \"retorica_bellicosa\": 10,\n    \"rischio_incidente_nucleare\": 0\n  },\n  {\n    \"nazione\": \"Iraq\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 30,\n    \"tensione_geopolitica\": 60,\n    \"attivita_militare\": 70,\n    \"attivita_militare_osservata\": 60,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 50,\n    \"attivita_diplomatica_offensiva\": 30,\n    \"pressione_internazionale\": 60,\n    \"stato_mediazione_diplomatica\": 40,\n    \"sostegno_alleati\": 50,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 40,\n    \"coesione_decisionale\": 40,\n    \"capacita_militare_attuale\": 50,\n    \"livello_modernizzazione_forze_armate\": 40,\n    \"preparazione_operativa\": 50,\n    \"esperienza_combattimento_recente\": 80,\n    \"capacita_proiezione_forza\": 20,\n    \"capacita_difesa_territoriale\": 60,\n    \"capabilita_risposta_missilistica\": 20,\n    \"capacita_nucleare\": 0,\n    \"capacita_logistica\": 40,\n    \"capacita_industria_bellica\": 20,\n    \"stato_morale_forzearmate\": 50,\n    \"capacita_guerra_ibrida\": 30,\n    \"capacita_offensiva_cibernetica\": 20,\n    \"capacita_difesa_cibernetica\": 30,\n    \"capacita_spaziale\": 10,\n    \"capacita_intelligence\": 40,\n    \"pressione_economica\": 60,\n    \"capacita_economica_sostenere_guerra\": 40,\n    \"autonomia_energetica\": 70,\n    \"dipendenza_esterna_critica\": 60,\n    \"risorse_strategiche\": 70,\n    \"stabilita_interna\": 40,\n    \"polarizzazione_politica\": 70,\n    \"mobilitazione_popolare\": 50,\n    \"vulnerabilita_interna\": 70,\n    \"posizione_geografica_strategica\": 70,\n    \"controllo_territoriale_effettivo\": 60,\n    \"andamento_oro\": 50,\n    \"riserve_valutarie\": 40,\n    \"export_energetico\": 80,\n    \"spesa_militare_annunciata\": 50,\n    \"coscrizione_obbligatoria\":"
+  },
+  {
+    "timestamp": "2026-03-13T06:22:32.058Z",
+    "title": "Marina, forze di terra e di aria. Quanto può resistere la macchina da guerra di Teheran",
+    "url": "https://www.ilfoglio.it/esteri/2026/03/13/news/marina-forze-di-terra-e-di-aria-quanto-puo-resistere-la-macchina-da-guerra-di-teheran-8780439/",
+    "stage": "question_per_article",
+    "reason": "json nazioni mancante o non valido (nessun JSON nazioni estratto da question_per_article)",
+    "preview": "[\n  {\n    \"nazione\": \"Iran\",\n    \"data\": \"2026-03-13\",\n    \"importanza_di_questo_articolo\": 65,\n    \"tensione_geopolitica\": 70,\n    \"attivita_militare\": 40,\n    \"attivita_militare_osservata\": 30,\n    \"rischio_incidente\": 50,\n    \"rischio_escalation\": 60,\n    \"attivita_diplomatica_offensiva\": 50,\n    \"pressione_internazionale\": 70,\n    \"stato_mediazione_diplomatica\": 30,\n    \"sostegno_alleati\": 60,\n    \"imprevedibilita_leadership\": 50,\n    \"livello_deterrenza\": 60,\n    \"coesione_decisionale\": 60,\n    \"capacita_militare_attuale\": 50,\n    \"livello_modernizzazione_forze_armate\": 40,\n    \"preparazione_operativa\": 50,\n    \"esperienza_combattimento_recente\": 40,\n    \"capacita_proiezione_forza\": 40,\n    \"capacita_difesa_territoriale\": 70,\n    \"capabilita_risposta_missilistica\": 70,\n    \"capacita_nucleare\": 10,\n    \"capacita_logistica\": 50,\n    \"capacita_industria_bellica\": 50,\n    \"stato_morale_forzearmate\": 60,\n    \"capacita_guerra_ibrida\": 70,\n    \"capacita_offens"
   }
 ]

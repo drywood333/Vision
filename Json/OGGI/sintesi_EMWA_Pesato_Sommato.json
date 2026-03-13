@@ -1,1 +1,155 @@
-[]
+[
+  {
+    "nazione": "Iran",
+    "GG": 20
+  },
+  {
+    "nazione": "Stati Uniti",
+    "GG": 45,
+    "GR": 50
+  },
+  {
+    "nazione": "Israele",
+    "GG": 15,
+    "GR": 20
+  },
+  {
+    "nazione": "Ucraina",
+    "GG": 90
+  },
+  {
+    "nazione": "India",
+    "GG": 150,
+    "GR": 160
+  },
+  {
+    "nazione": "Russia",
+    "GG": 70,
+    "GR": 70
+  },
+  {
+    "nazione": "Italia",
+    "GG": 90
+  },
+  {
+    "nazione": "Cina",
+    "GG": 200,
+    "GR": 200
+  },
+  {
+    "nazione": "Iraq"
+  },
+  {
+    "nazione": "Turchia",
+    "GG": 120
+  },
+  {
+    "nazione": "Emirati Arabi Uniti",
+    "GG": 150
+  },
+  {
+    "nazione": "Regno Unito",
+    "GG": 100,
+    "GR": 100
+  },
+  {
+    "nazione": "Bahrein"
+  },
+  {
+    "nazione": "Qatar"
+  },
+  {
+    "nazione": "Grecia",
+    "GG": 180
+  },
+  {
+    "nazione": "Polonia",
+    "GG": 100
+  },
+  {
+    "nazione": "Arabia Saudita",
+    "GG": 120
+  },
+  {
+    "nazione": "Germania",
+    "GG": 110
+  },
+  {
+    "nazione": "Libano"
+  },
+  {
+    "nazione": "Francia",
+    "GG": 90,
+    "GR": 90
+  },
+  {
+    "nazione": "Ungheria"
+  },
+  {
+    "nazione": "Corea del Sud",
+    "GG": 90
+  },
+  {
+    "nazione": "Corea del Nord",
+    "GG": 60,
+    "GR": 60
+  },
+  {
+    "nazione": "Azerbaigian"
+  },
+  {
+    "nazione": "Romania",
+    "GG": 120
+  },
+  {
+    "nazione": "Giappone",
+    "GG": 150
+  },
+  {
+    "nazione": "Norvegia",
+    "GG": 200
+  },
+  {
+    "nazione": "Svezia",
+    "GG": 180
+  },
+  {
+    "nazione": "Kuwait"
+  },
+  {
+    "nazione": "Bielorussia",
+    "GG": 100
+  },
+  {
+    "nazione": "Lituania",
+    "GG": 110
+  },
+  {
+    "nazione": "Oman"
+  },
+  {
+    "nazione": "Canada",
+    "GG": 150
+  },
+  {
+    "nazione": "Cuba"
+  },
+  {
+    "nazione": "Yemen"
+  },
+  {
+    "nazione": "Spagna",
+    "GG": 160
+  },
+  {
+    "nazione": "Pakistan",
+    "GG": 100,
+    "GR": 100
+  },
+  {
+    "nazione": "Niger"
+  },
+  {
+    "nazione": "Cipro"
+  }
+]

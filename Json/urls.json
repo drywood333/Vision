@@ -212,25 +212,25 @@
   {
     "url": "https://www.youtube.com/@orsiniufficiale/videos",
     "type": "youtube",
-    "active": false,
+    "active": true,
     "pageUpTo": 0
   },
   {
     "url": "https://www.youtube.com/@GDiesen1/videos",
     "type": "youtube",
-    "active": false,
+    "active": true,
     "pageUpTo": 0
   },
   {
     "url": "https://www.youtube.com/@nicolai_lilin/videos",
     "type": "youtube",
-    "active": false,
+    "active": true,
     "pageUpTo": 0
   },
   {
     "url": "https://www.youtube.com/@frontezero/videos",
     "type": "youtube",
-    "active": false,
+    "active": true,
     "pageUpTo": 0
   },
   {

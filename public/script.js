@@ -194,6 +194,8 @@ function initBatchWaitSelector() {
 var aiChatContextMenuEl = null;
 var aiChatContextTargetEl = null;
 var aiChatLongPressTimer = null;
+var aiChatSelectedMsgEls = [];
+var aiChatBulkSendBtnEl = null;
 
 function appendAiChatMessage(role, text) {
     var box = document.getElementById('ai-chat-messages');
@@ -215,9 +217,14 @@ function appendAiChatMessage(role, text) {
         openAiChatContextMenu(msg, e.clientX, e.clientY);
     });
     msg.appendChild(btn);
+    msg.addEventListener('click', function (e) {
+        if (e.target === btn) return;
+        toggleAiChatMessageSelection(msg);
+    });
     attachAiChatContextHandlers(msg, msg.dataset.role, safeText);
     box.appendChild(msg);
     box.scrollTop = box.scrollHeight;
+    updateAiChatBulkSendButtonVisibility();
 }
 
 function getOrCreateAiChatContextMenu() {
@@ -225,10 +232,10 @@ function getOrCreateAiChatContextMenu() {
     var menu = document.createElement('div');
     menu.id = 'ai-chat-context-menu';
     menu.className = 'ai-chat-context-menu';
-    var btn = document.createElement('button');
-    btn.type = 'button';
-    btn.textContent = 'Invia questo messaggio al Telegram del report';
-    btn.addEventListener('click', function () {
+    var btnSendOne = document.createElement('button');
+    btnSendOne.type = 'button';
+    btnSendOne.textContent = 'Invia questo messaggio al Telegram del report';
+    btnSendOne.addEventListener('click', function () {
         if (!aiChatContextTargetEl) {
             closeAiChatContextMenu();
             return;
@@ -238,7 +245,21 @@ function getOrCreateAiChatContextMenu() {
         sendChatSnippetToTelegram(role, text).catch(function () {});
         closeAiChatContextMenu();
     });
-    menu.appendChild(btn);
+    menu.appendChild(btnSendOne);
+
+    var btnToggleSel = document.createElement('button');
+    btnToggleSel.type = 'button';
+    btnToggleSel.textContent = 'Seleziona messaggio';
+    btnToggleSel.addEventListener('click', function () {
+        if (!aiChatContextTargetEl) {
+            closeAiChatContextMenu();
+            return;
+        }
+        toggleAiChatMessageSelection(aiChatContextTargetEl);
+        closeAiChatContextMenu();
+    });
+    menu.appendChild(btnToggleSel);
+    menu._btnToggleSel = btnToggleSel;
     document.body.appendChild(menu);
     aiChatContextMenuEl = menu;
     document.addEventListener('click', function (e) {
@@ -252,6 +273,11 @@ function getOrCreateAiChatContextMenu() {
 function openAiChatContextMenu(targetEl, clientX, clientY) {
     aiChatContextTargetEl = targetEl;
     var menu = getOrCreateAiChatContextMenu();
+    if (menu && menu._btnToggleSel) {
+        menu._btnToggleSel.textContent = targetEl.classList.contains('msg-selected')
+            ? 'Deseleziona messaggio'
+            : 'Seleziona messaggio';
+    }
     menu.style.display = 'block';
     var padding = 8;
     var vw = window.innerWidth || document.documentElement.clientWidth || 0;
@@ -272,6 +298,65 @@ function closeAiChatContextMenu() {
         aiChatContextMenuEl.style.display = 'none';
     }
     aiChatContextTargetEl = null;
+}
+
+function getAiChatSelectedMessagesInDomOrder() {
+    var box = document.getElementById('ai-chat-messages');
+    if (!box) return [];
+    var ordered = Array.prototype.slice.call(box.querySelectorAll('.ai-chat-msg.msg-selected'))
+        .filter(function (el) { return el && el.isConnected; });
+    aiChatSelectedMsgEls = ordered.slice();
+    return ordered;
+}
+
+function toggleAiChatMessageSelection(msgEl) {
+    if (!msgEl) return;
+    msgEl.classList.toggle('msg-selected');
+    aiChatSelectedMsgEls = aiChatSelectedMsgEls.filter(function (el) { return el && el.isConnected; });
+    if (msgEl.classList.contains('msg-selected')) {
+        if (aiChatSelectedMsgEls.indexOf(msgEl) === -1) aiChatSelectedMsgEls.push(msgEl);
+    } else {
+        aiChatSelectedMsgEls = aiChatSelectedMsgEls.filter(function (el) { return el !== msgEl; });
+    }
+    updateAiChatBulkSendButtonVisibility();
+}
+
+function ensureAiChatBulkSendButton() {
+    if (aiChatBulkSendBtnEl) return aiChatBulkSendBtnEl;
+    var panel = document.getElementById('panel-chat-container') || document.querySelector('.ai-chat-panel') || document.body;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'ai-chat-bulk-send-btn';
+    btn.textContent = 'Invia selezionati al Telegram del report';
+    btn.addEventListener('click', function () {
+        sendAiChatSelectionToTelegram().catch(function () {});
+    });
+    panel.appendChild(btn);
+    aiChatBulkSendBtnEl = btn;
+    return btn;
+}
+
+async function sendAiChatSelectionToTelegram() {
+    var selectedInOrder = getAiChatSelectedMessagesInDomOrder();
+    if (!selectedInOrder.length) return;
+    var parts = [];
+    selectedInOrder.forEach(function (el) {
+        var isUser = el.classList.contains('user');
+        var roleLabel = isUser ? 'Domanda' : 'Risposta';
+        var txt = (el.dataset && typeof el.dataset.text === 'string') ? el.dataset.text : (el.textContent || '');
+        parts.push(roleLabel + ': ' + String(txt || '').trim());
+    });
+    var combined = parts.join('\n\n');
+    await sendChatSnippetToTelegram('assistant', combined);
+    selectedInOrder.forEach(function (el) { el.classList.remove('msg-selected'); });
+    aiChatSelectedMsgEls = [];
+    updateAiChatBulkSendButtonVisibility();
+}
+
+function updateAiChatBulkSendButtonVisibility() {
+    var btn = ensureAiChatBulkSendButton();
+    var hasSelection = getAiChatSelectedMessagesInDomOrder().length > 0;
+    btn.style.display = hasSelection ? 'inline-flex' : 'none';
 }
 
 function attachAiChatContextHandlers(msgEl, role, text) {
@@ -354,7 +439,8 @@ async function sendAiChatMessage() {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 user: text,
-                history: aiChatHistory.slice(-8),
+                // Allineiamo al comportamento della Vision App: ultimi 20 messaggi di storico
+                history: aiChatHistory.slice(-20),
                 use_emwa_params: useEmwaParams
             })
         });
@@ -408,6 +494,8 @@ function initAiChatPanel() {
     var sendBtn = document.getElementById('ai-chat-send');
     var input = document.getElementById('ai-chat-input');
     if (!sendBtn || !input) return;
+    ensureAiChatBulkSendButton();
+    updateAiChatBulkSendButtonVisibility();
     sendBtn.addEventListener('click', sendAiChatMessage);
     input.addEventListener('keydown', function (e) {
         if (e.key === 'Enter' && !e.shiftKey) {
@@ -5041,6 +5129,50 @@ async function elaboraPesatiERiassunto() {
         logToConsole('Errore Pesati + Riassunto: ' + e.message, 'error');
     } finally {
         setElaboraButtonsRunning(false);
+    }
+}
+
+async function elaboraErrori() {
+    var btn = document.querySelector('button[onclick="elaboraErrori()"]');
+    if (btn && btn.disabled) {
+        logToConsole('Una elaborazione è già in corso. Attendere il completamento.', 'warn');
+        return;
+    }
+    var originalText = btn ? btn.textContent : '';
+    if (btn) {
+        btn.disabled = true;
+        btn.textContent = 'Elabora errori…';
+    }
+    logToConsole('Avvio rielaborazione degli errori presenti in errori.json...', 'info');
+    try {
+        var res = await fetch('/api/elabora-errori', { method: 'POST' });
+        var data = await res.json().catch(function () { return null; });
+        if (!res.ok || !data || data.success === false) {
+            var errMsg = (data && data.error) ? data.error : ('HTTP ' + res.status);
+            logToConsole('Errore Elabora errori: ' + errMsg, 'error');
+            return;
+        }
+        var total = Number(data.total || 0);
+        var processed = Number(data.processed || 0);
+        var successCount = Number(data.success_count || 0);
+        var remaining = Number(data.remaining_errori || 0);
+        logToConsole('Elabora errori completata. Totale in errori.json: ' + total + ', processati: ' + processed + ', corretti: ' + successCount + ', ancora errati: ' + remaining + '.', 'success');
+        // Aggiorna pannelli che dipendono da EMWA / Articoli_riassunto e lista errori
+        try {
+            await refreshAcceptedList();
+            await refreshNationAggregate();
+            await refreshNationSintesi();
+            await refreshArticlesDateRangeLabel();
+        } catch (e) {
+            logToConsole('Warning: refresh dopo Elabora errori parzialmente fallito: ' + e.message, 'warn');
+        }
+    } catch (e) {
+        logToConsole('Errore chiamata Elabora errori: ' + e.message, 'error');
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.textContent = originalText || 'Elabora errori';
+        }
     }
 }
 
